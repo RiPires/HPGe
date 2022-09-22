@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/HPGeActionInitialization.hh
+G4VUserActionInitialization.hh
+../include/G4VUserActionInitialization.hh
+
+/home/ripires/HPGe/HPGe_dev/src/HPGeActionInitialization.cc
+HPGeActionInitialization.hh
+/home/ripires/HPGe/HPGe_dev/src/HPGeActionInitialization.hh
+
+/home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/G4VUserActionInitialization.hh
+
