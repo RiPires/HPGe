@@ -24,32 +24,17 @@
 // ********************************************************************
 //
 //
-/// \file HPGeActionInitialization.hh
-/// \brief Definition of the HPGeActionInitialization class
+/// \file HPGeRunAction.hh
+/// \brief Selection of the analysis technology
 
-#ifndef HPGeActionInitialization_h
-#define HPGeActionInitialization_h 1
+#ifndef HPGeRunAction_h
+#define HPGeRunAction_h 1
 
-#include "G4VUserActionInitialization.hh"
+#include "g4root.hh"
+#include "g4csv.hh"
+#include "g4xml.hh"
 
-class HPGeDetectorConstruction;
-
-/// Action initialization class.
-///
-
-class HPGeActionInitialization : public G4VUserActionInitialization
-{
-  public:
-    HPGeActionInitialization(HPGeDetectorConstruction*);
-    virtual ~HPGeActionInitialization();
-
-    virtual void BuildForMaster() const;
-    virtual void Build() const;
-
-  private:
-    HPGeDetectorConstruction* fDetConstruction;
-};
+#include "G4GenericAnalysisManager.hh"
+using G4AnalysisManager = G4GenericAnalysisManager;
 
 #endif
-
-    

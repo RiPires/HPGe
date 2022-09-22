@@ -11,6 +11,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.16.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.16.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.16.3/CMakeSystem.cmake"
+  "../gui.mac"
+  "../init_vis.mac"
+  "../vis.mac"
   "/home/ripires/bin/Geant4/geant4.10.07.p02-install/lib/Geant4-10.7.2/G4EXPATShim.cmake"
   "/home/ripires/bin/Geant4/geant4.10.07.p02-install/lib/Geant4-10.7.2/G4X11Shim.cmake"
   "/home/ripires/bin/Geant4/geant4.10.07.p02-install/lib/Geant4-10.7.2/Geant4Config.cmake"
@@ -111,6 +114,9 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
+  "gui.mac"
+  "init_vis.mac"
+  "vis.mac"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 

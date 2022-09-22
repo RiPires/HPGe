@@ -45,7 +45,10 @@ target_link_libraries(HPGeDev ${Geant4_LIBRARIES})
 # relies on these scripts being in the current working directory.
 #
 set(HPGEDEV_SCRIPTS
-  )
+  gui.mac
+  init_vis.mac
+  vis.mac
+)
 
 foreach(_script ${HPGEDEV_SCRIPTS})
   configure_file(

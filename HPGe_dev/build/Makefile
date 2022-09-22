@@ -223,6 +223,114 @@ src/HPGeActionInitialization.cc.s:
 	$(MAKE) -f CMakeFiles/HPGeDev.dir/build.make CMakeFiles/HPGeDev.dir/src/HPGeActionInitialization.cc.s
 .PHONY : src/HPGeActionInitialization.cc.s
 
+src/HPGeDetectorConstruction.o: src/HPGeDetectorConstruction.cc.o
+
+.PHONY : src/HPGeDetectorConstruction.o
+
+# target to build an object file
+src/HPGeDetectorConstruction.cc.o:
+	$(MAKE) -f CMakeFiles/HPGeDev.dir/build.make CMakeFiles/HPGeDev.dir/src/HPGeDetectorConstruction.cc.o
+.PHONY : src/HPGeDetectorConstruction.cc.o
+
+src/HPGeDetectorConstruction.i: src/HPGeDetectorConstruction.cc.i
+
+.PHONY : src/HPGeDetectorConstruction.i
+
+# target to preprocess a source file
+src/HPGeDetectorConstruction.cc.i:
+	$(MAKE) -f CMakeFiles/HPGeDev.dir/build.make CMakeFiles/HPGeDev.dir/src/HPGeDetectorConstruction.cc.i
+.PHONY : src/HPGeDetectorConstruction.cc.i
+
+src/HPGeDetectorConstruction.s: src/HPGeDetectorConstruction.cc.s
+
+.PHONY : src/HPGeDetectorConstruction.s
+
+# target to generate assembly for a file
+src/HPGeDetectorConstruction.cc.s:
+	$(MAKE) -f CMakeFiles/HPGeDev.dir/build.make CMakeFiles/HPGeDev.dir/src/HPGeDetectorConstruction.cc.s
+.PHONY : src/HPGeDetectorConstruction.cc.s
+
+src/HPGeEventAction.o: src/HPGeEventAction.cc.o
+
+.PHONY : src/HPGeEventAction.o
+
+# target to build an object file
+src/HPGeEventAction.cc.o:
+	$(MAKE) -f CMakeFiles/HPGeDev.dir/build.make CMakeFiles/HPGeDev.dir/src/HPGeEventAction.cc.o
+.PHONY : src/HPGeEventAction.cc.o
+
+src/HPGeEventAction.i: src/HPGeEventAction.cc.i
+
+.PHONY : src/HPGeEventAction.i
+
+# target to preprocess a source file
+src/HPGeEventAction.cc.i:
+	$(MAKE) -f CMakeFiles/HPGeDev.dir/build.make CMakeFiles/HPGeDev.dir/src/HPGeEventAction.cc.i
+.PHONY : src/HPGeEventAction.cc.i
+
+src/HPGeEventAction.s: src/HPGeEventAction.cc.s
+
+.PHONY : src/HPGeEventAction.s
+
+# target to generate assembly for a file
+src/HPGeEventAction.cc.s:
+	$(MAKE) -f CMakeFiles/HPGeDev.dir/build.make CMakeFiles/HPGeDev.dir/src/HPGeEventAction.cc.s
+.PHONY : src/HPGeEventAction.cc.s
+
+src/HPGePrimaryGeneratorAction.o: src/HPGePrimaryGeneratorAction.cc.o
+
+.PHONY : src/HPGePrimaryGeneratorAction.o
+
+# target to build an object file
+src/HPGePrimaryGeneratorAction.cc.o:
+	$(MAKE) -f CMakeFiles/HPGeDev.dir/build.make CMakeFiles/HPGeDev.dir/src/HPGePrimaryGeneratorAction.cc.o
+.PHONY : src/HPGePrimaryGeneratorAction.cc.o
+
+src/HPGePrimaryGeneratorAction.i: src/HPGePrimaryGeneratorAction.cc.i
+
+.PHONY : src/HPGePrimaryGeneratorAction.i
+
+# target to preprocess a source file
+src/HPGePrimaryGeneratorAction.cc.i:
+	$(MAKE) -f CMakeFiles/HPGeDev.dir/build.make CMakeFiles/HPGeDev.dir/src/HPGePrimaryGeneratorAction.cc.i
+.PHONY : src/HPGePrimaryGeneratorAction.cc.i
+
+src/HPGePrimaryGeneratorAction.s: src/HPGePrimaryGeneratorAction.cc.s
+
+.PHONY : src/HPGePrimaryGeneratorAction.s
+
+# target to generate assembly for a file
+src/HPGePrimaryGeneratorAction.cc.s:
+	$(MAKE) -f CMakeFiles/HPGeDev.dir/build.make CMakeFiles/HPGeDev.dir/src/HPGePrimaryGeneratorAction.cc.s
+.PHONY : src/HPGePrimaryGeneratorAction.cc.s
+
+src/HPGeRunAction.o: src/HPGeRunAction.cc.o
+
+.PHONY : src/HPGeRunAction.o
+
+# target to build an object file
+src/HPGeRunAction.cc.o:
+	$(MAKE) -f CMakeFiles/HPGeDev.dir/build.make CMakeFiles/HPGeDev.dir/src/HPGeRunAction.cc.o
+.PHONY : src/HPGeRunAction.cc.o
+
+src/HPGeRunAction.i: src/HPGeRunAction.cc.i
+
+.PHONY : src/HPGeRunAction.i
+
+# target to preprocess a source file
+src/HPGeRunAction.cc.i:
+	$(MAKE) -f CMakeFiles/HPGeDev.dir/build.make CMakeFiles/HPGeDev.dir/src/HPGeRunAction.cc.i
+.PHONY : src/HPGeRunAction.cc.i
+
+src/HPGeRunAction.s: src/HPGeRunAction.cc.s
+
+.PHONY : src/HPGeRunAction.s
+
+# target to generate assembly for a file
+src/HPGeRunAction.cc.s:
+	$(MAKE) -f CMakeFiles/HPGeDev.dir/build.make CMakeFiles/HPGeDev.dir/src/HPGeRunAction.cc.s
+.PHONY : src/HPGeRunAction.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -242,6 +350,18 @@ help:
 	@echo "... src/HPGeActionInitialization.o"
 	@echo "... src/HPGeActionInitialization.i"
 	@echo "... src/HPGeActionInitialization.s"
+	@echo "... src/HPGeDetectorConstruction.o"
+	@echo "... src/HPGeDetectorConstruction.i"
+	@echo "... src/HPGeDetectorConstruction.s"
+	@echo "... src/HPGeEventAction.o"
+	@echo "... src/HPGeEventAction.i"
+	@echo "... src/HPGeEventAction.s"
+	@echo "... src/HPGePrimaryGeneratorAction.o"
+	@echo "... src/HPGePrimaryGeneratorAction.i"
+	@echo "... src/HPGePrimaryGeneratorAction.s"
+	@echo "... src/HPGeRunAction.o"
+	@echo "... src/HPGeRunAction.i"
+	@echo "... src/HPGeRunAction.s"
 .PHONY : help
 
 

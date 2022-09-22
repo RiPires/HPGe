@@ -23,32 +23,56 @@
 // * acceptance of all terms of the Geant4 Software license.          *
 // ********************************************************************
 //
-//
-/// \file HPGeActionInitialization.hh
-/// \brief Definition of the HPGeActionInitialization class
+// 
+/// \file HPGeEventAction.hh
+/// \brief Definition of the HPGeEventAction class
 
-#ifndef HPGeActionInitialization_h
-#define HPGeActionInitialization_h 1
+#ifndef HPGeEventAction_h
+#define HPGeEventAction_h 1
 
-#include "G4VUserActionInitialization.hh"
+#include "G4UserEventAction.hh"
+#include "globals.hh"
 
-class HPGeDetectorConstruction;
-
-/// Action initialization class.
+/// Event action class
 ///
+/// It defines data members to hold the energy deposit and track lengths
+/// of charged particles in Absober and Gap layers:
+/// - fEnergyAbs, fEnergyGap, fTrackLAbs, fTrackLGap
+/// which are collected step by step via the functions
+/// - AddAbs(), AddGap()
 
-class HPGeActionInitialization : public G4VUserActionInitialization
+class HPGeEventAction : public G4UserEventAction
 {
   public:
-    HPGeActionInitialization(HPGeDetectorConstruction*);
-    virtual ~HPGeActionInitialization();
+    HPGeEventAction();
+    virtual ~HPGeEventAction();
 
-    virtual void BuildForMaster() const;
-    virtual void Build() const;
-
+    virtual void  BeginOfEventAction(const G4Event* event);
+    virtual void    EndOfEventAction(const G4Event* event);
+    
+    void AddAbs(G4double de, G4double dl);
+    void AddGap(G4double de, G4double dl);
+    
   private:
-    HPGeDetectorConstruction* fDetConstruction;
+    G4double  fEnergyAbs;
+    G4double  fEnergyGap;
+    G4double  fTrackLAbs; 
+    G4double  fTrackLGap;
 };
+
+// inline functions
+
+inline void HPGeEventAction::AddAbs(G4double de, G4double dl) {
+  fEnergyAbs += de; 
+  fTrackLAbs += dl;
+}
+
+inline void HPGeEventAction::AddGap(G4double de, G4double dl) {
+  fEnergyGap += de; 
+  fTrackLGap += dl;
+}
+                     
+//....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
 #endif
 

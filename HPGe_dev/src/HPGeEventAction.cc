@@ -23,46 +23,89 @@
 // * acceptance of all terms of the Geant4 Software license.          *
 // ********************************************************************
 //
-//
-/// \file HPGeActionInitialization.cc
-/// \brief Implementation of the HPGeActionInitialization class
+// 
+/// \file HPGeEventAction.cc
+/// \brief Implementation of the HPGeEventAction class
 
-#include "HPGeActionInitialization.hh"
-#include "HPGePrimaryGeneratorAction.hh"
+#include "HPGeEventAction.hh"
 #include "HPGeRunAction.hh"
-//#include "B4aEventAction.hh"
-//#include "B4aSteppingAction.hh"
-#include "HPGeDetectorConstruction.hh"
+#include "HPGeAnalysis.hh"
+
+#include "G4RunManager.hh"
+#include "G4Event.hh"
+#include "G4UnitsTable.hh"
+
+#include "Randomize.hh"
+#include <iomanip>
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
-HPGeActionInitialization::HPGeActionInitialization
-                            (HPGeDetectorConstruction* detConstruction)
- : G4VUserActionInitialization(),
-   fDetConstruction(detConstruction)
+HPGeEventAction::HPGeEventAction()
+ : G4UserEventAction(),
+   fEnergyAbs(0.),
+   fEnergyGap(0.),
+   fTrackLAbs(0.),
+   fTrackLGap(0.)
 {}
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
-HPGeActionInitialization::~HPGeActionInitialization()
+HPGeEventAction::~HPGeEventAction()
 {}
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
-void HPGeActionInitialization::BuildForMaster() const
-{
-  ///SetUserAction(new B4RunAction);
+void HPGeEventAction::BeginOfEventAction(const G4Event* /*event*/)
+{  
+  // initialisation per event
+  fEnergyAbs = 0.;
+  fEnergyGap = 0.;
+  fTrackLAbs = 0.;
+  fTrackLGap = 0.;
 }
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
-void HPGeActionInitialization::Build() const
+void HPGeEventAction::EndOfEventAction(const G4Event* event)
 {
-  ///SetUserAction(new B4PrimaryGeneratorAction);
-  ///SetUserAction(new B4RunAction);
-  ///auto eventAction = new B4aEventAction;
-  ///SetUserAction(eventAction);
-  ///SetUserAction(new B4aSteppingAction(fDetConstruction,eventAction));
+  // Accumulate statistics
+  //
+
+  // get analysis manager
+  auto analysisManager = G4AnalysisManager::Instance();
+
+  // fill histograms
+  analysisManager->FillH1(0, fEnergyAbs);
+  analysisManager->FillH1(1, fEnergyGap);
+  analysisManager->FillH1(2, fTrackLAbs);
+  analysisManager->FillH1(3, fTrackLGap);
+  
+  // fill ntuple
+  analysisManager->FillNtupleDColumn(0, fEnergyAbs);
+  analysisManager->FillNtupleDColumn(1, fEnergyGap);
+  analysisManager->FillNtupleDColumn(2, fTrackLAbs);
+  analysisManager->FillNtupleDColumn(3, fTrackLGap);
+  analysisManager->AddNtupleRow();  
+  
+  // Print per event (modulo n)
+  //
+  auto eventID = event->GetEventID();
+  auto printModulo = G4RunManager::GetRunManager()->GetPrintProgress();
+  if ( ( printModulo > 0 ) && ( eventID % printModulo == 0 ) ) {
+    G4cout << "---> End of event: " << eventID << G4endl;     
+
+    G4cout
+       << "   Absorber: total energy: " << std::setw(7)
+                                        << G4BestUnit(fEnergyAbs,"Energy")
+       << "       total track length: " << std::setw(7)
+                                        << G4BestUnit(fTrackLAbs,"Length")
+       << G4endl
+       << "        Gap: total energy: " << std::setw(7)
+                                        << G4BestUnit(fEnergyGap,"Energy")
+       << "       total track length: " << std::setw(7)
+                                        << G4BestUnit(fTrackLGap,"Length")
+       << G4endl;
+  }
 }  
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
