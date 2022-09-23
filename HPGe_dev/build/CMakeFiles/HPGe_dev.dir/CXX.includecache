@@ -13,6 +13,8 @@ G4VUserActionInitialization.hh
 ../include/HPGeAnalysis.hh
 g4root.hh
 ../include/g4root.hh
+G4GenericAnalysisManager.hh
+../include/G4GenericAnalysisManager.hh
 
 ../include/HPGeDetectorConstruction.hh
 G4VUserDetectorConstruction.hh
@@ -1057,6 +1059,44 @@ G4GRSVolume.icc
 /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/G4GRSVolume.icc
 
 /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/G4GRSVolume.icc
+
+/home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/G4GenericAnalysisManager.hh
+G4ToolsAnalysisManager.hh
+/home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/G4ToolsAnalysisManager.hh
+G4THnManager.hh
+/home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/G4THnManager.hh
+G4Threading.hh
+/home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/G4Threading.hh
+globals.hh
+/home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/globals.hh
+memory
+-
+G4GenericAnalysisManager.icc
+/home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/G4GenericAnalysisManager.icc
+
+/home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/G4GenericAnalysisManager.icc
+G4GenericFileManager.hh
+/home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/G4GenericFileManager.hh
+G4AutoLock.hh
+/home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/G4AutoLock.hh
+
+/home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/G4GenericFileManager.hh
+G4VFileManager.hh
+/home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/G4VFileManager.hh
+G4AnalysisUtilities.hh
+/home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/G4AnalysisUtilities.hh
+globals.hh
+/home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/globals.hh
+vector
+-
+memory
+-
+G4GenericFileManager.icc
+/home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/G4GenericFileManager.icc
+
+/home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/G4GenericFileManager.icc
+G4HnInformation.hh
+/home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/G4HnInformation.hh
 
 /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/G4GeomConfig.hh
 

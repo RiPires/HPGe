@@ -645,6 +645,10 @@ CMakeFiles/HPGe_dev.dir/src/HPGeEventAction.cc.o: /home/ripires/bin/Geant4/geant
 CMakeFiles/HPGe_dev.dir/src/HPGeEventAction.cc.o: /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/G4GRSSolid.icc
 CMakeFiles/HPGe_dev.dir/src/HPGeEventAction.cc.o: /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/G4GRSVolume.hh
 CMakeFiles/HPGe_dev.dir/src/HPGeEventAction.cc.o: /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/G4GRSVolume.icc
+CMakeFiles/HPGe_dev.dir/src/HPGeEventAction.cc.o: /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/G4GenericAnalysisManager.hh
+CMakeFiles/HPGe_dev.dir/src/HPGeEventAction.cc.o: /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/G4GenericAnalysisManager.icc
+CMakeFiles/HPGe_dev.dir/src/HPGeEventAction.cc.o: /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/G4GenericFileManager.hh
+CMakeFiles/HPGe_dev.dir/src/HPGeEventAction.cc.o: /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/G4GenericFileManager.icc
 CMakeFiles/HPGe_dev.dir/src/HPGeEventAction.cc.o: /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/G4GeomSplitter.hh
 CMakeFiles/HPGe_dev.dir/src/HPGeEventAction.cc.o: /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/G4GlobalConfig.hh
 CMakeFiles/HPGe_dev.dir/src/HPGeEventAction.cc.o: /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/G4H1ToolsManager.hh
@@ -1342,6 +1346,10 @@ CMakeFiles/HPGe_dev.dir/src/HPGeRunAction.cc.o: /home/ripires/bin/Geant4/geant4.
 CMakeFiles/HPGe_dev.dir/src/HPGeRunAction.cc.o: /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/G4GRSSolid.icc
 CMakeFiles/HPGe_dev.dir/src/HPGeRunAction.cc.o: /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/G4GRSVolume.hh
 CMakeFiles/HPGe_dev.dir/src/HPGeRunAction.cc.o: /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/G4GRSVolume.icc
+CMakeFiles/HPGe_dev.dir/src/HPGeRunAction.cc.o: /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/G4GenericAnalysisManager.hh
+CMakeFiles/HPGe_dev.dir/src/HPGeRunAction.cc.o: /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/G4GenericAnalysisManager.icc
+CMakeFiles/HPGe_dev.dir/src/HPGeRunAction.cc.o: /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/G4GenericFileManager.hh
+CMakeFiles/HPGe_dev.dir/src/HPGeRunAction.cc.o: /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/G4GenericFileManager.icc
 CMakeFiles/HPGe_dev.dir/src/HPGeRunAction.cc.o: /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/G4GeomSplitter.hh
 CMakeFiles/HPGe_dev.dir/src/HPGeRunAction.cc.o: /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/G4GlobalConfig.hh
 CMakeFiles/HPGe_dev.dir/src/HPGeRunAction.cc.o: /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/G4H1ToolsManager.hh

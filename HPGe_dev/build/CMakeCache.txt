@@ -145,7 +145,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=HPGe-Dev
+CMAKE_PROJECT_NAME:STATIC=HPGe_dev
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -237,10 +237,10 @@ Fontconfig_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libfontconfig.so
 Geant4_DIR:PATH=/home/ripires/bin/Geant4/geant4.10.07.p02-install/lib/Geant4-10.7.2
 
 //Value Computed by CMake
-HPGe-Dev_BINARY_DIR:STATIC=/home/ripires/HPGe/HPGe_dev/build
+HPGe_dev_BINARY_DIR:STATIC=/home/ripires/HPGe/HPGe_dev/build
 
 //Value Computed by CMake
-HPGe-Dev_SOURCE_DIR:STATIC=/home/ripires/HPGe/HPGe_dev
+HPGe_dev_SOURCE_DIR:STATIC=/home/ripires/HPGe/HPGe_dev
 
 //Path to a file.
 OPENGL_EGL_INCLUDE_DIR:PATH=/usr/include
