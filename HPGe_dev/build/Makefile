@@ -331,6 +331,33 @@ src/HPGeRunAction.cc.s:
 	$(MAKE) -f CMakeFiles/HPGeDev.dir/build.make CMakeFiles/HPGeDev.dir/src/HPGeRunAction.cc.s
 .PHONY : src/HPGeRunAction.cc.s
 
+src/HPGeSteppingAction.o: src/HPGeSteppingAction.cc.o
+
+.PHONY : src/HPGeSteppingAction.o
+
+# target to build an object file
+src/HPGeSteppingAction.cc.o:
+	$(MAKE) -f CMakeFiles/HPGeDev.dir/build.make CMakeFiles/HPGeDev.dir/src/HPGeSteppingAction.cc.o
+.PHONY : src/HPGeSteppingAction.cc.o
+
+src/HPGeSteppingAction.i: src/HPGeSteppingAction.cc.i
+
+.PHONY : src/HPGeSteppingAction.i
+
+# target to preprocess a source file
+src/HPGeSteppingAction.cc.i:
+	$(MAKE) -f CMakeFiles/HPGeDev.dir/build.make CMakeFiles/HPGeDev.dir/src/HPGeSteppingAction.cc.i
+.PHONY : src/HPGeSteppingAction.cc.i
+
+src/HPGeSteppingAction.s: src/HPGeSteppingAction.cc.s
+
+.PHONY : src/HPGeSteppingAction.s
+
+# target to generate assembly for a file
+src/HPGeSteppingAction.cc.s:
+	$(MAKE) -f CMakeFiles/HPGeDev.dir/build.make CMakeFiles/HPGeDev.dir/src/HPGeSteppingAction.cc.s
+.PHONY : src/HPGeSteppingAction.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -362,6 +389,9 @@ help:
 	@echo "... src/HPGeRunAction.o"
 	@echo "... src/HPGeRunAction.i"
 	@echo "... src/HPGeRunAction.s"
+	@echo "... src/HPGeSteppingAction.o"
+	@echo "... src/HPGeSteppingAction.i"
+	@echo "... src/HPGeSteppingAction.s"
 .PHONY : help
 
 

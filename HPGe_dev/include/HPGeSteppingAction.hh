@@ -23,46 +23,38 @@
 // * acceptance of all terms of the Geant4 Software license.          *
 // ********************************************************************
 //
-//
-/// \file HPGeActionInitialization.cc
-/// \brief Implementation of the HPGeActionInitialization class
+// 
+/// \file HPGeSteppingAction.hh
+/// \brief Definition of the HPGeSteppingAction class
 
-#include "HPGeActionInitialization.hh"
-#include "HPGePrimaryGeneratorAction.hh"
-#include "HPGeRunAction.hh"
-#include "HPGeEventAction.hh"
-//#include "B4aSteppingAction.hh"
-#include "HPGeDetectorConstruction.hh"
+#ifndef HPGeSteppingAction_h
+#define HPGeSteppingAction_h 1
 
-//....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
+#include "G4UserSteppingAction.hh"
 
-HPGeActionInitialization::HPGeActionInitialization
-                            (HPGeDetectorConstruction* detConstruction)
- : G4VUserActionInitialization(),
-   fDetConstruction(detConstruction)
-{}
+class HPGeDetectorConstruction;
+class HPGeEventAction;
 
-//....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
+/// Stepping action class.
+///
+/// In UserSteppingAction() there are collected the energy deposit and track 
+/// lengths of charged particles in Absober and Gap layers and
+/// updated in B4aEventAction.
 
-HPGeActionInitialization::~HPGeActionInitialization()
-{}
-
-//....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
-
-void HPGeActionInitialization::BuildForMaster() const
+class HPGeSteppingAction : public G4UserSteppingAction
 {
-  SetUserAction(new HPGeRunAction);
-}
+public:
+  HPGeSteppingAction(const HPGeDetectorConstruction* detectorConstruction,
+                    HPGeEventAction* eventAction);
+  virtual ~HPGeSteppingAction();
+
+  virtual void UserSteppingAction(const G4Step* step);
+    
+private:
+  const HPGeDetectorConstruction* fDetConstruction;
+  HPGeEventAction*  fEventAction;  
+};
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
-void HPGeActionInitialization::Build() const
-{
-  SetUserAction(new HPGePrimaryGeneratorAction);
-  SetUserAction(new HPGeRunAction);
-  auto eventAction = new HPGeEventAction;
-  SetUserAction(eventAction);
-  SetUserAction(new HPGeSteppingAction(fDetConstruction,eventAction));
-}  
-
-//....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
+#endif

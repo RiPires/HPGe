@@ -5,6 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/HPGeDev.dir/src/HPGeEventAction.cc.o"
   "CMakeFiles/HPGeDev.dir/src/HPGePrimaryGeneratorAction.cc.o"
   "CMakeFiles/HPGeDev.dir/src/HPGeRunAction.cc.o"
+  "CMakeFiles/HPGeDev.dir/src/HPGeSteppingAction.cc.o"
   "HPGeDev"
   "HPGeDev.pdb"
 )

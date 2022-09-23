@@ -37,7 +37,7 @@
 #include "G4UIcommand.hh"
 #include "FTFP_BERT.hh"
 
-//#include "Randomize.hh"
+#include "Randomize.hh"
 
 #include "G4VisExecutive.hh"
 #include "G4UIExecutive.hh"

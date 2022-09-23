@@ -29,6 +29,8 @@ G4UIcommand.hh
 /home/ripires/HPGe/HPGe_dev/G4UIcommand.hh
 FTFP_BERT.hh
 /home/ripires/HPGe/HPGe_dev/FTFP_BERT.hh
+Randomize.hh
+/home/ripires/HPGe/HPGe_dev/Randomize.hh
 G4VisExecutive.hh
 /home/ripires/HPGe/HPGe_dev/G4VisExecutive.hh
 G4UIExecutive.hh
