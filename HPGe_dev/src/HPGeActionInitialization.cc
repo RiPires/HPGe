@@ -31,7 +31,7 @@
 #include "HPGePrimaryGeneratorAction.hh"
 #include "HPGeRunAction.hh"
 #include "HPGeEventAction.hh"
-//#include "B4aSteppingAction.hh"
+#include "HPGeSteppingAction.hh"
 #include "HPGeDetectorConstruction.hh"
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......

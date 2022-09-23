@@ -8,6 +8,8 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "../CMakeLists.txt"
+  "../HPGe_dev.in"
+  "../HPGe_dev.out"
   "CMakeFiles/3.16.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.16.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.16.3/CMakeSystem.cmake"
@@ -117,10 +119,12 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "gui.mac"
   "init_vis.mac"
   "vis.mac"
+  "HPGe_dev.in"
+  "HPGe_dev.out"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/HPGeDev.dir/DependInfo.cmake"
+  "CMakeFiles/HPGe_dev.dir/DependInfo.cmake"
   )

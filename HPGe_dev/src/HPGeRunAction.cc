@@ -45,13 +45,13 @@ HPGeRunAction::HPGeRunAction()
 
   // Create analysis manager
   // The choice of analysis technology is done via selectin of a namespace
-  // in B4Analysis.hh
+  // in HPGeAnalysis.hh
   auto analysisManager = G4AnalysisManager::Instance();
   G4cout << "Using " << analysisManager->GetType() << G4endl;
 
   // Create directories 
-  analysisManager->SetHistoDirectoryName("histograms");
-  analysisManager->SetNtupleDirectoryName("ntuple");
+  //analysisManager->SetHistoDirectoryName("histograms");
+  //analysisManager->SetNtupleDirectoryName("ntuple");
   analysisManager->SetVerboseLevel(1);
   analysisManager->SetNtupleMerging(true);
     // Note: merging ntuples is available only with Root output
@@ -87,7 +87,7 @@ HPGeRunAction::~HPGeRunAction()
 void HPGeRunAction::BeginOfRunAction(const G4Run* /*run*/)
 { 
   //inform the runManager to save random number seed
-  G4RunManager::GetRunManager()->SetRandomNumberStore(true);
+  //G4RunManager::GetRunManager()->SetRandomNumberStore(true);
   
   // Get analysis manager
   auto analysisManager = G4AnalysisManager::Instance();

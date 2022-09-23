@@ -36,8 +36,8 @@ file(GLOB headers ${PROJECT_SOURCE_DIR}/include/*.hh)
 #----------------------------------------------------------------------------
 # Add the executable, and link it to the Geant4 libraries
 #
-add_executable(HPGeDev HPGe_dev.cc ${sources} ${headers})
-target_link_libraries(HPGeDev ${Geant4_LIBRARIES})
+add_executable(HPGe_dev HPGe_dev.cc ${sources} ${headers})
+target_link_libraries(HPGe_dev ${Geant4_LIBRARIES})
 
 #----------------------------------------------------------------------------
 # Copy all scripts to the build directory, i.e. the directory in which we
@@ -48,6 +48,8 @@ set(HPGEDEV_SCRIPTS
   gui.mac
   init_vis.mac
   vis.mac
+  HPGe_dev.in
+  HPGe_dev.out
 )
 
 foreach(_script ${HPGEDEV_SCRIPTS})
@@ -61,4 +63,4 @@ endforeach()
 #----------------------------------------------------------------------------
 # Install the executable to 'bin' directory under CMAKE_INSTALL_PREFIX
 #
-install(TARGETS HPGeDev DESTINATION bin)
+install(TARGETS HPGe_dev DESTINATION bin)
