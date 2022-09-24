@@ -24,12 +24,12 @@
 // ********************************************************************
 //
 // 
-/// \file B4aEventAction.cc
-/// \brief Implementation of the B4aEventAction class
+/// \file HPGeEventAction.cc
+/// \brief Implementation of the HPGeEventAction class
 
-#include "B4aEventAction.hh"
-#include "B4RunAction.hh"
-#include "B4Analysis.hh"
+#include "HPGeEventAction.hh"
+#include "HPGeRunAction.hh"
+#include "HPGeAnalysis.hh"
 
 #include "G4RunManager.hh"
 #include "G4Event.hh"
@@ -40,7 +40,7 @@
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
-B4aEventAction::B4aEventAction()
+HPGeEventAction::HPGeEventAction()
  : G4UserEventAction(),
    fEnergyAbs(0.),
    fEnergyGap(0.),
@@ -50,12 +50,12 @@ B4aEventAction::B4aEventAction()
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
-B4aEventAction::~B4aEventAction()
+HPGeEventAction::~HPGeEventAction()
 {}
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
-void B4aEventAction::BeginOfEventAction(const G4Event* /*event*/)
+void HPGeEventAction::BeginOfEventAction(const G4Event* /*event*/)
 {  
   // initialisation per event
   fEnergyAbs = 0.;
@@ -66,7 +66,7 @@ void B4aEventAction::BeginOfEventAction(const G4Event* /*event*/)
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
-void B4aEventAction::EndOfEventAction(const G4Event* event)
+void HPGeEventAction::EndOfEventAction(const G4Event* event)
 {
   // Accumulate statistics
   //

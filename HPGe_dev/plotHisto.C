@@ -1,4 +1,4 @@
-// ROOT macro file for plotting example B4 histograms 
+// ROOT macro file for plotting example HPGe histograms 
 // 
 // Can be run from ROOT session:
 // root[0] .x plotHisto.C
@@ -11,7 +11,7 @@
   //   
 
   // Open file filled by Geant4 simulation 
-  TFile f("B4.root");
+  TFile f("HPGe.root");
 
   // Create a canvas and divide it into 2x2 pads
   TCanvas* c1 = new TCanvas("c1", "", 20, 20, 1000, 1000);

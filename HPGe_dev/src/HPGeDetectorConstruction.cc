@@ -24,10 +24,10 @@
 // ********************************************************************
 //
 // 
-/// \file B4DetectorConstruction.cc
-/// \brief Implementation of the B4DetectorConstruction class
+/// \file HPGeDetectorConstruction.cc
+/// \brief Implementation of the HPGeDetectorConstruction class
 
-#include "B4DetectorConstruction.hh"
+#include "HPGeDetectorConstruction.hh"
 
 #include "G4Material.hh"
 #include "G4NistManager.hh"
@@ -53,11 +53,11 @@
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
 G4ThreadLocal 
-G4GlobalMagFieldMessenger* B4DetectorConstruction::fMagFieldMessenger = nullptr; 
+G4GlobalMagFieldMessenger* HPGeDetectorConstruction::fMagFieldMessenger = nullptr; 
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
-B4DetectorConstruction::B4DetectorConstruction()
+HPGeDetectorConstruction::HPGeDetectorConstruction()
  : G4VUserDetectorConstruction(),
    fAbsorberPV(nullptr),
    fGapPV(nullptr),
@@ -67,13 +67,13 @@ B4DetectorConstruction::B4DetectorConstruction()
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
-B4DetectorConstruction::~B4DetectorConstruction()
+HPGeDetectorConstruction::~HPGeDetectorConstruction()
 { 
 }
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
-G4VPhysicalVolume* B4DetectorConstruction::Construct()
+G4VPhysicalVolume* HPGeDetectorConstruction::Construct()
 {
   // Define materials 
   DefineMaterials();
@@ -84,7 +84,7 @@ G4VPhysicalVolume* B4DetectorConstruction::Construct()
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
-void B4DetectorConstruction::DefineMaterials()
+void HPGeDetectorConstruction::DefineMaterials()
 { 
   // Lead material defined using NIST Manager
   auto nistManager = G4NistManager::Instance();
@@ -107,7 +107,7 @@ void B4DetectorConstruction::DefineMaterials()
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
-G4VPhysicalVolume* B4DetectorConstruction::DefineVolumes()
+G4VPhysicalVolume* HPGeDetectorConstruction::DefineVolumes()
 {
   // Geometry parameters
   G4int nofLayers = 10;
@@ -128,7 +128,7 @@ G4VPhysicalVolume* B4DetectorConstruction::DefineVolumes()
   if ( ! defaultMaterial || ! absorberMaterial || ! gapMaterial ) {
     G4ExceptionDescription msg;
     msg << "Cannot retrieve materials already defined."; 
-    G4Exception("B4DetectorConstruction::DefineVolumes()",
+    G4Exception("HPGeDetectorConstruction::DefineVolumes()",
       "MyCode0001", FatalException, msg);
   }  
    
@@ -277,7 +277,7 @@ G4VPhysicalVolume* B4DetectorConstruction::DefineVolumes()
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
-void B4DetectorConstruction::ConstructSDandField()
+void HPGeDetectorConstruction::ConstructSDandField()
 { 
   // Create global magnetic field messenger.
   // Uniform magnetic field is then created automatically if

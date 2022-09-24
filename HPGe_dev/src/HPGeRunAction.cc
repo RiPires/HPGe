@@ -24,11 +24,11 @@
 // ********************************************************************
 //
 //
-/// \file B4RunAction.cc
-/// \brief Implementation of the B4RunAction class
+/// \file HPGeRunAction.cc
+/// \brief Implementation of the HPGeRunAction class
 
-#include "B4RunAction.hh"
-#include "B4Analysis.hh"
+#include "HPGeRunAction.hh"
+#include "HPGeAnalysis.hh"
 
 #include "G4Run.hh"
 #include "G4RunManager.hh"
@@ -37,7 +37,7 @@
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
-B4RunAction::B4RunAction()
+HPGeRunAction::HPGeRunAction()
  : G4UserRunAction()
 { 
   // set printing event number per each event
@@ -45,7 +45,7 @@ B4RunAction::B4RunAction()
 
   // Create analysis manager
   // The choice of analysis technology is done via selectin of a namespace
-  // in B4Analysis.hh
+  // in HPGenalysis.hh
   auto analysisManager = G4AnalysisManager::Instance();
   G4cout << "Using " << analysisManager->GetType() << G4endl;
 
@@ -67,7 +67,7 @@ B4RunAction::B4RunAction()
 
   // Creating ntuple
   //
-  analysisManager->CreateNtuple("B4", "Edep and TrackL");
+  analysisManager->CreateNtuple("HPGe", "Edep and TrackL");
   analysisManager->CreateNtupleDColumn("Eabs");
   analysisManager->CreateNtupleDColumn("Egap");
   analysisManager->CreateNtupleDColumn("Labs");
@@ -77,14 +77,14 @@ B4RunAction::B4RunAction()
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
-B4RunAction::~B4RunAction()
+HPGeRunAction::~HPGeRunAction()
 {
   delete G4AnalysisManager::Instance();  
 }
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
-void B4RunAction::BeginOfRunAction(const G4Run* /*run*/)
+void HPGeRunAction::BeginOfRunAction(const G4Run* /*run*/)
 { 
   //inform the runManager to save random number seed
   //G4RunManager::GetRunManager()->SetRandomNumberStore(true);
@@ -94,13 +94,13 @@ void B4RunAction::BeginOfRunAction(const G4Run* /*run*/)
 
   // Open an output file
   //
-  G4String fileName = "B4";
+  G4String fileName = "HPGe";
   analysisManager->OpenFile(fileName);
 }
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
-void B4RunAction::EndOfRunAction(const G4Run* /*run*/)
+void HPGeRunAction::EndOfRunAction(const G4Run* /*run*/)
 {
   // print histogram statistics
   //

@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.mac": "cmake",
+        "plotHisto.C": "cpp",
+        "plotNtuple.C": "cpp"
+    }
+}

@@ -23,33 +23,57 @@
 // * acceptance of all terms of the Geant4 Software license.          *
 // ********************************************************************
 //
-//
-/// \file B4aActionInitialization.hh
-/// \brief Definition of the B4aActionInitialization class
+// 
+/// \file HPGeSteppingAction.cc
+/// \brief Implementation of the HPGeSteppingAction class
 
-#ifndef B4aActionInitialization_h
-#define B4aActionInitialization_h 1
+#include "HPGeSteppingAction.hh"
+#include "HPGeEventAction.hh"
+#include "HPGeDetectorConstruction.hh"
 
-#include "G4VUserActionInitialization.hh"
+#include "G4Step.hh"
+#include "G4RunManager.hh"
 
-class B4DetectorConstruction;
+//....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
-/// Action initialization class.
-///
+HPGeSteppingAction::HPGeSteppingAction(
+                      const HPGeDetectorConstruction* detectorConstruction,
+                      HPGeEventAction* eventAction)
+  : G4UserSteppingAction(),
+    fDetConstruction(detectorConstruction),
+    fEventAction(eventAction)
+{}
 
-class B4aActionInitialization : public G4VUserActionInitialization
+//....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
+
+HPGeSteppingAction::~HPGeSteppingAction()
+{}
+
+//....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
+
+void HPGeSteppingAction::UserSteppingAction(const G4Step* step)
 {
-  public:
-    B4aActionInitialization(B4DetectorConstruction*);
-    virtual ~B4aActionInitialization();
+// Collect energy and track length step by step
 
-    virtual void BuildForMaster() const;
-    virtual void Build() const;
+  // get volume of the current step
+  auto volume = step->GetPreStepPoint()->GetTouchableHandle()->GetVolume();
+  
+  // energy deposit
+  auto edep = step->GetTotalEnergyDeposit();
+  
+  // step length
+  G4double stepLength = 0.;
+  if ( step->GetTrack()->GetDefinition()->GetPDGCharge() != 0. ) {
+    stepLength = step->GetStepLength();
+  }
+      
+  if ( volume == fDetConstruction->GetAbsorberPV() ) {
+    fEventAction->AddAbs(edep,stepLength);
+  }
+  
+  if ( volume == fDetConstruction->GetGapPV() ) {
+    fEventAction->AddGap(edep,stepLength);
+  }
+}
 
-  private:
-    B4DetectorConstruction* fDetConstruction;
-};
-
-#endif
-
-    
+//....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......

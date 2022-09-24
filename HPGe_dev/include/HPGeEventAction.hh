@@ -23,46 +23,57 @@
 // * acceptance of all terms of the Geant4 Software license.          *
 // ********************************************************************
 //
-//
-/// \file B4aActionInitialization.cc
-/// \brief Implementation of the B4aActionInitialization class
+// 
+/// \file HPGeEventAction.hh
+/// \brief Definition of the HPGeEventAction class
 
-#include "B4aActionInitialization.hh"
-#include "B4PrimaryGeneratorAction.hh"
-#include "B4RunAction.hh"
-#include "B4aEventAction.hh"
-#include "B4aSteppingAction.hh"
-#include "B4DetectorConstruction.hh"
+#ifndef HPGeEventAction_h
+#define HPGeEventAction_h 1
 
-//....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
+#include "G4UserEventAction.hh"
+#include "globals.hh"
 
-B4aActionInitialization::B4aActionInitialization
-                            (B4DetectorConstruction* detConstruction)
- : G4VUserActionInitialization(),
-   fDetConstruction(detConstruction)
-{}
+/// Event action class
+///
+/// It defines data members to hold the energy deposit and track lengths
+/// of charged particles in Absober and Gap layers:
+/// - fEnergyAbs, fEnergyGap, fTrackLAbs, fTrackLGap
+/// which are collected step by step via the functions
+/// - AddAbs(), AddGap()
 
-//....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
-
-B4aActionInitialization::~B4aActionInitialization()
-{}
-
-//....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
-
-void B4aActionInitialization::BuildForMaster() const
+class HPGeEventAction : public G4UserEventAction
 {
-  SetUserAction(new B4RunAction);
+  public:
+    HPGeEventAction();
+    virtual ~HPGeEventAction();
+
+    virtual void  BeginOfEventAction(const G4Event* event);
+    virtual void    EndOfEventAction(const G4Event* event);
+    
+    void AddAbs(G4double de, G4double dl);
+    void AddGap(G4double de, G4double dl);
+    
+  private:
+    G4double  fEnergyAbs;
+    G4double  fEnergyGap;
+    G4double  fTrackLAbs; 
+    G4double  fTrackLGap;
+};
+
+// inline functions
+
+inline void HPGeEventAction::AddAbs(G4double de, G4double dl) {
+  fEnergyAbs += de; 
+  fTrackLAbs += dl;
 }
 
+inline void HPGeEventAction::AddGap(G4double de, G4double dl) {
+  fEnergyGap += de; 
+  fTrackLGap += dl;
+}
+                     
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
-void B4aActionInitialization::Build() const
-{
-  SetUserAction(new B4PrimaryGeneratorAction);
-  SetUserAction(new B4RunAction);
-  auto eventAction = new B4aEventAction;
-  SetUserAction(eventAction);
-  SetUserAction(new B4aSteppingAction(fDetConstruction,eventAction));
-}  
+#endif
 
-//....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
+    

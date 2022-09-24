@@ -24,56 +24,37 @@
 // ********************************************************************
 //
 // 
-/// \file B4aEventAction.hh
-/// \brief Definition of the B4aEventAction class
+/// \file HPGeSteppingAction.hh
+/// \brief Definition of the HPGeSteppingAction class
 
-#ifndef B4aEventAction_h
-#define B4aEventAction_h 1
+#ifndef HPGeSteppingAction_h
+#define HPGeSteppingAction_h 1
 
-#include "G4UserEventAction.hh"
-#include "globals.hh"
+#include "G4UserSteppingAction.hh"
 
-/// Event action class
+class HPGeDetectorConstruction;
+class HPGeEventAction;
+
+/// Stepping action class.
 ///
-/// It defines data members to hold the energy deposit and track lengths
-/// of charged particles in Absober and Gap layers:
-/// - fEnergyAbs, fEnergyGap, fTrackLAbs, fTrackLGap
-/// which are collected step by step via the functions
-/// - AddAbs(), AddGap()
+/// In UserSteppingAction() there are collected the energy deposit and track 
+/// lengths of charged particles in Absober and Gap layers and
+/// updated in HPGeEventAction.
 
-class B4aEventAction : public G4UserEventAction
+class HPGeSteppingAction : public G4UserSteppingAction
 {
-  public:
-    B4aEventAction();
-    virtual ~B4aEventAction();
+public:
+  HPGeSteppingAction(const HPGeDetectorConstruction* detectorConstruction,
+                    HPGeEventAction* eventAction);
+  virtual ~HPGeSteppingAction();
 
-    virtual void  BeginOfEventAction(const G4Event* event);
-    virtual void    EndOfEventAction(const G4Event* event);
+  virtual void UserSteppingAction(const G4Step* step);
     
-    void AddAbs(G4double de, G4double dl);
-    void AddGap(G4double de, G4double dl);
-    
-  private:
-    G4double  fEnergyAbs;
-    G4double  fEnergyGap;
-    G4double  fTrackLAbs; 
-    G4double  fTrackLGap;
+private:
+  const HPGeDetectorConstruction* fDetConstruction;
+  HPGeEventAction*  fEventAction;  
 };
 
-// inline functions
-
-inline void B4aEventAction::AddAbs(G4double de, G4double dl) {
-  fEnergyAbs += de; 
-  fTrackLAbs += dl;
-}
-
-inline void B4aEventAction::AddGap(G4double de, G4double dl) {
-  fEnergyGap += de; 
-  fTrackLGap += dl;
-}
-                     
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
 #endif
-
-    

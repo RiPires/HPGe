@@ -24,10 +24,10 @@
 // ********************************************************************
 //
 // 
-/// \file B4PrimaryGeneratorAction.cc
-/// \brief Implementation of the B4PrimaryGeneratorAction class
+/// \file HPGePrimaryGeneratorAction.cc
+/// \brief Implementation of the HPGePrimaryGeneratorAction class
 
-#include "B4PrimaryGeneratorAction.hh"
+#include "HPGePrimaryGeneratorAction.hh"
 
 #include "G4RunManager.hh"
 #include "G4LogicalVolumeStore.hh"
@@ -42,7 +42,7 @@
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
-B4PrimaryGeneratorAction::B4PrimaryGeneratorAction()
+HPGePrimaryGeneratorAction::HPGePrimaryGeneratorAction()
  : G4VUserPrimaryGeneratorAction(),
    fParticleGun(nullptr)
 {
@@ -60,14 +60,14 @@ B4PrimaryGeneratorAction::B4PrimaryGeneratorAction()
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
-B4PrimaryGeneratorAction::~B4PrimaryGeneratorAction()
+HPGePrimaryGeneratorAction::~HPGePrimaryGeneratorAction()
 {
   delete fParticleGun;
 }
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
-void B4PrimaryGeneratorAction::GeneratePrimaries(G4Event* anEvent)
+void HPGePrimaryGeneratorAction::GeneratePrimaries(G4Event* anEvent)
 {
   // This function is called at the begining of event
 
@@ -92,7 +92,7 @@ void B4PrimaryGeneratorAction::GeneratePrimaries(G4Event* anEvent)
     msg << "World volume of box shape not found." << G4endl;
     msg << "Perhaps you have changed geometry." << G4endl;
     msg << "The gun will be place in the center.";
-    G4Exception("B4PrimaryGeneratorAction::GeneratePrimaries()",
+    G4Exception("HPGePrimaryGeneratorAction::GeneratePrimaries()",
       "MyCode0002", JustWarning, msg);
   } 
   

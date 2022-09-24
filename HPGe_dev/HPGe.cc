@@ -24,11 +24,11 @@
 // ********************************************************************
 //
 //
-/// \file exampleB4a.cc
-/// \brief Main program of the B4a example
+/// \file exampleHPGe.cc
+/// \brief Main program of the HPGe example
 
-#include "B4DetectorConstruction.hh"
-#include "B4aActionInitialization.hh"
+#include "HPGeDetectorConstruction.hh"
+#include "HPGeActionInitialization.hh"
 
 #include "G4RunManagerFactory.hh"
 
@@ -46,7 +46,7 @@
 namespace {
   void PrintUsage() {
     G4cerr << " Usage: " << G4endl;
-    G4cerr << " exampleB4a [-m macro ] [-u UIsession] [-t nThreads]" << G4endl;
+    G4cerr << " exampleHPGe [-m macro ] [-u UIsession] [-t nThreads]" << G4endl;
     G4cerr << "   note: -t option is available only for multi-threaded mode."
            << G4endl;
   }
@@ -105,13 +105,13 @@ int main(int argc,char** argv)
 
   // Set mandatory initialization classes
   //
-  auto detConstruction = new B4DetectorConstruction();
+  auto detConstruction = new HPGeDetectorConstruction();
   runManager->SetUserInitialization(detConstruction);
 
   auto physicsList = new FTFP_BERT;
   runManager->SetUserInitialization(physicsList);
     
-  auto actionInitialization = new B4aActionInitialization(detConstruction);
+  auto actionInitialization = new HPGeActionInitialization(detConstruction);
   runManager->SetUserInitialization(actionInitialization);
   
   // Initialize visualization

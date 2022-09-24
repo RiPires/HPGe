@@ -23,57 +23,46 @@
 // * acceptance of all terms of the Geant4 Software license.          *
 // ********************************************************************
 //
-// 
-/// \file B4aSteppingAction.cc
-/// \brief Implementation of the B4aSteppingAction class
+//
+/// \file HPGeActionInitialization.cc
+/// \brief Implementation of the HPGeActionInitialization class
 
-#include "B4aSteppingAction.hh"
-#include "B4aEventAction.hh"
-#include "B4DetectorConstruction.hh"
-
-#include "G4Step.hh"
-#include "G4RunManager.hh"
+#include "HPGeActionInitialization.hh"
+#include "HPGePrimaryGeneratorAction.hh"
+#include "HPGeRunAction.hh"
+#include "HPGeEventAction.hh"
+#include "HPGeSteppingAction.hh"
+#include "HPGeDetectorConstruction.hh"
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
-B4aSteppingAction::B4aSteppingAction(
-                      const B4DetectorConstruction* detectorConstruction,
-                      B4aEventAction* eventAction)
-  : G4UserSteppingAction(),
-    fDetConstruction(detectorConstruction),
-    fEventAction(eventAction)
+HPGeActionInitialization::HPGeActionInitialization
+                            (HPGeDetectorConstruction* detConstruction)
+ : G4VUserActionInitialization(),
+   fDetConstruction(detConstruction)
 {}
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
-B4aSteppingAction::~B4aSteppingAction()
+HPGeActionInitialization::~HPGeActionInitialization()
 {}
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
-void B4aSteppingAction::UserSteppingAction(const G4Step* step)
+void HPGeActionInitialization::BuildForMaster() const
 {
-// Collect energy and track length step by step
-
-  // get volume of the current step
-  auto volume = step->GetPreStepPoint()->GetTouchableHandle()->GetVolume();
-  
-  // energy deposit
-  auto edep = step->GetTotalEnergyDeposit();
-  
-  // step length
-  G4double stepLength = 0.;
-  if ( step->GetTrack()->GetDefinition()->GetPDGCharge() != 0. ) {
-    stepLength = step->GetStepLength();
-  }
-      
-  if ( volume == fDetConstruction->GetAbsorberPV() ) {
-    fEventAction->AddAbs(edep,stepLength);
-  }
-  
-  if ( volume == fDetConstruction->GetGapPV() ) {
-    fEventAction->AddGap(edep,stepLength);
-  }
+  SetUserAction(new HPGeRunAction);
 }
+
+//....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
+
+void HPGeActionInitialization::Build() const
+{
+  SetUserAction(new HPGePrimaryGeneratorAction);
+  SetUserAction(new HPGeRunAction);
+  auto eventAction = new HPGeEventAction;
+  SetUserAction(eventAction);
+  SetUserAction(new HPGeSteppingAction(fDetConstruction,eventAction));
+}  
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......

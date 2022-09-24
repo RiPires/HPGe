@@ -7,6 +7,19 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
+  "../CMakeLists.txt"
+  "../HPGe.in"
+  "../HPGe.out"
+  "CMakeFiles/3.16.3/CMakeCCompiler.cmake"
+  "CMakeFiles/3.16.3/CMakeCXXCompiler.cmake"
+  "CMakeFiles/3.16.3/CMakeSystem.cmake"
+  "../gui.mac"
+  "../init_vis.mac"
+  "../plotHisto.C"
+  "../plotNtuple.C"
+  "../run1.mac"
+  "../run2.mac"
+  "../vis.mac"
   "/home/ripires/bin/Geant4/geant4.10.07.p02-install/lib/Geant4-10.7.2/G4EXPATShim.cmake"
   "/home/ripires/bin/Geant4/geant4.10.07.p02-install/lib/Geant4-10.7.2/G4X11Shim.cmake"
   "/home/ripires/bin/Geant4/geant4.10.07.p02-install/lib/Geant4-10.7.2/Geant4Config.cmake"
@@ -21,19 +34,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/ripires/bin/Geant4/geant4.10.07.p02-install/lib/Geant4-10.7.2/PTL/PTLTargets-release.cmake"
   "/home/ripires/bin/Geant4/geant4.10.07.p02-install/lib/Geant4-10.7.2/PTL/PTLTargets.cmake"
   "/home/ripires/bin/Geant4/geant4.10.07.p02-install/lib/Geant4-10.7.2/UseGeant4.cmake"
-  "../CMakeLists.txt"
-  "CMakeFiles/3.16.3/CMakeCCompiler.cmake"
-  "CMakeFiles/3.16.3/CMakeCXXCompiler.cmake"
-  "CMakeFiles/3.16.3/CMakeSystem.cmake"
-  "../exampleB4.in"
-  "../exampleB4a.out"
-  "../gui.mac"
-  "../init_vis.mac"
-  "../plotHisto.C"
-  "../plotNtuple.C"
-  "../run1.mac"
-  "../run2.mac"
-  "../vis.mac"
   "/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake"
   "/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake"
   "/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake"
@@ -120,8 +120,8 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
-  "exampleB4a.out"
-  "exampleB4.in"
+  "HPGe.out"
+  "HPGe.in"
   "gui.mac"
   "init_vis.mac"
   "plotHisto.C"
@@ -134,5 +134,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/exampleB4a.dir/DependInfo.cmake"
+  "CMakeFiles/HPGe.dir/DependInfo.cmake"
   )

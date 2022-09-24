@@ -24,11 +24,11 @@
 // ********************************************************************
 //
 // 
-/// \file B4PrimaryGeneratorAction.hh
-/// \brief Definition of the B4PrimaryGeneratorAction class
+/// \file HPGePrimaryGeneratorAction.hh
+/// \brief Definition of the HPGePrimaryGeneratorAction class
 
-#ifndef B4PrimaryGeneratorAction_h
-#define B4PrimaryGeneratorAction_h 1
+#ifndef HPGePrimaryGeneratorAction_h
+#define HPGePrimaryGeneratorAction_h 1
 
 #include "G4VUserPrimaryGeneratorAction.hh"
 #include "globals.hh"
@@ -43,11 +43,11 @@ class G4Event;
 /// can be changed via the G4 build-in commands of G4ParticleGun class 
 /// (see the macros provided with this example).
 
-class B4PrimaryGeneratorAction : public G4VUserPrimaryGeneratorAction
+class HPGePrimaryGeneratorAction : public G4VUserPrimaryGeneratorAction
 {
 public:
-  B4PrimaryGeneratorAction();    
-  virtual ~B4PrimaryGeneratorAction();
+  HPGePrimaryGeneratorAction();    
+  virtual ~HPGePrimaryGeneratorAction();
 
   virtual void GeneratePrimaries(G4Event* event);
   

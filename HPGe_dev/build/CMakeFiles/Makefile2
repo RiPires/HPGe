@@ -44,16 +44,16 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ripires/bin/Geant4/geant4.10.07.p02-install/share/Geant4-10.7.2/examples/basic/B4/B4a
+CMAKE_SOURCE_DIR = /home/ripires/HPGe/HPGe_dev
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ripires/bin/Geant4/geant4.10.07.p02-install/share/Geant4-10.7.2/examples/basic/B4/B4a/build
+CMAKE_BINARY_DIR = /home/ripires/HPGe/HPGe_dev/build
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/exampleB4a.dir/all
+all: CMakeFiles/HPGe.dir/all
 
 .PHONY : all
 
@@ -63,36 +63,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/exampleB4a.dir/clean
+clean: CMakeFiles/HPGe.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/exampleB4a.dir
+# Target rules for target CMakeFiles/HPGe.dir
 
 # All Build rule for target.
-CMakeFiles/exampleB4a.dir/all:
-	$(MAKE) -f CMakeFiles/exampleB4a.dir/build.make CMakeFiles/exampleB4a.dir/depend
-	$(MAKE) -f CMakeFiles/exampleB4a.dir/build.make CMakeFiles/exampleB4a.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ripires/bin/Geant4/geant4.10.07.p02-install/share/Geant4-10.7.2/examples/basic/B4/B4a/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target exampleB4a"
-.PHONY : CMakeFiles/exampleB4a.dir/all
+CMakeFiles/HPGe.dir/all:
+	$(MAKE) -f CMakeFiles/HPGe.dir/build.make CMakeFiles/HPGe.dir/depend
+	$(MAKE) -f CMakeFiles/HPGe.dir/build.make CMakeFiles/HPGe.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ripires/HPGe/HPGe_dev/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target HPGe"
+.PHONY : CMakeFiles/HPGe.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/exampleB4a.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ripires/bin/Geant4/geant4.10.07.p02-install/share/Geant4-10.7.2/examples/basic/B4/B4a/build/CMakeFiles 8
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/exampleB4a.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ripires/bin/Geant4/geant4.10.07.p02-install/share/Geant4-10.7.2/examples/basic/B4/B4a/build/CMakeFiles 0
-.PHONY : CMakeFiles/exampleB4a.dir/rule
+CMakeFiles/HPGe.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ripires/HPGe/HPGe_dev/build/CMakeFiles 8
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/HPGe.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ripires/HPGe/HPGe_dev/build/CMakeFiles 0
+.PHONY : CMakeFiles/HPGe.dir/rule
 
 # Convenience name for target.
-exampleB4a: CMakeFiles/exampleB4a.dir/rule
+HPGe: CMakeFiles/HPGe.dir/rule
 
-.PHONY : exampleB4a
+.PHONY : HPGe
 
 # clean rule for target.
-CMakeFiles/exampleB4a.dir/clean:
-	$(MAKE) -f CMakeFiles/exampleB4a.dir/build.make CMakeFiles/exampleB4a.dir/clean
-.PHONY : CMakeFiles/exampleB4a.dir/clean
+CMakeFiles/HPGe.dir/clean:
+	$(MAKE) -f CMakeFiles/HPGe.dir/build.make CMakeFiles/HPGe.dir/clean
+.PHONY : CMakeFiles/HPGe.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

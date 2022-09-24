@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ripires/bin/Geant4/geant4.10.07.p02-install/share/Geant4-10.7.2/examples/basic/B4/B4a
+CMAKE_SOURCE_DIR = /home/ripires/HPGe/HPGe_dev
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ripires/bin/Geant4/geant4.10.07.p02-install/share/Geant4-10.7.2/examples/basic/B4/B4a/build
+CMAKE_BINARY_DIR = /home/ripires/HPGe/HPGe_dev/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -67,18 +67,6 @@ install/strip/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
 	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
-
-# Special rule for the target install/local
-install/local: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local
-
-# Special rule for the target install/local
-install/local/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local/fast
 
 # Special rule for the target install
 install: preinstall
@@ -124,11 +112,23 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ripires/bin/Geant4/geant4.10.07.p02-install/share/Geant4-10.7.2/examples/basic/B4/B4a/build/CMakeFiles /home/ripires/bin/Geant4/geant4.10.07.p02-install/share/Geant4-10.7.2/examples/basic/B4/B4a/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ripires/HPGe/HPGe_dev/build/CMakeFiles /home/ripires/HPGe/HPGe_dev/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ripires/bin/Geant4/geant4.10.07.p02-install/share/Geant4-10.7.2/examples/basic/B4/B4a/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ripires/HPGe/HPGe_dev/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -157,206 +157,206 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named exampleB4a
+# Target rules for targets named HPGe
 
 # Build rule for target.
-exampleB4a: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 exampleB4a
-.PHONY : exampleB4a
+HPGe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 HPGe
+.PHONY : HPGe
 
 # fast build rule for target.
-exampleB4a/fast:
-	$(MAKE) -f CMakeFiles/exampleB4a.dir/build.make CMakeFiles/exampleB4a.dir/build
-.PHONY : exampleB4a/fast
+HPGe/fast:
+	$(MAKE) -f CMakeFiles/HPGe.dir/build.make CMakeFiles/HPGe.dir/build
+.PHONY : HPGe/fast
 
-exampleB4a.o: exampleB4a.cc.o
+HPGe.o: HPGe.cc.o
 
-.PHONY : exampleB4a.o
-
-# target to build an object file
-exampleB4a.cc.o:
-	$(MAKE) -f CMakeFiles/exampleB4a.dir/build.make CMakeFiles/exampleB4a.dir/exampleB4a.cc.o
-.PHONY : exampleB4a.cc.o
-
-exampleB4a.i: exampleB4a.cc.i
-
-.PHONY : exampleB4a.i
-
-# target to preprocess a source file
-exampleB4a.cc.i:
-	$(MAKE) -f CMakeFiles/exampleB4a.dir/build.make CMakeFiles/exampleB4a.dir/exampleB4a.cc.i
-.PHONY : exampleB4a.cc.i
-
-exampleB4a.s: exampleB4a.cc.s
-
-.PHONY : exampleB4a.s
-
-# target to generate assembly for a file
-exampleB4a.cc.s:
-	$(MAKE) -f CMakeFiles/exampleB4a.dir/build.make CMakeFiles/exampleB4a.dir/exampleB4a.cc.s
-.PHONY : exampleB4a.cc.s
-
-src/B4DetectorConstruction.o: src/B4DetectorConstruction.cc.o
-
-.PHONY : src/B4DetectorConstruction.o
+.PHONY : HPGe.o
 
 # target to build an object file
-src/B4DetectorConstruction.cc.o:
-	$(MAKE) -f CMakeFiles/exampleB4a.dir/build.make CMakeFiles/exampleB4a.dir/src/B4DetectorConstruction.cc.o
-.PHONY : src/B4DetectorConstruction.cc.o
+HPGe.cc.o:
+	$(MAKE) -f CMakeFiles/HPGe.dir/build.make CMakeFiles/HPGe.dir/HPGe.cc.o
+.PHONY : HPGe.cc.o
 
-src/B4DetectorConstruction.i: src/B4DetectorConstruction.cc.i
+HPGe.i: HPGe.cc.i
 
-.PHONY : src/B4DetectorConstruction.i
+.PHONY : HPGe.i
 
 # target to preprocess a source file
-src/B4DetectorConstruction.cc.i:
-	$(MAKE) -f CMakeFiles/exampleB4a.dir/build.make CMakeFiles/exampleB4a.dir/src/B4DetectorConstruction.cc.i
-.PHONY : src/B4DetectorConstruction.cc.i
+HPGe.cc.i:
+	$(MAKE) -f CMakeFiles/HPGe.dir/build.make CMakeFiles/HPGe.dir/HPGe.cc.i
+.PHONY : HPGe.cc.i
 
-src/B4DetectorConstruction.s: src/B4DetectorConstruction.cc.s
+HPGe.s: HPGe.cc.s
 
-.PHONY : src/B4DetectorConstruction.s
+.PHONY : HPGe.s
 
 # target to generate assembly for a file
-src/B4DetectorConstruction.cc.s:
-	$(MAKE) -f CMakeFiles/exampleB4a.dir/build.make CMakeFiles/exampleB4a.dir/src/B4DetectorConstruction.cc.s
-.PHONY : src/B4DetectorConstruction.cc.s
+HPGe.cc.s:
+	$(MAKE) -f CMakeFiles/HPGe.dir/build.make CMakeFiles/HPGe.dir/HPGe.cc.s
+.PHONY : HPGe.cc.s
 
-src/B4PrimaryGeneratorAction.o: src/B4PrimaryGeneratorAction.cc.o
+src/HPGeActionInitialization.o: src/HPGeActionInitialization.cc.o
 
-.PHONY : src/B4PrimaryGeneratorAction.o
+.PHONY : src/HPGeActionInitialization.o
 
 # target to build an object file
-src/B4PrimaryGeneratorAction.cc.o:
-	$(MAKE) -f CMakeFiles/exampleB4a.dir/build.make CMakeFiles/exampleB4a.dir/src/B4PrimaryGeneratorAction.cc.o
-.PHONY : src/B4PrimaryGeneratorAction.cc.o
+src/HPGeActionInitialization.cc.o:
+	$(MAKE) -f CMakeFiles/HPGe.dir/build.make CMakeFiles/HPGe.dir/src/HPGeActionInitialization.cc.o
+.PHONY : src/HPGeActionInitialization.cc.o
 
-src/B4PrimaryGeneratorAction.i: src/B4PrimaryGeneratorAction.cc.i
+src/HPGeActionInitialization.i: src/HPGeActionInitialization.cc.i
 
-.PHONY : src/B4PrimaryGeneratorAction.i
+.PHONY : src/HPGeActionInitialization.i
 
 # target to preprocess a source file
-src/B4PrimaryGeneratorAction.cc.i:
-	$(MAKE) -f CMakeFiles/exampleB4a.dir/build.make CMakeFiles/exampleB4a.dir/src/B4PrimaryGeneratorAction.cc.i
-.PHONY : src/B4PrimaryGeneratorAction.cc.i
+src/HPGeActionInitialization.cc.i:
+	$(MAKE) -f CMakeFiles/HPGe.dir/build.make CMakeFiles/HPGe.dir/src/HPGeActionInitialization.cc.i
+.PHONY : src/HPGeActionInitialization.cc.i
 
-src/B4PrimaryGeneratorAction.s: src/B4PrimaryGeneratorAction.cc.s
+src/HPGeActionInitialization.s: src/HPGeActionInitialization.cc.s
 
-.PHONY : src/B4PrimaryGeneratorAction.s
+.PHONY : src/HPGeActionInitialization.s
 
 # target to generate assembly for a file
-src/B4PrimaryGeneratorAction.cc.s:
-	$(MAKE) -f CMakeFiles/exampleB4a.dir/build.make CMakeFiles/exampleB4a.dir/src/B4PrimaryGeneratorAction.cc.s
-.PHONY : src/B4PrimaryGeneratorAction.cc.s
+src/HPGeActionInitialization.cc.s:
+	$(MAKE) -f CMakeFiles/HPGe.dir/build.make CMakeFiles/HPGe.dir/src/HPGeActionInitialization.cc.s
+.PHONY : src/HPGeActionInitialization.cc.s
 
-src/B4RunAction.o: src/B4RunAction.cc.o
+src/HPGeDetectorConstruction.o: src/HPGeDetectorConstruction.cc.o
 
-.PHONY : src/B4RunAction.o
+.PHONY : src/HPGeDetectorConstruction.o
 
 # target to build an object file
-src/B4RunAction.cc.o:
-	$(MAKE) -f CMakeFiles/exampleB4a.dir/build.make CMakeFiles/exampleB4a.dir/src/B4RunAction.cc.o
-.PHONY : src/B4RunAction.cc.o
+src/HPGeDetectorConstruction.cc.o:
+	$(MAKE) -f CMakeFiles/HPGe.dir/build.make CMakeFiles/HPGe.dir/src/HPGeDetectorConstruction.cc.o
+.PHONY : src/HPGeDetectorConstruction.cc.o
 
-src/B4RunAction.i: src/B4RunAction.cc.i
+src/HPGeDetectorConstruction.i: src/HPGeDetectorConstruction.cc.i
 
-.PHONY : src/B4RunAction.i
+.PHONY : src/HPGeDetectorConstruction.i
 
 # target to preprocess a source file
-src/B4RunAction.cc.i:
-	$(MAKE) -f CMakeFiles/exampleB4a.dir/build.make CMakeFiles/exampleB4a.dir/src/B4RunAction.cc.i
-.PHONY : src/B4RunAction.cc.i
+src/HPGeDetectorConstruction.cc.i:
+	$(MAKE) -f CMakeFiles/HPGe.dir/build.make CMakeFiles/HPGe.dir/src/HPGeDetectorConstruction.cc.i
+.PHONY : src/HPGeDetectorConstruction.cc.i
 
-src/B4RunAction.s: src/B4RunAction.cc.s
+src/HPGeDetectorConstruction.s: src/HPGeDetectorConstruction.cc.s
 
-.PHONY : src/B4RunAction.s
+.PHONY : src/HPGeDetectorConstruction.s
 
 # target to generate assembly for a file
-src/B4RunAction.cc.s:
-	$(MAKE) -f CMakeFiles/exampleB4a.dir/build.make CMakeFiles/exampleB4a.dir/src/B4RunAction.cc.s
-.PHONY : src/B4RunAction.cc.s
+src/HPGeDetectorConstruction.cc.s:
+	$(MAKE) -f CMakeFiles/HPGe.dir/build.make CMakeFiles/HPGe.dir/src/HPGeDetectorConstruction.cc.s
+.PHONY : src/HPGeDetectorConstruction.cc.s
 
-src/B4aActionInitialization.o: src/B4aActionInitialization.cc.o
+src/HPGeEventAction.o: src/HPGeEventAction.cc.o
 
-.PHONY : src/B4aActionInitialization.o
+.PHONY : src/HPGeEventAction.o
 
 # target to build an object file
-src/B4aActionInitialization.cc.o:
-	$(MAKE) -f CMakeFiles/exampleB4a.dir/build.make CMakeFiles/exampleB4a.dir/src/B4aActionInitialization.cc.o
-.PHONY : src/B4aActionInitialization.cc.o
+src/HPGeEventAction.cc.o:
+	$(MAKE) -f CMakeFiles/HPGe.dir/build.make CMakeFiles/HPGe.dir/src/HPGeEventAction.cc.o
+.PHONY : src/HPGeEventAction.cc.o
 
-src/B4aActionInitialization.i: src/B4aActionInitialization.cc.i
+src/HPGeEventAction.i: src/HPGeEventAction.cc.i
 
-.PHONY : src/B4aActionInitialization.i
+.PHONY : src/HPGeEventAction.i
 
 # target to preprocess a source file
-src/B4aActionInitialization.cc.i:
-	$(MAKE) -f CMakeFiles/exampleB4a.dir/build.make CMakeFiles/exampleB4a.dir/src/B4aActionInitialization.cc.i
-.PHONY : src/B4aActionInitialization.cc.i
+src/HPGeEventAction.cc.i:
+	$(MAKE) -f CMakeFiles/HPGe.dir/build.make CMakeFiles/HPGe.dir/src/HPGeEventAction.cc.i
+.PHONY : src/HPGeEventAction.cc.i
 
-src/B4aActionInitialization.s: src/B4aActionInitialization.cc.s
+src/HPGeEventAction.s: src/HPGeEventAction.cc.s
 
-.PHONY : src/B4aActionInitialization.s
+.PHONY : src/HPGeEventAction.s
 
 # target to generate assembly for a file
-src/B4aActionInitialization.cc.s:
-	$(MAKE) -f CMakeFiles/exampleB4a.dir/build.make CMakeFiles/exampleB4a.dir/src/B4aActionInitialization.cc.s
-.PHONY : src/B4aActionInitialization.cc.s
+src/HPGeEventAction.cc.s:
+	$(MAKE) -f CMakeFiles/HPGe.dir/build.make CMakeFiles/HPGe.dir/src/HPGeEventAction.cc.s
+.PHONY : src/HPGeEventAction.cc.s
 
-src/B4aEventAction.o: src/B4aEventAction.cc.o
+src/HPGePrimaryGeneratorAction.o: src/HPGePrimaryGeneratorAction.cc.o
 
-.PHONY : src/B4aEventAction.o
+.PHONY : src/HPGePrimaryGeneratorAction.o
 
 # target to build an object file
-src/B4aEventAction.cc.o:
-	$(MAKE) -f CMakeFiles/exampleB4a.dir/build.make CMakeFiles/exampleB4a.dir/src/B4aEventAction.cc.o
-.PHONY : src/B4aEventAction.cc.o
+src/HPGePrimaryGeneratorAction.cc.o:
+	$(MAKE) -f CMakeFiles/HPGe.dir/build.make CMakeFiles/HPGe.dir/src/HPGePrimaryGeneratorAction.cc.o
+.PHONY : src/HPGePrimaryGeneratorAction.cc.o
 
-src/B4aEventAction.i: src/B4aEventAction.cc.i
+src/HPGePrimaryGeneratorAction.i: src/HPGePrimaryGeneratorAction.cc.i
 
-.PHONY : src/B4aEventAction.i
+.PHONY : src/HPGePrimaryGeneratorAction.i
 
 # target to preprocess a source file
-src/B4aEventAction.cc.i:
-	$(MAKE) -f CMakeFiles/exampleB4a.dir/build.make CMakeFiles/exampleB4a.dir/src/B4aEventAction.cc.i
-.PHONY : src/B4aEventAction.cc.i
+src/HPGePrimaryGeneratorAction.cc.i:
+	$(MAKE) -f CMakeFiles/HPGe.dir/build.make CMakeFiles/HPGe.dir/src/HPGePrimaryGeneratorAction.cc.i
+.PHONY : src/HPGePrimaryGeneratorAction.cc.i
 
-src/B4aEventAction.s: src/B4aEventAction.cc.s
+src/HPGePrimaryGeneratorAction.s: src/HPGePrimaryGeneratorAction.cc.s
 
-.PHONY : src/B4aEventAction.s
+.PHONY : src/HPGePrimaryGeneratorAction.s
 
 # target to generate assembly for a file
-src/B4aEventAction.cc.s:
-	$(MAKE) -f CMakeFiles/exampleB4a.dir/build.make CMakeFiles/exampleB4a.dir/src/B4aEventAction.cc.s
-.PHONY : src/B4aEventAction.cc.s
+src/HPGePrimaryGeneratorAction.cc.s:
+	$(MAKE) -f CMakeFiles/HPGe.dir/build.make CMakeFiles/HPGe.dir/src/HPGePrimaryGeneratorAction.cc.s
+.PHONY : src/HPGePrimaryGeneratorAction.cc.s
 
-src/B4aSteppingAction.o: src/B4aSteppingAction.cc.o
+src/HPGeRunAction.o: src/HPGeRunAction.cc.o
 
-.PHONY : src/B4aSteppingAction.o
+.PHONY : src/HPGeRunAction.o
 
 # target to build an object file
-src/B4aSteppingAction.cc.o:
-	$(MAKE) -f CMakeFiles/exampleB4a.dir/build.make CMakeFiles/exampleB4a.dir/src/B4aSteppingAction.cc.o
-.PHONY : src/B4aSteppingAction.cc.o
+src/HPGeRunAction.cc.o:
+	$(MAKE) -f CMakeFiles/HPGe.dir/build.make CMakeFiles/HPGe.dir/src/HPGeRunAction.cc.o
+.PHONY : src/HPGeRunAction.cc.o
 
-src/B4aSteppingAction.i: src/B4aSteppingAction.cc.i
+src/HPGeRunAction.i: src/HPGeRunAction.cc.i
 
-.PHONY : src/B4aSteppingAction.i
+.PHONY : src/HPGeRunAction.i
 
 # target to preprocess a source file
-src/B4aSteppingAction.cc.i:
-	$(MAKE) -f CMakeFiles/exampleB4a.dir/build.make CMakeFiles/exampleB4a.dir/src/B4aSteppingAction.cc.i
-.PHONY : src/B4aSteppingAction.cc.i
+src/HPGeRunAction.cc.i:
+	$(MAKE) -f CMakeFiles/HPGe.dir/build.make CMakeFiles/HPGe.dir/src/HPGeRunAction.cc.i
+.PHONY : src/HPGeRunAction.cc.i
 
-src/B4aSteppingAction.s: src/B4aSteppingAction.cc.s
+src/HPGeRunAction.s: src/HPGeRunAction.cc.s
 
-.PHONY : src/B4aSteppingAction.s
+.PHONY : src/HPGeRunAction.s
 
 # target to generate assembly for a file
-src/B4aSteppingAction.cc.s:
-	$(MAKE) -f CMakeFiles/exampleB4a.dir/build.make CMakeFiles/exampleB4a.dir/src/B4aSteppingAction.cc.s
-.PHONY : src/B4aSteppingAction.cc.s
+src/HPGeRunAction.cc.s:
+	$(MAKE) -f CMakeFiles/HPGe.dir/build.make CMakeFiles/HPGe.dir/src/HPGeRunAction.cc.s
+.PHONY : src/HPGeRunAction.cc.s
+
+src/HPGeSteppingAction.o: src/HPGeSteppingAction.cc.o
+
+.PHONY : src/HPGeSteppingAction.o
+
+# target to build an object file
+src/HPGeSteppingAction.cc.o:
+	$(MAKE) -f CMakeFiles/HPGe.dir/build.make CMakeFiles/HPGe.dir/src/HPGeSteppingAction.cc.o
+.PHONY : src/HPGeSteppingAction.cc.o
+
+src/HPGeSteppingAction.i: src/HPGeSteppingAction.cc.i
+
+.PHONY : src/HPGeSteppingAction.i
+
+# target to preprocess a source file
+src/HPGeSteppingAction.cc.i:
+	$(MAKE) -f CMakeFiles/HPGe.dir/build.make CMakeFiles/HPGe.dir/src/HPGeSteppingAction.cc.i
+.PHONY : src/HPGeSteppingAction.cc.i
+
+src/HPGeSteppingAction.s: src/HPGeSteppingAction.cc.s
+
+.PHONY : src/HPGeSteppingAction.s
+
+# target to generate assembly for a file
+src/HPGeSteppingAction.cc.s:
+	$(MAKE) -f CMakeFiles/HPGe.dir/build.make CMakeFiles/HPGe.dir/src/HPGeSteppingAction.cc.s
+.PHONY : src/HPGeSteppingAction.cc.s
 
 # Help Target
 help:
@@ -365,33 +365,33 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... install/strip"
-	@echo "... install/local"
 	@echo "... install"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... exampleB4a"
-	@echo "... exampleB4a.o"
-	@echo "... exampleB4a.i"
-	@echo "... exampleB4a.s"
-	@echo "... src/B4DetectorConstruction.o"
-	@echo "... src/B4DetectorConstruction.i"
-	@echo "... src/B4DetectorConstruction.s"
-	@echo "... src/B4PrimaryGeneratorAction.o"
-	@echo "... src/B4PrimaryGeneratorAction.i"
-	@echo "... src/B4PrimaryGeneratorAction.s"
-	@echo "... src/B4RunAction.o"
-	@echo "... src/B4RunAction.i"
-	@echo "... src/B4RunAction.s"
-	@echo "... src/B4aActionInitialization.o"
-	@echo "... src/B4aActionInitialization.i"
-	@echo "... src/B4aActionInitialization.s"
-	@echo "... src/B4aEventAction.o"
-	@echo "... src/B4aEventAction.i"
-	@echo "... src/B4aEventAction.s"
-	@echo "... src/B4aSteppingAction.o"
-	@echo "... src/B4aSteppingAction.i"
-	@echo "... src/B4aSteppingAction.s"
+	@echo "... install/local"
+	@echo "... HPGe"
+	@echo "... HPGe.o"
+	@echo "... HPGe.i"
+	@echo "... HPGe.s"
+	@echo "... src/HPGeActionInitialization.o"
+	@echo "... src/HPGeActionInitialization.i"
+	@echo "... src/HPGeActionInitialization.s"
+	@echo "... src/HPGeDetectorConstruction.o"
+	@echo "... src/HPGeDetectorConstruction.i"
+	@echo "... src/HPGeDetectorConstruction.s"
+	@echo "... src/HPGeEventAction.o"
+	@echo "... src/HPGeEventAction.i"
+	@echo "... src/HPGeEventAction.s"
+	@echo "... src/HPGePrimaryGeneratorAction.o"
+	@echo "... src/HPGePrimaryGeneratorAction.i"
+	@echo "... src/HPGePrimaryGeneratorAction.s"
+	@echo "... src/HPGeRunAction.o"
+	@echo "... src/HPGeRunAction.i"
+	@echo "... src/HPGeRunAction.s"
+	@echo "... src/HPGeSteppingAction.o"
+	@echo "... src/HPGeSteppingAction.i"
+	@echo "... src/HPGeSteppingAction.s"
 .PHONY : help
 
 

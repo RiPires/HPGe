@@ -24,11 +24,11 @@
 // ********************************************************************
 //
 // 
-/// \file B4RunAction.hh
-/// \brief Definition of the B4RunAction class
+/// \file HPGeRunAction.hh
+/// \brief Definition of the HPGeRunAction class
 
-#ifndef B4RunAction_h
-#define B4RunAction_h 1
+#ifndef HPGeRunAction_h
+#define HPGeRunAction_h 1
 
 #include "G4UserRunAction.hh"
 #include "globals.hh"
@@ -47,17 +47,17 @@ class G4Run;
 /// - Track length in gap
 /// The same values are also saved in the ntuple.
 /// The histograms and ntuple are saved in the output file in a format
-/// accoring to a selected technology in B4Analysis.hh.
+/// accoring to a selected technology in HPGenalysis.hh.
 ///
 /// In EndOfRunAction(), the accumulated statistic and computed 
 /// dispersion is printed.
 ///
 
-class B4RunAction : public G4UserRunAction
+class HPGeRunAction : public G4UserRunAction
 {
   public:
-    B4RunAction();
-    virtual ~B4RunAction();
+    HPGeRunAction();
+    virtual ~HPGeRunAction();
 
     virtual void BeginOfRunAction(const G4Run*);
     virtual void   EndOfRunAction(const G4Run*);

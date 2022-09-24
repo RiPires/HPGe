@@ -848,8 +848,8 @@ Max 2J for sampling of angular correlations         10
 G4VisManager: Using G4TrajectoryDrawByCharge as fallback trajectory model.
 See commands in /vis/modeling/trajectories/ for other options.
 ### Run 0 starts.
-... create file : B4.root - done
-... open analysis file : B4.root - done
+... create file : HPGe.root - done
+... open analysis file : HPGe.root - done
 --> Event 0 starts.
 ---> End of event: 0
    Absorber: total energy: 272.576 MeV       total track length: 19.7955 cm 
@@ -861,8 +861,8 @@ See commands in /vis/modeling/trajectories/ for other options.
  EGap : mean = 14.3219 MeV rms = 0 eV 
  LAbs : mean = 19.7955 cm  rms = 0 fm 
  LGap : mean = 6.97335 cm  rms = 0 fm 
-... write file : B4.root - done
-... close file : B4.root - done
+... write file : HPGe.root - done
+... close file : HPGe.root - done
 0 events have been kept for refreshing and/or reviewing.
   "/vis/reviewKeptEvents" to review them one by one.
   "/vis/enable", then "/vis/viewer/flush" or "/vis/viewer/rebuild" to see them accumulated.
@@ -1289,8 +1289,8 @@ CoulombScat:  for pi-, integral:1  SubType=1 BuildTable=1
       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
   eCoulombScattering : Emin=    0 eV  Emax=  100 TeV
 ### Run 1 starts.
-... create file : B4.root - done
-... open analysis file : B4.root - done
+... create file : HPGe.root - done
+... open analysis file : HPGe.root - done
 --> Event 0 starts.
 ---> End of event: 0
    Absorber: total energy: 281.551 MeV       total track length: 20.6175 cm 
@@ -1302,8 +1302,8 @@ CoulombScat:  for pi-, integral:1  SubType=1 BuildTable=1
  EGap : mean = 17.2447 MeV rms = 0 eV 
  LAbs : mean = 20.6175 cm  rms = 0 fm 
  LGap : mean = 8.06701 cm  rms = 0 fm 
-... write file : B4.root - done
-... close file : B4.root - done
+... write file : HPGe.root - done
+... close file : HPGe.root - done
 0 events have been kept for refreshing and/or reviewing.
   "/vis/reviewKeptEvents" to review them one by one.
   "/vis/enable", then "/vis/viewer/flush" or "/vis/viewer/rebuild" to see them accumulated.
@@ -1675,8 +1675,8 @@ CoulombScat:  for pi-, integral:1  SubType=1 BuildTable=1
       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
   eCoulombScattering : Emin=    0 eV  Emax=  100 TeV
 ### Run 2 starts.
-... create file : B4.root - done
-... open analysis file : B4.root - done
+... create file : HPGe.root - done
+... open analysis file : HPGe.root - done
 --> Event 0 starts.
 ---> End of event: 0
    Absorber: total energy: 442.375 MeV       total track length:   31.86 cm 
@@ -1688,8 +1688,8 @@ CoulombScat:  for pi-, integral:1  SubType=1 BuildTable=1
  EGap : mean = 26.8732 MeV rms = 0 eV 
  LAbs : mean = 31.86 cm  rms = 0 fm 
  LGap : mean = 13.3258 cm  rms = 0 fm 
-... write file : B4.root - done
-... close file : B4.root - done
+... write file : HPGe.root - done
+... close file : HPGe.root - done
 0 events have been kept for refreshing and/or reviewing.
   "/vis/reviewKeptEvents" to review them one by one.
   "/vis/enable", then "/vis/viewer/flush" or "/vis/viewer/rebuild" to see them accumulated.
