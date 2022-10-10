@@ -1,4 +1,4 @@
-# Install script for directory: /home/ripires/bin/Geant4/geant4.10.07.p02-install/share/Geant4-10.7.2/examples/advanced/xray_fluorescence
+# Install script for directory: /home/ripires/HPGe/xray_fluorescence
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/XrayFluo"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/ripires/bin/Geant4/geant4.10.07.p02-install/share/Geant4-10.7.2/examples/advanced/xray_fluorescence/build/XrayFluo")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/ripires/HPGe/xray_fluorescence/build/XrayFluo")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/XrayFluo" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/XrayFluo")
     file(RPATH_CHANGE
@@ -65,5 +65,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ripires/bin/Geant4/geant4.10.07.p02-install/share/Geant4-10.7.2/examples/advanced/xray_fluorescence/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ripires/HPGe/xray_fluorescence/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

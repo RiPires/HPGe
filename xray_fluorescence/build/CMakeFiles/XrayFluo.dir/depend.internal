@@ -3,6 +3,7 @@
 
 CMakeFiles/XrayFluo.dir/XrayFluo.cc.o
  ../include/XrayFluoSimulation.hh
+ /home/ripires/HPGe/xray_fluorescence/XrayFluo.cc
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/G4EnvironmentUtils.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/G4Exception.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/G4ExceptionSeverity.hh
@@ -15,7 +16,6 @@ CMakeFiles/XrayFluo.dir/XrayFluo.cc.o
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/globals.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/templates.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/tls.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-install/share/Geant4-10.7.2/examples/advanced/xray_fluorescence/XrayFluo.cc
 CMakeFiles/XrayFluo.dir/src/XrayFluoActionInitializer.cc.o
  ../include/XrayFluoActionInitializer.hh
  ../include/XrayFluoDataSet.hh
@@ -35,6 +35,7 @@ CMakeFiles/XrayFluo.dir/src/XrayFluoActionInitializer.cc.o
  ../include/XrayFluoSteppingAction.hh
  ../include/XrayFluoSteppingVerbose.hh
  ../include/XrayFluoVDetectorType.hh
+ /home/ripires/HPGe/xray_fluorescence/src/XrayFluoActionInitializer.cc
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/Normal3D.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/Point3D.h
@@ -300,7 +301,6 @@ CMakeFiles/XrayFluo.dir/src/XrayFluoActionInitializer.cc.o
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/templates.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/tls.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/trkdefs.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-install/share/Geant4-10.7.2/examples/advanced/xray_fluorescence/src/XrayFluoActionInitializer.cc
 CMakeFiles/XrayFluo.dir/src/XrayFluoAnalysisManager.cc.o
  ../include/XrayFluoAnalysisManager.hh
  ../include/XrayFluoAnalysisMessenger.hh
@@ -312,6 +312,7 @@ CMakeFiles/XrayFluo.dir/src/XrayFluoAnalysisManager.cc.o
  ../include/XrayFluoSensorHit.hh
  ../include/XrayFluoSiLiDetectorType.hh
  ../include/XrayFluoVDetectorType.hh
+ /home/ripires/HPGe/xray_fluorescence/src/XrayFluoAnalysisManager.cc
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/Normal3D.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/Point3D.h
@@ -707,11 +708,11 @@ CMakeFiles/XrayFluo.dir/src/XrayFluoAnalysisManager.cc.o
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/tools/wroot/tree
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/tools/wroot/wbuf
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/trkdefs.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-install/share/Geant4-10.7.2/examples/advanced/xray_fluorescence/src/XrayFluoAnalysisManager.cc
 CMakeFiles/XrayFluo.dir/src/XrayFluoAnalysisMessenger.cc.o
  ../include/XrayFluoAnalysisManager.hh
  ../include/XrayFluoAnalysisMessenger.hh
  ../include/XrayFluoDataSet.hh
+ /home/ripires/HPGe/xray_fluorescence/src/XrayFluoAnalysisMessenger.cc
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Units/SystemOfUnits.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Utility/defs.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Vector/ThreeVector.h
@@ -740,9 +741,9 @@ CMakeFiles/XrayFluo.dir/src/XrayFluoAnalysisMessenger.cc.o
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/globals.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/templates.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/tls.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-install/share/Geant4-10.7.2/examples/advanced/xray_fluorescence/src/XrayFluoAnalysisMessenger.cc
 CMakeFiles/XrayFluo.dir/src/XrayFluoDataSet.cc.o
  ../include/XrayFluoDataSet.hh
+ /home/ripires/HPGe/xray_fluorescence/src/XrayFluoDataSet.cc
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Units/SystemOfUnits.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/G4DataVector.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/G4DataVector.icc
@@ -760,7 +761,6 @@ CMakeFiles/XrayFluo.dir/src/XrayFluoDataSet.cc.o
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/globals.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/templates.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/tls.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-install/share/Geant4-10.7.2/examples/advanced/xray_fluorescence/src/XrayFluoDataSet.cc
 CMakeFiles/XrayFluo.dir/src/XrayFluoDetectorConstruction.cc.o
  ../include/XrayFluoDataSet.hh
  ../include/XrayFluoDetectorConstruction.hh
@@ -772,6 +772,7 @@ CMakeFiles/XrayFluo.dir/src/XrayFluoDetectorConstruction.cc.o
  ../include/XrayFluoSensorHit.hh
  ../include/XrayFluoSiLiDetectorType.hh
  ../include/XrayFluoVDetectorType.hh
+ /home/ripires/HPGe/xray_fluorescence/src/XrayFluoDetectorConstruction.cc
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/Normal3D.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/Plane3D.h
@@ -1089,7 +1090,6 @@ CMakeFiles/XrayFluo.dir/src/XrayFluoDetectorConstruction.cc.o
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/templates.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/tls.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/trkdefs.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-install/share/Geant4-10.7.2/examples/advanced/xray_fluorescence/src/XrayFluoDetectorConstruction.cc
 CMakeFiles/XrayFluo.dir/src/XrayFluoDetectorMessenger.cc.o
  ../include/XrayFluoDataSet.hh
  ../include/XrayFluoDetectorConstruction.hh
@@ -1100,6 +1100,7 @@ CMakeFiles/XrayFluo.dir/src/XrayFluoDetectorMessenger.cc.o
  ../include/XrayFluoSensorHit.hh
  ../include/XrayFluoSiLiDetectorType.hh
  ../include/XrayFluoVDetectorType.hh
+ /home/ripires/HPGe/xray_fluorescence/src/XrayFluoDetectorMessenger.cc
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/Normal3D.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/Point3D.h
@@ -1364,7 +1365,6 @@ CMakeFiles/XrayFluo.dir/src/XrayFluoDetectorMessenger.cc.o
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/templates.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/tls.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/trkdefs.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-install/share/Geant4-10.7.2/examples/advanced/xray_fluorescence/src/XrayFluoDetectorMessenger.cc
 CMakeFiles/XrayFluo.dir/src/XrayFluoEventAction.cc.o
  ../include/XrayFluoAnalysisManager.hh
  ../include/XrayFluoAnalysisMessenger.hh
@@ -1380,6 +1380,7 @@ CMakeFiles/XrayFluo.dir/src/XrayFluoEventAction.cc.o
  ../include/XrayFluoSensorHit.hh
  ../include/XrayFluoSiLiDetectorType.hh
  ../include/XrayFluoVDetectorType.hh
+ /home/ripires/HPGe/xray_fluorescence/src/XrayFluoEventAction.cc
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/Normal3D.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/Point3D.h
@@ -1650,7 +1651,6 @@ CMakeFiles/XrayFluo.dir/src/XrayFluoEventAction.cc.o
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/templates.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/tls.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/trkdefs.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-install/share/Geant4-10.7.2/examples/advanced/xray_fluorescence/src/XrayFluoEventAction.cc
 CMakeFiles/XrayFluo.dir/src/XrayFluoEventActionMessenger.cc.o
  ../include/XrayFluoDataSet.hh
  ../include/XrayFluoDetectorConstruction.hh
@@ -1664,6 +1664,7 @@ CMakeFiles/XrayFluo.dir/src/XrayFluoEventActionMessenger.cc.o
  ../include/XrayFluoSensorHit.hh
  ../include/XrayFluoSiLiDetectorType.hh
  ../include/XrayFluoVDetectorType.hh
+ /home/ripires/HPGe/xray_fluorescence/src/XrayFluoEventActionMessenger.cc
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/Normal3D.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/Point3D.h
@@ -1836,11 +1837,11 @@ CMakeFiles/XrayFluo.dir/src/XrayFluoEventActionMessenger.cc.o
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/templates.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/tls.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/trkdefs.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-install/share/Geant4-10.7.2/examples/advanced/xray_fluorescence/src/XrayFluoEventActionMessenger.cc
 CMakeFiles/XrayFluo.dir/src/XrayFluoHPGeDetectorType.cc.o
  ../include/XrayFluoDataSet.hh
  ../include/XrayFluoHPGeDetectorType.hh
  ../include/XrayFluoVDetectorType.hh
+ /home/ripires/HPGe/xray_fluorescence/src/XrayFluoHPGeDetectorType.cc
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Random/DualRand.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Random/JamesRandom.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Random/MTwistEngine.h
@@ -1912,7 +1913,6 @@ CMakeFiles/XrayFluo.dir/src/XrayFluoHPGeDetectorType.cc.o
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/globals.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/templates.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/tls.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-install/share/Geant4-10.7.2/examples/advanced/xray_fluorescence/src/XrayFluoHPGeDetectorType.cc
 CMakeFiles/XrayFluo.dir/src/XrayFluoHPGeSD.cc.o
  ../include/XrayFluoDataSet.hh
  ../include/XrayFluoDetectorConstruction.hh
@@ -1923,6 +1923,7 @@ CMakeFiles/XrayFluo.dir/src/XrayFluoHPGeSD.cc.o
  ../include/XrayFluoSensorHit.hh
  ../include/XrayFluoSiLiDetectorType.hh
  ../include/XrayFluoVDetectorType.hh
+ /home/ripires/HPGe/xray_fluorescence/src/XrayFluoHPGeSD.cc
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/Normal3D.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/Point3D.h
@@ -2147,7 +2148,6 @@ CMakeFiles/XrayFluo.dir/src/XrayFluoHPGeSD.cc.o
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/templates.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/tls.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/trkdefs.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-install/share/Geant4-10.7.2/examples/advanced/xray_fluorescence/src/XrayFluoHPGeSD.cc
 CMakeFiles/XrayFluo.dir/src/XrayFluoMercuryDetectorConstruction.cc.o
  ../include/XrayFluoDataSet.hh
  ../include/XrayFluoHPGeDetectorType.hh
@@ -2158,6 +2158,7 @@ CMakeFiles/XrayFluo.dir/src/XrayFluoMercuryDetectorConstruction.cc.o
  ../include/XrayFluoSensorHit.hh
  ../include/XrayFluoSiLiDetectorType.hh
  ../include/XrayFluoVDetectorType.hh
+ /home/ripires/HPGe/xray_fluorescence/src/XrayFluoMercuryDetectorConstruction.cc
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/Normal3D.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/Plane3D.h
@@ -2475,7 +2476,6 @@ CMakeFiles/XrayFluo.dir/src/XrayFluoMercuryDetectorConstruction.cc.o
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/templates.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/tls.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/trkdefs.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-install/share/Geant4-10.7.2/examples/advanced/xray_fluorescence/src/XrayFluoMercuryDetectorConstruction.cc
 CMakeFiles/XrayFluo.dir/src/XrayFluoMercuryDetectorMessenger.cc.o
  ../include/XrayFluoDataSet.hh
  ../include/XrayFluoHPGeDetectorType.hh
@@ -2485,6 +2485,7 @@ CMakeFiles/XrayFluo.dir/src/XrayFluoMercuryDetectorMessenger.cc.o
  ../include/XrayFluoSensorHit.hh
  ../include/XrayFluoSiLiDetectorType.hh
  ../include/XrayFluoVDetectorType.hh
+ /home/ripires/HPGe/xray_fluorescence/src/XrayFluoMercuryDetectorMessenger.cc
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/Normal3D.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/Point3D.h
@@ -2749,7 +2750,6 @@ CMakeFiles/XrayFluo.dir/src/XrayFluoMercuryDetectorMessenger.cc.o
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/templates.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/tls.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/trkdefs.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-install/share/Geant4-10.7.2/examples/advanced/xray_fluorescence/src/XrayFluoMercuryDetectorMessenger.cc
 CMakeFiles/XrayFluo.dir/src/XrayFluoMercuryPrimaryGeneratorAction.cc.o
  ../include/XrayFluoAnalysisManager.hh
  ../include/XrayFluoAnalysisMessenger.hh
@@ -2763,6 +2763,7 @@ CMakeFiles/XrayFluo.dir/src/XrayFluoMercuryPrimaryGeneratorAction.cc.o
  ../include/XrayFluoSensorHit.hh
  ../include/XrayFluoSiLiDetectorType.hh
  ../include/XrayFluoVDetectorType.hh
+ /home/ripires/HPGe/xray_fluorescence/src/XrayFluoMercuryPrimaryGeneratorAction.cc
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/Normal3D.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/Point3D.h
@@ -2966,10 +2967,10 @@ CMakeFiles/XrayFluo.dir/src/XrayFluoMercuryPrimaryGeneratorAction.cc.o
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/templates.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/tls.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/trkdefs.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-install/share/Geant4-10.7.2/examples/advanced/xray_fluorescence/src/XrayFluoMercuryPrimaryGeneratorAction.cc
 CMakeFiles/XrayFluo.dir/src/XrayFluoMercuryPrimaryGeneratorMessenger.cc.o
  ../include/XrayFluoMercuryPrimaryGeneratorAction.hh
  ../include/XrayFluoMercuryPrimaryGeneratorMessenger.hh
+ /home/ripires/HPGe/xray_fluorescence/src/XrayFluoMercuryPrimaryGeneratorMessenger.cc
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Utility/defs.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Vector/ThreeVector.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Vector/ThreeVector.icc
@@ -2995,9 +2996,9 @@ CMakeFiles/XrayFluo.dir/src/XrayFluoMercuryPrimaryGeneratorMessenger.cc.o
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/globals.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/templates.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/tls.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-install/share/Geant4-10.7.2/examples/advanced/xray_fluorescence/src/XrayFluoMercuryPrimaryGeneratorMessenger.cc
 CMakeFiles/XrayFluo.dir/src/XrayFluoNistMaterials.cc.o
  ../include/XrayFluoNistMaterials.hh
+ /home/ripires/HPGe/xray_fluorescence/src/XrayFluoNistMaterials.cc
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Units/PhysicalConstants.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Units/SystemOfUnits.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/G4DataVector.hh
@@ -3045,10 +3046,10 @@ CMakeFiles/XrayFluo.dir/src/XrayFluoNistMaterials.cc.o
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/globals.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/templates.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/tls.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-install/share/Geant4-10.7.2/examples/advanced/xray_fluorescence/src/XrayFluoNistMaterials.cc
 CMakeFiles/XrayFluo.dir/src/XrayFluoNormalization.cc.o
  ../include/XrayFluoDataSet.hh
  ../include/XrayFluoNormalization.hh
+ /home/ripires/HPGe/xray_fluorescence/src/XrayFluoNormalization.cc
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Units/SystemOfUnits.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/G4DataVector.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/G4DataVector.icc
@@ -3068,11 +3069,11 @@ CMakeFiles/XrayFluo.dir/src/XrayFluoNormalization.cc.o
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/globals.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/templates.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/tls.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-install/share/Geant4-10.7.2/examples/advanced/xray_fluorescence/src/XrayFluoNormalization.cc
 CMakeFiles/XrayFluo.dir/src/XrayFluoPhysicsList.cc.o
  ../include/XrayFluoPhysicsList.hh
  ../include/XrayFluoPhysicsListMessenger.hh
  ../include/XrayFluoStepMax.hh
+ /home/ripires/HPGe/xray_fluorescence/src/XrayFluoPhysicsList.cc
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Random/DualRand.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Random/JamesRandom.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Random/MTwistEngine.h
@@ -3307,10 +3308,10 @@ CMakeFiles/XrayFluo.dir/src/XrayFluoPhysicsList.cc.o
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/templates.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/tls.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/trkdefs.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-install/share/Geant4-10.7.2/examples/advanced/xray_fluorescence/src/XrayFluoPhysicsList.cc
 CMakeFiles/XrayFluo.dir/src/XrayFluoPhysicsListMessenger.cc.o
  ../include/XrayFluoPhysicsList.hh
  ../include/XrayFluoPhysicsListMessenger.hh
+ /home/ripires/HPGe/xray_fluorescence/src/XrayFluoPhysicsListMessenger.cc
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/Normal3D.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/Point3D.h
@@ -3576,7 +3577,6 @@ CMakeFiles/XrayFluo.dir/src/XrayFluoPhysicsListMessenger.cc.o
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/templates.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/tls.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/trkdefs.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-install/share/Geant4-10.7.2/examples/advanced/xray_fluorescence/src/XrayFluoPhysicsListMessenger.cc
 CMakeFiles/XrayFluo.dir/src/XrayFluoPlaneDetectorConstruction.cc.o
  ../include/XrayFluoDataSet.hh
  ../include/XrayFluoHPGeDetectorType.hh
@@ -3587,6 +3587,7 @@ CMakeFiles/XrayFluo.dir/src/XrayFluoPlaneDetectorConstruction.cc.o
  ../include/XrayFluoSensorHit.hh
  ../include/XrayFluoSiLiDetectorType.hh
  ../include/XrayFluoVDetectorType.hh
+ /home/ripires/HPGe/xray_fluorescence/src/XrayFluoPlaneDetectorConstruction.cc
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/Normal3D.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/Plane3D.h
@@ -3901,7 +3902,6 @@ CMakeFiles/XrayFluo.dir/src/XrayFluoPlaneDetectorConstruction.cc.o
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/templates.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/tls.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/trkdefs.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-install/share/Geant4-10.7.2/examples/advanced/xray_fluorescence/src/XrayFluoPlaneDetectorConstruction.cc
 CMakeFiles/XrayFluo.dir/src/XrayFluoPlaneDetectorMessenger.cc.o
  ../include/XrayFluoDataSet.hh
  ../include/XrayFluoHPGeDetectorType.hh
@@ -3911,6 +3911,7 @@ CMakeFiles/XrayFluo.dir/src/XrayFluoPlaneDetectorMessenger.cc.o
  ../include/XrayFluoSensorHit.hh
  ../include/XrayFluoSiLiDetectorType.hh
  ../include/XrayFluoVDetectorType.hh
+ /home/ripires/HPGe/xray_fluorescence/src/XrayFluoPlaneDetectorMessenger.cc
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/Normal3D.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/Point3D.h
@@ -4175,7 +4176,6 @@ CMakeFiles/XrayFluo.dir/src/XrayFluoPlaneDetectorMessenger.cc.o
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/templates.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/tls.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/trkdefs.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-install/share/Geant4-10.7.2/examples/advanced/xray_fluorescence/src/XrayFluoPlaneDetectorMessenger.cc
 CMakeFiles/XrayFluo.dir/src/XrayFluoPlanePrimaryGeneratorAction.cc.o
  ../include/XrayFluoAnalysisManager.hh
  ../include/XrayFluoAnalysisMessenger.hh
@@ -4189,6 +4189,7 @@ CMakeFiles/XrayFluo.dir/src/XrayFluoPlanePrimaryGeneratorAction.cc.o
  ../include/XrayFluoSensorHit.hh
  ../include/XrayFluoSiLiDetectorType.hh
  ../include/XrayFluoVDetectorType.hh
+ /home/ripires/HPGe/xray_fluorescence/src/XrayFluoPlanePrimaryGeneratorAction.cc
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/Normal3D.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/Point3D.h
@@ -4394,10 +4395,10 @@ CMakeFiles/XrayFluo.dir/src/XrayFluoPlanePrimaryGeneratorAction.cc.o
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/templates.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/tls.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/trkdefs.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-install/share/Geant4-10.7.2/examples/advanced/xray_fluorescence/src/XrayFluoPlanePrimaryGeneratorAction.cc
 CMakeFiles/XrayFluo.dir/src/XrayFluoPlanePrimaryGeneratorMessenger.cc.o
  ../include/XrayFluoPlanePrimaryGeneratorAction.hh
  ../include/XrayFluoPlanePrimaryGeneratorMessenger.hh
+ /home/ripires/HPGe/xray_fluorescence/src/XrayFluoPlanePrimaryGeneratorMessenger.cc
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Utility/defs.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Vector/ThreeVector.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Vector/ThreeVector.icc
@@ -4422,7 +4423,6 @@ CMakeFiles/XrayFluo.dir/src/XrayFluoPlanePrimaryGeneratorMessenger.cc.o
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/globals.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/templates.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/tls.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-install/share/Geant4-10.7.2/examples/advanced/xray_fluorescence/src/XrayFluoPlanePrimaryGeneratorMessenger.cc
 CMakeFiles/XrayFluo.dir/src/XrayFluoPrimaryGeneratorAction.cc.o
  ../include/XrayFluoAnalysisManager.hh
  ../include/XrayFluoAnalysisMessenger.hh
@@ -4437,6 +4437,7 @@ CMakeFiles/XrayFluo.dir/src/XrayFluoPrimaryGeneratorAction.cc.o
  ../include/XrayFluoSensorHit.hh
  ../include/XrayFluoSiLiDetectorType.hh
  ../include/XrayFluoVDetectorType.hh
+ /home/ripires/HPGe/xray_fluorescence/src/XrayFluoPrimaryGeneratorAction.cc
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/Normal3D.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/Point3D.h
@@ -4709,10 +4710,10 @@ CMakeFiles/XrayFluo.dir/src/XrayFluoPrimaryGeneratorAction.cc.o
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/templates.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/tls.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/trkdefs.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-install/share/Geant4-10.7.2/examples/advanced/xray_fluorescence/src/XrayFluoPrimaryGeneratorAction.cc
 CMakeFiles/XrayFluo.dir/src/XrayFluoPrimaryGeneratorMessenger.cc.o
  ../include/XrayFluoPrimaryGeneratorAction.hh
  ../include/XrayFluoPrimaryGeneratorMessenger.hh
+ /home/ripires/HPGe/xray_fluorescence/src/XrayFluoPrimaryGeneratorMessenger.cc
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Utility/defs.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Vector/ThreeVector.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Vector/ThreeVector.icc
@@ -4740,13 +4741,13 @@ CMakeFiles/XrayFluo.dir/src/XrayFluoPrimaryGeneratorMessenger.cc.o
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/globals.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/templates.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/tls.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-install/share/Geant4-10.7.2/examples/advanced/xray_fluorescence/src/XrayFluoPrimaryGeneratorMessenger.cc
 CMakeFiles/XrayFluo.dir/src/XrayFluoRunAction.cc.o
  ../include/XrayFluoAnalysisManager.hh
  ../include/XrayFluoAnalysisMessenger.hh
  ../include/XrayFluoDataSet.hh
  ../include/XrayFluoNormalization.hh
  ../include/XrayFluoRunAction.hh
+ /home/ripires/HPGe/xray_fluorescence/src/XrayFluoRunAction.cc
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/Normal3D.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/Point3D.h
@@ -4813,7 +4814,6 @@ CMakeFiles/XrayFluo.dir/src/XrayFluoRunAction.cc.o
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/icomsdefs.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/templates.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/tls.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-install/share/Geant4-10.7.2/examples/advanced/xray_fluorescence/src/XrayFluoRunAction.cc
 CMakeFiles/XrayFluo.dir/src/XrayFluoSD.cc.o
  ../include/XrayFluoDataSet.hh
  ../include/XrayFluoDetectorConstruction.hh
@@ -4825,6 +4825,7 @@ CMakeFiles/XrayFluo.dir/src/XrayFluoSD.cc.o
  ../include/XrayFluoSensorHit.hh
  ../include/XrayFluoSiLiDetectorType.hh
  ../include/XrayFluoVDetectorType.hh
+ /home/ripires/HPGe/xray_fluorescence/src/XrayFluoSD.cc
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/Normal3D.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/Point3D.h
@@ -5049,9 +5050,9 @@ CMakeFiles/XrayFluo.dir/src/XrayFluoSD.cc.o
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/templates.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/tls.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/trkdefs.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-install/share/Geant4-10.7.2/examples/advanced/xray_fluorescence/src/XrayFluoSD.cc
 CMakeFiles/XrayFluo.dir/src/XrayFluoSensorHit.cc.o
  ../include/XrayFluoSensorHit.hh
+ /home/ripires/HPGe/xray_fluorescence/src/XrayFluoSensorHit.cc
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Utility/defs.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Vector/ThreeVector.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Vector/ThreeVector.icc
@@ -5073,11 +5074,11 @@ CMakeFiles/XrayFluo.dir/src/XrayFluoSensorHit.cc.o
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/globals.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/templates.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/tls.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-install/share/Geant4-10.7.2/examples/advanced/xray_fluorescence/src/XrayFluoSensorHit.cc
 CMakeFiles/XrayFluo.dir/src/XrayFluoSiLiDetectorType.cc.o
  ../include/XrayFluoDataSet.hh
  ../include/XrayFluoSiLiDetectorType.hh
  ../include/XrayFluoVDetectorType.hh
+ /home/ripires/HPGe/xray_fluorescence/src/XrayFluoSiLiDetectorType.cc
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Random/DualRand.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Random/JamesRandom.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Random/MTwistEngine.h
@@ -5149,7 +5150,6 @@ CMakeFiles/XrayFluo.dir/src/XrayFluoSiLiDetectorType.cc.o
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/globals.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/templates.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/tls.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-install/share/Geant4-10.7.2/examples/advanced/xray_fluorescence/src/XrayFluoSiLiDetectorType.cc
 CMakeFiles/XrayFluo.dir/src/XrayFluoSimulation.cc.o
  ../include/XrayFluoActionInitializer.hh
  ../include/XrayFluoAnalysisManager.hh
@@ -5166,6 +5166,7 @@ CMakeFiles/XrayFluo.dir/src/XrayFluoSimulation.cc.o
  ../include/XrayFluoSiLiDetectorType.hh
  ../include/XrayFluoSimulation.hh
  ../include/XrayFluoVDetectorType.hh
+ /home/ripires/HPGe/xray_fluorescence/src/XrayFluoSimulation.cc
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/Normal3D.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/Plane3D.h
@@ -5513,10 +5514,10 @@ CMakeFiles/XrayFluo.dir/src/XrayFluoSimulation.cc.o
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/templates.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/tls.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/trkdefs.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-install/share/Geant4-10.7.2/examples/advanced/xray_fluorescence/src/XrayFluoSimulation.cc
 CMakeFiles/XrayFluo.dir/src/XrayFluoStepMax.cc.o
  ../include/XrayFluoStepMax.hh
  ../include/XrayFluoStepMaxMessenger.hh
+ /home/ripires/HPGe/xray_fluorescence/src/XrayFluoStepMax.cc
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Random/DualRand.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Random/JamesRandom.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Random/MTwistEngine.h
@@ -5682,10 +5683,10 @@ CMakeFiles/XrayFluo.dir/src/XrayFluoStepMax.cc.o
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/templates.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/tls.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/trkdefs.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-install/share/Geant4-10.7.2/examples/advanced/xray_fluorescence/src/XrayFluoStepMax.cc
 CMakeFiles/XrayFluo.dir/src/XrayFluoStepMaxMessenger.cc.o
  ../include/XrayFluoStepMax.hh
  ../include/XrayFluoStepMaxMessenger.hh
+ /home/ripires/HPGe/xray_fluorescence/src/XrayFluoStepMaxMessenger.cc
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Random/DualRand.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Random/JamesRandom.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Random/MTwistEngine.h
@@ -5852,7 +5853,6 @@ CMakeFiles/XrayFluo.dir/src/XrayFluoStepMaxMessenger.cc.o
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/templates.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/tls.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/trkdefs.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-install/share/Geant4-10.7.2/examples/advanced/xray_fluorescence/src/XrayFluoStepMaxMessenger.cc
 CMakeFiles/XrayFluo.dir/src/XrayFluoSteppingAction.cc.o
  ../include/XrayFluoAnalysisManager.hh
  ../include/XrayFluoAnalysisMessenger.hh
@@ -5864,6 +5864,7 @@ CMakeFiles/XrayFluo.dir/src/XrayFluoSteppingAction.cc.o
  ../include/XrayFluoSiLiDetectorType.hh
  ../include/XrayFluoSteppingAction.hh
  ../include/XrayFluoVDetectorType.hh
+ /home/ripires/HPGe/xray_fluorescence/src/XrayFluoSteppingAction.cc
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/Normal3D.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/Point3D.h
@@ -6100,9 +6101,9 @@ CMakeFiles/XrayFluo.dir/src/XrayFluoSteppingAction.cc.o
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/templates.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/tls.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/trkdefs.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-install/share/Geant4-10.7.2/examples/advanced/xray_fluorescence/src/XrayFluoSteppingAction.cc
 CMakeFiles/XrayFluo.dir/src/XrayFluoSteppingVerbose.cc.o
  ../include/XrayFluoSteppingVerbose.hh
+ /home/ripires/HPGe/xray_fluorescence/src/XrayFluoSteppingVerbose.cc
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/Normal3D.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/Point3D.h
@@ -6321,9 +6322,9 @@ CMakeFiles/XrayFluo.dir/src/XrayFluoSteppingVerbose.cc.o
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/templates.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/tls.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/trkdefs.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-install/share/Geant4-10.7.2/examples/advanced/xray_fluorescence/src/XrayFluoSteppingVerbose.cc
 CMakeFiles/XrayFluo.dir/src/XrayFluoVDetectorType.cc.o
  ../include/XrayFluoVDetectorType.hh
+ /home/ripires/HPGe/xray_fluorescence/src/XrayFluoVDetectorType.cc
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/G4EnvironmentUtils.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/G4Exception.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/G4ExceptionSeverity.hh
@@ -6336,4 +6337,3 @@ CMakeFiles/XrayFluo.dir/src/XrayFluoVDetectorType.cc.o
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/globals.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/templates.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/tls.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-install/share/Geant4-10.7.2/examples/advanced/xray_fluorescence/src/XrayFluoVDetectorType.cc

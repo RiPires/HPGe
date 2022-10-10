@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ripires/bin/Geant4/geant4.10.07.p02-install/share/Geant4-10.7.2/examples/advanced/xray_fluorescence
+CMAKE_SOURCE_DIR = /home/ripires/HPGe/xray_fluorescence
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ripires/bin/Geant4/geant4.10.07.p02-install/share/Geant4-10.7.2/examples/advanced/xray_fluorescence/build
+CMAKE_BINARY_DIR = /home/ripires/HPGe/xray_fluorescence/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,9 +126,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ripires/bin/Geant4/geant4.10.07.p02-install/share/Geant4-10.7.2/examples/advanced/xray_fluorescence/build/CMakeFiles /home/ripires/bin/Geant4/geant4.10.07.p02-install/share/Geant4-10.7.2/examples/advanced/xray_fluorescence/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ripires/HPGe/xray_fluorescence/build/CMakeFiles /home/ripires/HPGe/xray_fluorescence/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ripires/bin/Geant4/geant4.10.07.p02-install/share/Geant4-10.7.2/examples/advanced/xray_fluorescence/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ripires/HPGe/xray_fluorescence/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

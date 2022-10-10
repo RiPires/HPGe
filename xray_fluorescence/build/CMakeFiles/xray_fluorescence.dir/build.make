@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ripires/bin/Geant4/geant4.10.07.p02-install/share/Geant4-10.7.2/examples/advanced/xray_fluorescence
+CMAKE_SOURCE_DIR = /home/ripires/HPGe/xray_fluorescence
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ripires/bin/Geant4/geant4.10.07.p02-install/share/Geant4-10.7.2/examples/advanced/xray_fluorescence/build
+CMAKE_BINARY_DIR = /home/ripires/HPGe/xray_fluorescence/build
 
 # Utility rule file for xray_fluorescence.
 
@@ -71,6 +71,6 @@ CMakeFiles/xray_fluorescence.dir/clean:
 .PHONY : CMakeFiles/xray_fluorescence.dir/clean
 
 CMakeFiles/xray_fluorescence.dir/depend:
-	cd /home/ripires/bin/Geant4/geant4.10.07.p02-install/share/Geant4-10.7.2/examples/advanced/xray_fluorescence/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ripires/bin/Geant4/geant4.10.07.p02-install/share/Geant4-10.7.2/examples/advanced/xray_fluorescence /home/ripires/bin/Geant4/geant4.10.07.p02-install/share/Geant4-10.7.2/examples/advanced/xray_fluorescence /home/ripires/bin/Geant4/geant4.10.07.p02-install/share/Geant4-10.7.2/examples/advanced/xray_fluorescence/build /home/ripires/bin/Geant4/geant4.10.07.p02-install/share/Geant4-10.7.2/examples/advanced/xray_fluorescence/build /home/ripires/bin/Geant4/geant4.10.07.p02-install/share/Geant4-10.7.2/examples/advanced/xray_fluorescence/build/CMakeFiles/xray_fluorescence.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ripires/HPGe/xray_fluorescence/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ripires/HPGe/xray_fluorescence /home/ripires/HPGe/xray_fluorescence /home/ripires/HPGe/xray_fluorescence/build /home/ripires/HPGe/xray_fluorescence/build /home/ripires/HPGe/xray_fluorescence/build/CMakeFiles/xray_fluorescence.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/xray_fluorescence.dir/depend
 

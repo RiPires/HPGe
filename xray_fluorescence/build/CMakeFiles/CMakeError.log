@@ -1,21 +1,21 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
-Change Dir: /home/ripires/bin/Geant4/geant4.10.07.p02-install/share/Geant4-10.7.2/examples/advanced/xray_fluorescence/build/CMakeFiles/CMakeTmp
+Change Dir: /home/ripires/HPGe/xray_fluorescence/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_0ea06/fast && /usr/bin/make -f CMakeFiles/cmTC_0ea06.dir/build.make CMakeFiles/cmTC_0ea06.dir/build
-make[1]: Entering directory '/home/ripires/bin/Geant4/geant4.10.07.p02-install/share/Geant4-10.7.2/examples/advanced/xray_fluorescence/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_0ea06.dir/src.c.o
-/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_0ea06.dir/src.c.o   -c /home/ripires/bin/Geant4/geant4.10.07.p02-install/share/Geant4-10.7.2/examples/advanced/xray_fluorescence/build/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_0ea06
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0ea06.dir/link.txt --verbose=1
-/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_0ea06.dir/src.c.o  -o cmTC_0ea06 
-/usr/bin/ld: CMakeFiles/cmTC_0ea06.dir/src.c.o: in function `main':
+Run Build Command(s):/usr/bin/make cmTC_654db/fast && /usr/bin/make -f CMakeFiles/cmTC_654db.dir/build.make CMakeFiles/cmTC_654db.dir/build
+make[1]: Entering directory '/home/ripires/HPGe/xray_fluorescence/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_654db.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_654db.dir/src.c.o   -c /home/ripires/HPGe/xray_fluorescence/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_654db
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_654db.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_654db.dir/src.c.o  -o cmTC_654db 
+/usr/bin/ld: CMakeFiles/cmTC_654db.dir/src.c.o: in function `main':
 src.c:(.text+0x46): undefined reference to `pthread_create'
 /usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
 /usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_0ea06.dir/build.make:87: cmTC_0ea06] Error 1
-make[1]: Leaving directory '/home/ripires/bin/Geant4/geant4.10.07.p02-install/share/Geant4-10.7.2/examples/advanced/xray_fluorescence/build/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_0ea06/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_654db.dir/build.make:87: cmTC_654db] Error 1
+make[1]: Leaving directory '/home/ripires/HPGe/xray_fluorescence/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_654db/fast] Error 2
 
 
 Source file was:
