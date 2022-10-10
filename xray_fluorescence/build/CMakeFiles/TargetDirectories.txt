@@ -1,0 +1,8 @@
+/home/ripires/bin/Geant4/geant4.10.07.p02-install/share/Geant4-10.7.2/examples/advanced/xray_fluorescence/build/CMakeFiles/install/strip.dir
+/home/ripires/bin/Geant4/geant4.10.07.p02-install/share/Geant4-10.7.2/examples/advanced/xray_fluorescence/build/CMakeFiles/install/local.dir
+/home/ripires/bin/Geant4/geant4.10.07.p02-install/share/Geant4-10.7.2/examples/advanced/xray_fluorescence/build/CMakeFiles/install.dir
+/home/ripires/bin/Geant4/geant4.10.07.p02-install/share/Geant4-10.7.2/examples/advanced/xray_fluorescence/build/CMakeFiles/list_install_components.dir
+/home/ripires/bin/Geant4/geant4.10.07.p02-install/share/Geant4-10.7.2/examples/advanced/xray_fluorescence/build/CMakeFiles/rebuild_cache.dir
+/home/ripires/bin/Geant4/geant4.10.07.p02-install/share/Geant4-10.7.2/examples/advanced/xray_fluorescence/build/CMakeFiles/edit_cache.dir
+/home/ripires/bin/Geant4/geant4.10.07.p02-install/share/Geant4-10.7.2/examples/advanced/xray_fluorescence/build/CMakeFiles/xray_fluorescence.dir
+/home/ripires/bin/Geant4/geant4.10.07.p02-install/share/Geant4-10.7.2/examples/advanced/xray_fluorescence/build/CMakeFiles/XrayFluo.dir
