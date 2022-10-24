@@ -1,4 +1,4 @@
-# Install script for directory: /home/ripires/sim/sim_v3_HPGe/HPGe_Edep
+# Install script for directory: /home/ripires/HPGe/HPGe_Edep
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ripires/sim/sim_v3_HPGe/HPGe_Edep/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ripires/HPGe/HPGe_Edep/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

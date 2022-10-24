@@ -4,7 +4,7 @@
 CMakeFiles/HPGe_dev.dir/HPGe_dev.cc.o
  ../include/HPGeActionInitialization.hh
  ../include/HPGeDetectorConstruction.hh
- /home/ripires/HPGe/HPGe_dev/HPGe_dev.cc
+ /home/ripires/HPGe/HPGe_test/HPGe_dev.cc
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/Normal3D.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/Plane3D.h
@@ -374,7 +374,7 @@ CMakeFiles/HPGe_dev.dir/src/HPGeActionInitialization.cc.o
  ../include/HPGePrimaryGeneratorAction.hh
  ../include/HPGeRunAction.hh
  ../include/HPGeSteppingAction.hh
- /home/ripires/HPGe/HPGe_dev/src/HPGeActionInitialization.cc
+ /home/ripires/HPGe/HPGe_test/src/HPGeActionInitialization.cc
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/G4EnvironmentUtils.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/G4Exception.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/G4ExceptionSeverity.hh
@@ -395,7 +395,7 @@ CMakeFiles/HPGe_dev.dir/src/HPGeActionInitialization.cc.o
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/tls.hh
 CMakeFiles/HPGe_dev.dir/src/HPGeDetectorConstruction.cc.o
  ../include/HPGeDetectorConstruction.hh
- /home/ripires/HPGe/HPGe_dev/src/HPGeDetectorConstruction.cc
+ /home/ripires/HPGe/HPGe_test/src/HPGeDetectorConstruction.cc
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/Normal3D.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/Plane3D.h
@@ -533,7 +533,7 @@ CMakeFiles/HPGe_dev.dir/src/HPGeEventAction.cc.o
  ../include/HPGeAnalysis.hh
  ../include/HPGeEventAction.hh
  ../include/HPGeRunAction.hh
- /home/ripires/HPGe/HPGe_dev/src/HPGeEventAction.cc
+ /home/ripires/HPGe/HPGe_test/src/HPGeEventAction.cc
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/Normal3D.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/Point3D.h
@@ -950,7 +950,7 @@ CMakeFiles/HPGe_dev.dir/src/HPGeEventAction.cc.o
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/trkdefs.hh
 CMakeFiles/HPGe_dev.dir/src/HPGePrimaryGeneratorAction.cc.o
  ../include/HPGePrimaryGeneratorAction.hh
- /home/ripires/HPGe/HPGe_dev/src/HPGePrimaryGeneratorAction.cc
+ /home/ripires/HPGe/HPGe_test/src/HPGePrimaryGeneratorAction.cc
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/Normal3D.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/Plane3D.h
@@ -1230,7 +1230,7 @@ CMakeFiles/HPGe_dev.dir/src/HPGePrimaryGeneratorAction.cc.o
 CMakeFiles/HPGe_dev.dir/src/HPGeRunAction.cc.o
  ../include/HPGeAnalysis.hh
  ../include/HPGeRunAction.hh
- /home/ripires/HPGe/HPGe_dev/src/HPGeRunAction.cc
+ /home/ripires/HPGe/HPGe_test/src/HPGeRunAction.cc
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/Normal3D.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/Point3D.h
@@ -1650,7 +1650,7 @@ CMakeFiles/HPGe_dev.dir/src/HPGeSteppingAction.cc.o
  ../include/HPGeDetectorConstruction.hh
  ../include/HPGeEventAction.hh
  ../include/HPGeSteppingAction.hh
- /home/ripires/HPGe/HPGe_dev/src/HPGeSteppingAction.cc
+ /home/ripires/HPGe/HPGe_test/src/HPGeSteppingAction.cc
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/Normal3D.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Geometry/Point3D.h

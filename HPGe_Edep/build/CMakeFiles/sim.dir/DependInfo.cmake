@@ -4,15 +4,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ripires/sim/sim_v3_HPGe/HPGe_Edep/action.cc" "/home/ripires/sim/sim_v3_HPGe/HPGe_Edep/build/CMakeFiles/sim.dir/action.cc.o"
-  "/home/ripires/sim/sim_v3_HPGe/HPGe_Edep/construction.cc" "/home/ripires/sim/sim_v3_HPGe/HPGe_Edep/build/CMakeFiles/sim.dir/construction.cc.o"
-  "/home/ripires/sim/sim_v3_HPGe/HPGe_Edep/detector.cc" "/home/ripires/sim/sim_v3_HPGe/HPGe_Edep/build/CMakeFiles/sim.dir/detector.cc.o"
-  "/home/ripires/sim/sim_v3_HPGe/HPGe_Edep/event.cc" "/home/ripires/sim/sim_v3_HPGe/HPGe_Edep/build/CMakeFiles/sim.dir/event.cc.o"
-  "/home/ripires/sim/sim_v3_HPGe/HPGe_Edep/generator.cc" "/home/ripires/sim/sim_v3_HPGe/HPGe_Edep/build/CMakeFiles/sim.dir/generator.cc.o"
-  "/home/ripires/sim/sim_v3_HPGe/HPGe_Edep/physics.cc" "/home/ripires/sim/sim_v3_HPGe/HPGe_Edep/build/CMakeFiles/sim.dir/physics.cc.o"
-  "/home/ripires/sim/sim_v3_HPGe/HPGe_Edep/run.cc" "/home/ripires/sim/sim_v3_HPGe/HPGe_Edep/build/CMakeFiles/sim.dir/run.cc.o"
-  "/home/ripires/sim/sim_v3_HPGe/HPGe_Edep/sim.cc" "/home/ripires/sim/sim_v3_HPGe/HPGe_Edep/build/CMakeFiles/sim.dir/sim.cc.o"
-  "/home/ripires/sim/sim_v3_HPGe/HPGe_Edep/stepping.cc" "/home/ripires/sim/sim_v3_HPGe/HPGe_Edep/build/CMakeFiles/sim.dir/stepping.cc.o"
+  "/home/ripires/HPGe/HPGe_Edep/action.cc" "/home/ripires/HPGe/HPGe_Edep/build/CMakeFiles/sim.dir/action.cc.o"
+  "/home/ripires/HPGe/HPGe_Edep/construction.cc" "/home/ripires/HPGe/HPGe_Edep/build/CMakeFiles/sim.dir/construction.cc.o"
+  "/home/ripires/HPGe/HPGe_Edep/detector.cc" "/home/ripires/HPGe/HPGe_Edep/build/CMakeFiles/sim.dir/detector.cc.o"
+  "/home/ripires/HPGe/HPGe_Edep/event.cc" "/home/ripires/HPGe/HPGe_Edep/build/CMakeFiles/sim.dir/event.cc.o"
+  "/home/ripires/HPGe/HPGe_Edep/generator.cc" "/home/ripires/HPGe/HPGe_Edep/build/CMakeFiles/sim.dir/generator.cc.o"
+  "/home/ripires/HPGe/HPGe_Edep/physics.cc" "/home/ripires/HPGe/HPGe_Edep/build/CMakeFiles/sim.dir/physics.cc.o"
+  "/home/ripires/HPGe/HPGe_Edep/run.cc" "/home/ripires/HPGe/HPGe_Edep/build/CMakeFiles/sim.dir/run.cc.o"
+  "/home/ripires/HPGe/HPGe_Edep/sim.cc" "/home/ripires/HPGe/HPGe_Edep/build/CMakeFiles/sim.dir/sim.cc.o"
+  "/home/ripires/HPGe/HPGe_Edep/stepping.cc" "/home/ripires/HPGe/HPGe_Edep/build/CMakeFiles/sim.dir/stepping.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -25,7 +25,6 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
   "G4UI_USE_TCSH"
   "G4VIS_USE_OPENGL"
   "G4VIS_USE_OPENGLQT"
-  "G4VIS_USE_OPENGLX"
   "G4VIS_USE_RAYTRACERX"
   "QT_CORE_LIB"
   "QT_GUI_LIB"
@@ -37,7 +36,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/ripires/bin/geant4.10.07.p02install/include/Geant4"
+  "/home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4"
   "/usr/include/x86_64-linux-gnu/qt5"
   "/usr/include/x86_64-linux-gnu/qt5/QtCore"
   "/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"
