@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ripires/sim/sim_v3_HPGe/HPGe_Eff
+CMAKE_SOURCE_DIR = /home/ripires/HPGe/HPGe_Eff
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ripires/sim/sim_v3_HPGe/HPGe_Eff/build
+CMAKE_BINARY_DIR = /home/ripires/HPGe/HPGe_Eff/build
 
 # Utility rule file for SimulationTest.
 
@@ -71,6 +71,6 @@ CMakeFiles/SimulationTest.dir/clean:
 .PHONY : CMakeFiles/SimulationTest.dir/clean
 
 CMakeFiles/SimulationTest.dir/depend:
-	cd /home/ripires/sim/sim_v3_HPGe/HPGe_Eff/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ripires/sim/sim_v3_HPGe/HPGe_Eff /home/ripires/sim/sim_v3_HPGe/HPGe_Eff /home/ripires/sim/sim_v3_HPGe/HPGe_Eff/build /home/ripires/sim/sim_v3_HPGe/HPGe_Eff/build /home/ripires/sim/sim_v3_HPGe/HPGe_Eff/build/CMakeFiles/SimulationTest.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ripires/HPGe/HPGe_Eff/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ripires/HPGe/HPGe_Eff /home/ripires/HPGe/HPGe_Eff /home/ripires/HPGe/HPGe_Eff/build /home/ripires/HPGe/HPGe_Eff/build /home/ripires/HPGe/HPGe_Eff/build/CMakeFiles/SimulationTest.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/SimulationTest.dir/depend
 
