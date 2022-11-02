@@ -6,9 +6,25 @@
 
 #IncludeRegexTransform: 
 
+../include/HPGeActionInitialization.hh
+G4VUserActionInitialization.hh
+../include/G4VUserActionInitialization.hh
+
 ../include/HPGeEventAction.hh
 G4UserEventAction.hh
 ../include/G4UserEventAction.hh
+globals.hh
+../include/globals.hh
+
+../include/HPGePrimaryGeneratorAction.hh
+G4VUserPrimaryGeneratorAction.hh
+../include/G4VUserPrimaryGeneratorAction.hh
+globals.hh
+../include/globals.hh
+
+../include/HPGeRunAction.hh
+G4UserRunAction.hh
+../include/G4UserRunAction.hh
 globals.hh
 ../include/globals.hh
 
@@ -52,19 +68,21 @@ G4SystemOfUnits.hh
 g4root.hh
 ../include/g4root.hh
 
-/home/ripires/HPGe/HPGe_dev/src/HPGeSteppingAction.cc
-HPGeSteppingAction.hh
-/home/ripires/HPGe/HPGe_dev/src/HPGeSteppingAction.hh
+/home/ripires/HPGe/HPGe_dev/src/HPGeActionInitialization.cc
+HPGeActionInitialization.hh
+/home/ripires/HPGe/HPGe_dev/src/HPGeActionInitialization.hh
+HPGePrimaryGeneratorAction.hh
+/home/ripires/HPGe/HPGe_dev/src/HPGePrimaryGeneratorAction.hh
+HPGeRunAction.hh
+/home/ripires/HPGe/HPGe_dev/src/HPGeRunAction.hh
 HPGeEventAction.hh
 /home/ripires/HPGe/HPGe_dev/src/HPGeEventAction.hh
+HPGeSteppingAction.hh
+/home/ripires/HPGe/HPGe_dev/src/HPGeSteppingAction.hh
 construction.hh
 /home/ripires/HPGe/HPGe_dev/src/construction.hh
 detector.hh
 /home/ripires/HPGe/HPGe_dev/src/detector.hh
-G4Step.hh
-/home/ripires/HPGe/HPGe_dev/src/G4Step.hh
-G4RunManager.hh
-/home/ripires/HPGe/HPGe_dev/src/G4RunManager.hh
 
 /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/CLHEP/Geometry/BasicVector3D.h
 iosfwd
@@ -2572,6 +2590,10 @@ G4Polyhedron.hh
 
 /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4UserEventAction.hh
 
+/home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4UserRunAction.hh
+G4Types.hh
+/home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4Types.hh
+
 /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4UserStackingAction.hh
 G4ClassificationOfNewTrack.hh
 /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4ClassificationOfNewTrack.hh
@@ -2930,6 +2952,8 @@ globals.hh
 G4ThreeVector.hh
 /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4ThreeVector.hh
 
+/home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4VUserActionInitialization.hh
+
 /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4VUserDetectorConstruction.hh
 globals.hh
 /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/globals.hh
@@ -2937,6 +2961,8 @@ vector
 -
 
 /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4VUserEventInformation.hh
+
+/home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4VUserPrimaryGeneratorAction.hh
 
 /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4VUserTrackInformation.hh
 globals.hh

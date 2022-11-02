@@ -33,6 +33,7 @@
 #include "HPGeEventAction.hh"
 #include "HPGeSteppingAction.hh"
 #include "construction.hh"
+#include "detector.hh"
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
