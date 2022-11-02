@@ -35,7 +35,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../include"
-  "/home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4"
+  "/home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4"
   "/usr/include/x86_64-linux-gnu/qt5"
   "/usr/include/x86_64-linux-gnu/qt5/QtCore"
   "/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"
