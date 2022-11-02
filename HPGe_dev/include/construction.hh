@@ -13,7 +13,7 @@
 #include "G4GenericMessenger.hh"
 #include "G4SubtractionSolid.hh"
 
-#include "detector.hh"
+///#include "detector.hh"
 
 
 class MyDetectorConstruction : public G4VUserDetectorConstruction

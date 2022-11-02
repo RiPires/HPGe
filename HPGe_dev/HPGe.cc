@@ -27,7 +27,7 @@
 /// \file exampleHPGe.cc
 /// \brief Main program of the HPGe example
 
-#include "HPGeDetectorConstruction.hh"
+#include "construction.hh"
 #include "HPGeActionInitialization.hh"
 
 #include "G4RunManagerFactory.hh"

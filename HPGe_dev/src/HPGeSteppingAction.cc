@@ -29,7 +29,7 @@
 
 #include "HPGeSteppingAction.hh"
 #include "HPGeEventAction.hh"
-#include "HPGeDetectorConstruction.hh"
+#include "construction.hh"
 
 #include "G4Step.hh"
 #include "G4RunManager.hh"
