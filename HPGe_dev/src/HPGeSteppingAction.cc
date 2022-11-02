@@ -30,6 +30,7 @@
 #include "HPGeSteppingAction.hh"
 #include "HPGeEventAction.hh"
 #include "construction.hh"
+#include "detector.hh"
 
 #include "G4Step.hh"
 #include "G4RunManager.hh"
@@ -67,13 +68,13 @@ void HPGeSteppingAction::UserSteppingAction(const G4Step* step)
     stepLength = step->GetStepLength();
   }
       
-  if ( volume == fDetConstruction->GetAbsorberPV() ) {
+  /*if ( volume == fDetConstruction->GetAbsorberPV() ) {
     fEventAction->AddAbs(edep,stepLength);
-  }
+  }*/
   
-  if ( volume == fDetConstruction->GetGapPV() ) {
+  /*if ( volume == fDetConstruction->GetGapPV() ) {
     fEventAction->AddGap(edep,stepLength);
-  }
+  }*/
 }
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......

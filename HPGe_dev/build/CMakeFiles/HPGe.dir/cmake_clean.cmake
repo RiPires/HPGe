@@ -1,11 +1,12 @@
 file(REMOVE_RECURSE
   "CMakeFiles/HPGe.dir/HPGe.cc.o"
   "CMakeFiles/HPGe.dir/src/HPGeActionInitialization.cc.o"
-  "CMakeFiles/HPGe.dir/src/HPGeDetectorConstruction.cc.o"
   "CMakeFiles/HPGe.dir/src/HPGeEventAction.cc.o"
   "CMakeFiles/HPGe.dir/src/HPGePrimaryGeneratorAction.cc.o"
   "CMakeFiles/HPGe.dir/src/HPGeRunAction.cc.o"
   "CMakeFiles/HPGe.dir/src/HPGeSteppingAction.cc.o"
+  "CMakeFiles/HPGe.dir/src/construction.cc.o"
+  "CMakeFiles/HPGe.dir/src/detector.cc.o"
   "HPGe"
   "HPGe.pdb"
 )

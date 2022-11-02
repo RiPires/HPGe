@@ -83,22 +83,9 @@ CMakeFiles/HPGe.dir/src/HPGeActionInitialization.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HPGe.dir/src/HPGeActionInitialization.cc.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ripires/HPGe/HPGe_dev/src/HPGeActionInitialization.cc -o CMakeFiles/HPGe.dir/src/HPGeActionInitialization.cc.s
 
-CMakeFiles/HPGe.dir/src/HPGeDetectorConstruction.cc.o: CMakeFiles/HPGe.dir/flags.make
-CMakeFiles/HPGe.dir/src/HPGeDetectorConstruction.cc.o: ../src/HPGeDetectorConstruction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ripires/HPGe/HPGe_dev/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/HPGe.dir/src/HPGeDetectorConstruction.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HPGe.dir/src/HPGeDetectorConstruction.cc.o -c /home/ripires/HPGe/HPGe_dev/src/HPGeDetectorConstruction.cc
-
-CMakeFiles/HPGe.dir/src/HPGeDetectorConstruction.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HPGe.dir/src/HPGeDetectorConstruction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ripires/HPGe/HPGe_dev/src/HPGeDetectorConstruction.cc > CMakeFiles/HPGe.dir/src/HPGeDetectorConstruction.cc.i
-
-CMakeFiles/HPGe.dir/src/HPGeDetectorConstruction.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HPGe.dir/src/HPGeDetectorConstruction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ripires/HPGe/HPGe_dev/src/HPGeDetectorConstruction.cc -o CMakeFiles/HPGe.dir/src/HPGeDetectorConstruction.cc.s
-
 CMakeFiles/HPGe.dir/src/HPGeEventAction.cc.o: CMakeFiles/HPGe.dir/flags.make
 CMakeFiles/HPGe.dir/src/HPGeEventAction.cc.o: ../src/HPGeEventAction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ripires/HPGe/HPGe_dev/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/HPGe.dir/src/HPGeEventAction.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ripires/HPGe/HPGe_dev/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/HPGe.dir/src/HPGeEventAction.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HPGe.dir/src/HPGeEventAction.cc.o -c /home/ripires/HPGe/HPGe_dev/src/HPGeEventAction.cc
 
 CMakeFiles/HPGe.dir/src/HPGeEventAction.cc.i: cmake_force
@@ -111,7 +98,7 @@ CMakeFiles/HPGe.dir/src/HPGeEventAction.cc.s: cmake_force
 
 CMakeFiles/HPGe.dir/src/HPGePrimaryGeneratorAction.cc.o: CMakeFiles/HPGe.dir/flags.make
 CMakeFiles/HPGe.dir/src/HPGePrimaryGeneratorAction.cc.o: ../src/HPGePrimaryGeneratorAction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ripires/HPGe/HPGe_dev/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/HPGe.dir/src/HPGePrimaryGeneratorAction.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ripires/HPGe/HPGe_dev/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/HPGe.dir/src/HPGePrimaryGeneratorAction.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HPGe.dir/src/HPGePrimaryGeneratorAction.cc.o -c /home/ripires/HPGe/HPGe_dev/src/HPGePrimaryGeneratorAction.cc
 
 CMakeFiles/HPGe.dir/src/HPGePrimaryGeneratorAction.cc.i: cmake_force
@@ -124,7 +111,7 @@ CMakeFiles/HPGe.dir/src/HPGePrimaryGeneratorAction.cc.s: cmake_force
 
 CMakeFiles/HPGe.dir/src/HPGeRunAction.cc.o: CMakeFiles/HPGe.dir/flags.make
 CMakeFiles/HPGe.dir/src/HPGeRunAction.cc.o: ../src/HPGeRunAction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ripires/HPGe/HPGe_dev/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/HPGe.dir/src/HPGeRunAction.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ripires/HPGe/HPGe_dev/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/HPGe.dir/src/HPGeRunAction.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HPGe.dir/src/HPGeRunAction.cc.o -c /home/ripires/HPGe/HPGe_dev/src/HPGeRunAction.cc
 
 CMakeFiles/HPGe.dir/src/HPGeRunAction.cc.i: cmake_force
@@ -137,7 +124,7 @@ CMakeFiles/HPGe.dir/src/HPGeRunAction.cc.s: cmake_force
 
 CMakeFiles/HPGe.dir/src/HPGeSteppingAction.cc.o: CMakeFiles/HPGe.dir/flags.make
 CMakeFiles/HPGe.dir/src/HPGeSteppingAction.cc.o: ../src/HPGeSteppingAction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ripires/HPGe/HPGe_dev/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/HPGe.dir/src/HPGeSteppingAction.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ripires/HPGe/HPGe_dev/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/HPGe.dir/src/HPGeSteppingAction.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HPGe.dir/src/HPGeSteppingAction.cc.o -c /home/ripires/HPGe/HPGe_dev/src/HPGeSteppingAction.cc
 
 CMakeFiles/HPGe.dir/src/HPGeSteppingAction.cc.i: cmake_force
@@ -148,26 +135,54 @@ CMakeFiles/HPGe.dir/src/HPGeSteppingAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HPGe.dir/src/HPGeSteppingAction.cc.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ripires/HPGe/HPGe_dev/src/HPGeSteppingAction.cc -o CMakeFiles/HPGe.dir/src/HPGeSteppingAction.cc.s
 
+CMakeFiles/HPGe.dir/src/construction.cc.o: CMakeFiles/HPGe.dir/flags.make
+CMakeFiles/HPGe.dir/src/construction.cc.o: ../src/construction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ripires/HPGe/HPGe_dev/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/HPGe.dir/src/construction.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HPGe.dir/src/construction.cc.o -c /home/ripires/HPGe/HPGe_dev/src/construction.cc
+
+CMakeFiles/HPGe.dir/src/construction.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HPGe.dir/src/construction.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ripires/HPGe/HPGe_dev/src/construction.cc > CMakeFiles/HPGe.dir/src/construction.cc.i
+
+CMakeFiles/HPGe.dir/src/construction.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HPGe.dir/src/construction.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ripires/HPGe/HPGe_dev/src/construction.cc -o CMakeFiles/HPGe.dir/src/construction.cc.s
+
+CMakeFiles/HPGe.dir/src/detector.cc.o: CMakeFiles/HPGe.dir/flags.make
+CMakeFiles/HPGe.dir/src/detector.cc.o: ../src/detector.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ripires/HPGe/HPGe_dev/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/HPGe.dir/src/detector.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HPGe.dir/src/detector.cc.o -c /home/ripires/HPGe/HPGe_dev/src/detector.cc
+
+CMakeFiles/HPGe.dir/src/detector.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HPGe.dir/src/detector.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ripires/HPGe/HPGe_dev/src/detector.cc > CMakeFiles/HPGe.dir/src/detector.cc.i
+
+CMakeFiles/HPGe.dir/src/detector.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HPGe.dir/src/detector.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ripires/HPGe/HPGe_dev/src/detector.cc -o CMakeFiles/HPGe.dir/src/detector.cc.s
+
 # Object files for target HPGe
 HPGe_OBJECTS = \
 "CMakeFiles/HPGe.dir/HPGe.cc.o" \
 "CMakeFiles/HPGe.dir/src/HPGeActionInitialization.cc.o" \
-"CMakeFiles/HPGe.dir/src/HPGeDetectorConstruction.cc.o" \
 "CMakeFiles/HPGe.dir/src/HPGeEventAction.cc.o" \
 "CMakeFiles/HPGe.dir/src/HPGePrimaryGeneratorAction.cc.o" \
 "CMakeFiles/HPGe.dir/src/HPGeRunAction.cc.o" \
-"CMakeFiles/HPGe.dir/src/HPGeSteppingAction.cc.o"
+"CMakeFiles/HPGe.dir/src/HPGeSteppingAction.cc.o" \
+"CMakeFiles/HPGe.dir/src/construction.cc.o" \
+"CMakeFiles/HPGe.dir/src/detector.cc.o"
 
 # External object files for target HPGe
 HPGe_EXTERNAL_OBJECTS =
 
 HPGe: CMakeFiles/HPGe.dir/HPGe.cc.o
 HPGe: CMakeFiles/HPGe.dir/src/HPGeActionInitialization.cc.o
-HPGe: CMakeFiles/HPGe.dir/src/HPGeDetectorConstruction.cc.o
 HPGe: CMakeFiles/HPGe.dir/src/HPGeEventAction.cc.o
 HPGe: CMakeFiles/HPGe.dir/src/HPGePrimaryGeneratorAction.cc.o
 HPGe: CMakeFiles/HPGe.dir/src/HPGeRunAction.cc.o
 HPGe: CMakeFiles/HPGe.dir/src/HPGeSteppingAction.cc.o
+HPGe: CMakeFiles/HPGe.dir/src/construction.cc.o
+HPGe: CMakeFiles/HPGe.dir/src/detector.cc.o
 HPGe: CMakeFiles/HPGe.dir/build.make
 HPGe: /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/lib/libG4Tree.so
 HPGe: /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/lib/libG4FR.so
@@ -216,7 +231,7 @@ HPGe: /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/lib/libG4global.so
 HPGe: /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/lib/libG4clhep.so
 HPGe: /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/lib/libG4ptl.so.0.0.2
 HPGe: CMakeFiles/HPGe.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ripires/HPGe/HPGe_dev/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable HPGe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ripires/HPGe/HPGe_dev/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable HPGe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/HPGe.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

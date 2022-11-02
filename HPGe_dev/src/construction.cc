@@ -1,4 +1,5 @@
 #include "construction.hh"
+#include "detector.hh"
 #include "G4PhysicalConstants.hh"
 
 

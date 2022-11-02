@@ -6,11 +6,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/ripires/HPGe/HPGe_dev/HPGe.cc" "/home/ripires/HPGe/HPGe_dev/build/CMakeFiles/HPGe.dir/HPGe.cc.o"
   "/home/ripires/HPGe/HPGe_dev/src/HPGeActionInitialization.cc" "/home/ripires/HPGe/HPGe_dev/build/CMakeFiles/HPGe.dir/src/HPGeActionInitialization.cc.o"
-  "/home/ripires/HPGe/HPGe_dev/src/HPGeDetectorConstruction.cc" "/home/ripires/HPGe/HPGe_dev/build/CMakeFiles/HPGe.dir/src/HPGeDetectorConstruction.cc.o"
   "/home/ripires/HPGe/HPGe_dev/src/HPGeEventAction.cc" "/home/ripires/HPGe/HPGe_dev/build/CMakeFiles/HPGe.dir/src/HPGeEventAction.cc.o"
   "/home/ripires/HPGe/HPGe_dev/src/HPGePrimaryGeneratorAction.cc" "/home/ripires/HPGe/HPGe_dev/build/CMakeFiles/HPGe.dir/src/HPGePrimaryGeneratorAction.cc.o"
   "/home/ripires/HPGe/HPGe_dev/src/HPGeRunAction.cc" "/home/ripires/HPGe/HPGe_dev/build/CMakeFiles/HPGe.dir/src/HPGeRunAction.cc.o"
   "/home/ripires/HPGe/HPGe_dev/src/HPGeSteppingAction.cc" "/home/ripires/HPGe/HPGe_dev/build/CMakeFiles/HPGe.dir/src/HPGeSteppingAction.cc.o"
+  "/home/ripires/HPGe/HPGe_dev/src/construction.cc" "/home/ripires/HPGe/HPGe_dev/build/CMakeFiles/HPGe.dir/src/construction.cc.o"
+  "/home/ripires/HPGe/HPGe_dev/src/detector.cc" "/home/ripires/HPGe/HPGe_dev/build/CMakeFiles/HPGe.dir/src/detector.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

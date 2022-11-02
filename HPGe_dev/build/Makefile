@@ -223,33 +223,6 @@ src/HPGeActionInitialization.cc.s:
 	$(MAKE) -f CMakeFiles/HPGe.dir/build.make CMakeFiles/HPGe.dir/src/HPGeActionInitialization.cc.s
 .PHONY : src/HPGeActionInitialization.cc.s
 
-src/HPGeDetectorConstruction.o: src/HPGeDetectorConstruction.cc.o
-
-.PHONY : src/HPGeDetectorConstruction.o
-
-# target to build an object file
-src/HPGeDetectorConstruction.cc.o:
-	$(MAKE) -f CMakeFiles/HPGe.dir/build.make CMakeFiles/HPGe.dir/src/HPGeDetectorConstruction.cc.o
-.PHONY : src/HPGeDetectorConstruction.cc.o
-
-src/HPGeDetectorConstruction.i: src/HPGeDetectorConstruction.cc.i
-
-.PHONY : src/HPGeDetectorConstruction.i
-
-# target to preprocess a source file
-src/HPGeDetectorConstruction.cc.i:
-	$(MAKE) -f CMakeFiles/HPGe.dir/build.make CMakeFiles/HPGe.dir/src/HPGeDetectorConstruction.cc.i
-.PHONY : src/HPGeDetectorConstruction.cc.i
-
-src/HPGeDetectorConstruction.s: src/HPGeDetectorConstruction.cc.s
-
-.PHONY : src/HPGeDetectorConstruction.s
-
-# target to generate assembly for a file
-src/HPGeDetectorConstruction.cc.s:
-	$(MAKE) -f CMakeFiles/HPGe.dir/build.make CMakeFiles/HPGe.dir/src/HPGeDetectorConstruction.cc.s
-.PHONY : src/HPGeDetectorConstruction.cc.s
-
 src/HPGeEventAction.o: src/HPGeEventAction.cc.o
 
 .PHONY : src/HPGeEventAction.o
@@ -358,6 +331,60 @@ src/HPGeSteppingAction.cc.s:
 	$(MAKE) -f CMakeFiles/HPGe.dir/build.make CMakeFiles/HPGe.dir/src/HPGeSteppingAction.cc.s
 .PHONY : src/HPGeSteppingAction.cc.s
 
+src/construction.o: src/construction.cc.o
+
+.PHONY : src/construction.o
+
+# target to build an object file
+src/construction.cc.o:
+	$(MAKE) -f CMakeFiles/HPGe.dir/build.make CMakeFiles/HPGe.dir/src/construction.cc.o
+.PHONY : src/construction.cc.o
+
+src/construction.i: src/construction.cc.i
+
+.PHONY : src/construction.i
+
+# target to preprocess a source file
+src/construction.cc.i:
+	$(MAKE) -f CMakeFiles/HPGe.dir/build.make CMakeFiles/HPGe.dir/src/construction.cc.i
+.PHONY : src/construction.cc.i
+
+src/construction.s: src/construction.cc.s
+
+.PHONY : src/construction.s
+
+# target to generate assembly for a file
+src/construction.cc.s:
+	$(MAKE) -f CMakeFiles/HPGe.dir/build.make CMakeFiles/HPGe.dir/src/construction.cc.s
+.PHONY : src/construction.cc.s
+
+src/detector.o: src/detector.cc.o
+
+.PHONY : src/detector.o
+
+# target to build an object file
+src/detector.cc.o:
+	$(MAKE) -f CMakeFiles/HPGe.dir/build.make CMakeFiles/HPGe.dir/src/detector.cc.o
+.PHONY : src/detector.cc.o
+
+src/detector.i: src/detector.cc.i
+
+.PHONY : src/detector.i
+
+# target to preprocess a source file
+src/detector.cc.i:
+	$(MAKE) -f CMakeFiles/HPGe.dir/build.make CMakeFiles/HPGe.dir/src/detector.cc.i
+.PHONY : src/detector.cc.i
+
+src/detector.s: src/detector.cc.s
+
+.PHONY : src/detector.s
+
+# target to generate assembly for a file
+src/detector.cc.s:
+	$(MAKE) -f CMakeFiles/HPGe.dir/build.make CMakeFiles/HPGe.dir/src/detector.cc.s
+.PHONY : src/detector.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -377,9 +404,6 @@ help:
 	@echo "... src/HPGeActionInitialization.o"
 	@echo "... src/HPGeActionInitialization.i"
 	@echo "... src/HPGeActionInitialization.s"
-	@echo "... src/HPGeDetectorConstruction.o"
-	@echo "... src/HPGeDetectorConstruction.i"
-	@echo "... src/HPGeDetectorConstruction.s"
 	@echo "... src/HPGeEventAction.o"
 	@echo "... src/HPGeEventAction.i"
 	@echo "... src/HPGeEventAction.s"
@@ -392,6 +416,12 @@ help:
 	@echo "... src/HPGeSteppingAction.o"
 	@echo "... src/HPGeSteppingAction.i"
 	@echo "... src/HPGeSteppingAction.s"
+	@echo "... src/construction.o"
+	@echo "... src/construction.i"
+	@echo "... src/construction.s"
+	@echo "... src/detector.o"
+	@echo "... src/detector.i"
+	@echo "... src/detector.s"
 .PHONY : help
 
 
