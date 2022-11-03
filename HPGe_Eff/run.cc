@@ -38,8 +38,6 @@ void MyRunAction::BeginOfRunAction(const G4Run* run)
     strRunID << runID;
     
     man->OpenFile("output"+strRunID.str()+".root");
-    
-
 }
 
 void MyRunAction::EndOfRunAction(const G4Run*)

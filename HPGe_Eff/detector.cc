@@ -34,7 +34,7 @@ MySensitiveDetector::~MySensitiveDetector()
 G4bool MySensitiveDetector::ProcessHits(G4Step *aStep, G4TouchableHistory *ROhist)
 {
 
-    G4Track *track = aStep->GetTrack();                     // Gets particle info. in a step
+    G4Track *track = aStep->GetTrack();// Gets particle info. in a step   ////////////////////
     track->SetTrackStatus(fStopAndKill);// ?????? fStopAndKill: O que é que isto FAZ ??????
     
     G4StepPoint *preStepPoint = aStep->GetPreStepPoint();   // Info. no início do passo
@@ -46,9 +46,10 @@ G4bool MySensitiveDetector::ProcessHits(G4Step *aStep, G4TouchableHistory *ROhis
     G4double cdo /*[nm]*/ = (1.239841939*eV/momPhoton.mag())*1E+03;//Converte o momento em comprtimento de onda
     G4double photonEnergy = momPhoton.mag();                // Magnitude do momento do fotão  
                                                     //???? Porque é que é a energia????? 
-    ///G4cout << "Photon position: " << posPhoton << G4endl;//Prints photon position
+    ///G4cout << "Photon position: " << posPhoton << G4endl;//Prints photon position//////////
     
-    const G4VTouchable *touchable = aStep->GetPreStepPoint()->GetTouchable();
+
+    const G4VTouchable *touchable = aStep->GetPreStepPoint()->GetTouchable(); //Gets detector info. in a step   ///
     
     G4int copynr = touchable->GetCopyNumber();
     ///G4cout << "Copy number = " << copynr << G4endl;
@@ -56,12 +57,13 @@ G4bool MySensitiveDetector::ProcessHits(G4Step *aStep, G4TouchableHistory *ROhis
     G4VPhysicalVolume *physVol = touchable->GetVolume();
     G4ThreeVector posDetector = physVol->GetTranslation();
     
-    ///G4cout << "Detector position = " << posDetector << G4endl;
+    ///G4cout << "Detector position = " << posDetector << G4endl;  ////////////////////////////////////////////////                                            
     
+
     G4int evt = G4RunManager::GetRunManager()->GetCurrentEvent()->GetEventID();
     
     G4AnalysisManager *man = G4AnalysisManager::Instance();
-    
+
     man->FillNtupleIColumn(0, 0, evt);
     man->FillNtupleDColumn(0, 1, posPhoton[0]);
     man->FillNtupleDColumn(0, 2, posPhoton[1]);
@@ -70,7 +72,7 @@ G4bool MySensitiveDetector::ProcessHits(G4Step *aStep, G4TouchableHistory *ROhis
     man->FillNtupleDColumn(0, 5, photonEnergy);
     man->AddNtupleRow(0);
     
-    if(G4UniformRand() < quantEff->Value(photonEnergy))
+    if(G4UniformRand() < quantEff->Value(photonEnergy))  /// verificar isto !!!!!!
     {
     man->FillNtupleIColumn(1, 0, evt);
     man->FillNtupleDColumn(1, 1, posDetector[0]);
