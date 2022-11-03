@@ -13,11 +13,11 @@ MyRunAction::MyRunAction()
     man->CreateNtupleDColumn("Photon_Energy");
     man->FinishNtuple(0);
     
-    man->CreateNtuple("NrHits", "NrHits");
+    man->CreateNtuple("DetInfo", "DetInfo");
     man->CreateNtupleIColumn("EventNr");
-    man->CreateNtupleDColumn("EventX");
-    man->CreateNtupleDColumn("EventY");
-    man->CreateNtupleDColumn("EventZ");
+    man->CreateNtupleDColumn("DetX");
+    man->CreateNtupleDColumn("DetY");
+    man->CreateNtupleDColumn("DetZ");
     man->FinishNtuple(1); 
     
     man->CreateNtuple("Scoring", "Scoring");
