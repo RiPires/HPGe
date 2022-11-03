@@ -7,15 +7,15 @@ MyPrimaryGenerator::MyPrimaryGenerator()
     
     G4ParticleTable *particleTable = G4ParticleTable::GetParticleTable();
     G4String particleName="geantino";
-    G4ParticleDefinition *particle = particleTable->FindParticle("geantino");
+    G4ParticleDefinition *particle = particleTable->FindParticle("geantino"); // Sets prim .particle as GEANTINO  ///
     
-    G4ThreeVector pos(0.,0.,-5.*cm);
-    G4ThreeVector mom(0.,0.,1.);
+    G4ThreeVector pos(0.,0.,-5.*cm); //  Position for particle gun
+    G4ThreeVector mom(0.,0.,1.);     //  Momentum direction vector for prim. particle
     
-    fParticleGun->SetParticlePosition(pos);
-    fParticleGun->SetParticleMomentumDirection(mom);
-    fParticleGun->SetParticleMomentum(0.*keV);
-    fParticleGun->SetParticleDefinition(particle);
+    fParticleGun->SetParticlePosition(pos);          // Particle Position
+    fParticleGun->SetParticleMomentumDirection(mom); // Particle Momentum Direction
+    fParticleGun->SetParticleMomentum(0.*keV);       // Particle Momentum magnitude
+    fParticleGun->SetParticleDefinition(particle);   // Sets particle as GEANTINO prev. deffined
 }
 
 MyPrimaryGenerator::~MyPrimaryGenerator()
