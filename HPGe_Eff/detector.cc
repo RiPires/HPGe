@@ -29,23 +29,24 @@ MySensitiveDetector::MySensitiveDetector(G4String name) : G4VSensitiveDetector(n
 MySensitiveDetector::~MySensitiveDetector()
 {}
 
-//      //
+//   Creates a Hit when a step takes place in a definded sensitive logical detector
+// in a user sensitive detector function called ProcessHits(...)
 G4bool MySensitiveDetector::ProcessHits(G4Step *aStep, G4TouchableHistory *ROhist)
 {
-    G4Track *track = aStep->GetTrack();
+
+    G4Track *track = aStep->GetTrack();                     // Gets particle info. in a step
+    track->SetTrackStatus(fStopAndKill);// ?????? fStopAndKill: O que é que isto FAZ ??????
     
-    track->SetTrackStatus(fStopAndKill);
+    G4StepPoint *preStepPoint = aStep->GetPreStepPoint();   // Info. no início do passo
+    G4StepPoint *postStepPoint = aStep->GetPostStepPoint(); // Info. no fim do passo
     
-    G4StepPoint *preStepPoint = aStep->GetPreStepPoint();
-    G4StepPoint *postStepPoint = aStep->GetPostStepPoint();
+    G4ThreeVector posPhoton = preStepPoint->GetPosition();  // Posição no início do passo
+    G4ThreeVector momPhoton = preStepPoint->GetMomentum();  // Momento no início do passo
     
-    G4ThreeVector posPhoton = preStepPoint->GetPosition();
-    G4ThreeVector momPhoton = preStepPoint->GetMomentum();
-    
-    G4double cdo = (1.239841939*eV/momPhoton.mag())*1E+03; //cdo in nanometer
-    G4double photonEnergy = momPhoton.mag();
-    
-    ///G4cout << "Photon position: " << posPhoton << G4endl;
+    G4double cdo /*[nm]*/ = (1.239841939*eV/momPhoton.mag())*1E+03;//Converte o momento em comprtimento de onda
+    G4double photonEnergy = momPhoton.mag();                // Magnitude do momento do fotão  
+                                                    //???? Porque é que é a energia????? 
+    ///G4cout << "Photon position: " << posPhoton << G4endl;//Prints photon position
     
     const G4VTouchable *touchable = aStep->GetPreStepPoint()->GetTouchable();
     
@@ -78,5 +79,6 @@ G4bool MySensitiveDetector::ProcessHits(G4Step *aStep, G4TouchableHistory *ROhis
     man->AddNtupleRow(1);
     }    
 
-    return true; //ProcessHits function expects a return//
+    return true; //Because it's a Boolean, ProcessHits function expects a return
+                // better to be True
 }
