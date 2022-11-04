@@ -8,7 +8,7 @@ MyEventAction::MyEventAction(MyRunAction*)
 MyEventAction::~MyEventAction()
 {}
 
-void MyEventAction::BeginOfEventAction(const G4Event*) //take a pointer to G4Event
+void MyEventAction::BeginOfEventAction(const G4Event*) 
 {
     Edep = 0.;
 }
