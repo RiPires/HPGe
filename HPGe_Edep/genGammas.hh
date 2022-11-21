@@ -1,5 +1,5 @@
-#ifndef GENERATOR_HH
-#define GENERATOR_HH
+#ifndef GENGAMMAS_HH
+#define GENGAMMAS_HH
 
 #include "G4VUserPrimaryGeneratorAction.hh"
 

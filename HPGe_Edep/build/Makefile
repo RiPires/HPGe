@@ -244,32 +244,32 @@ event.cc.s:
 	$(MAKE) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/event.cc.s
 .PHONY : event.cc.s
 
-generator.o: generator.cc.o
+genGammas.o: genGammas.cc.o
 
-.PHONY : generator.o
+.PHONY : genGammas.o
 
 # target to build an object file
-generator.cc.o:
-	$(MAKE) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/generator.cc.o
-.PHONY : generator.cc.o
+genGammas.cc.o:
+	$(MAKE) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/genGammas.cc.o
+.PHONY : genGammas.cc.o
 
-generator.i: generator.cc.i
+genGammas.i: genGammas.cc.i
 
-.PHONY : generator.i
+.PHONY : genGammas.i
 
 # target to preprocess a source file
-generator.cc.i:
-	$(MAKE) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/generator.cc.i
-.PHONY : generator.cc.i
+genGammas.cc.i:
+	$(MAKE) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/genGammas.cc.i
+.PHONY : genGammas.cc.i
 
-generator.s: generator.cc.s
+genGammas.s: genGammas.cc.s
 
-.PHONY : generator.s
+.PHONY : genGammas.s
 
 # target to generate assembly for a file
-generator.cc.s:
-	$(MAKE) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/generator.cc.s
-.PHONY : generator.cc.s
+genGammas.cc.s:
+	$(MAKE) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/genGammas.cc.s
+.PHONY : genGammas.cc.s
 
 physics.o: physics.cc.o
 
@@ -401,9 +401,9 @@ help:
 	@echo "... event.o"
 	@echo "... event.i"
 	@echo "... event.s"
-	@echo "... generator.o"
-	@echo "... generator.i"
-	@echo "... generator.s"
+	@echo "... genGammas.o"
+	@echo "... genGammas.i"
+	@echo "... genGammas.s"
 	@echo "... physics.o"
 	@echo "... physics.i"
 	@echo "... physics.s"

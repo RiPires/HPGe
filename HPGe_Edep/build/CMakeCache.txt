@@ -234,7 +234,7 @@ Fontconfig_INCLUDE_DIR:PATH=/usr/include
 Fontconfig_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libfontconfig.so
 
 //The directory containing a CMake configuration file for Geant4.
-Geant4_DIR:PATH=/home/ripires/bin/Geant4/geant4.10.07.p02-install/lib/Geant4-10.7.2
+Geant4_DIR:PATH=/home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/lib/Geant4-10.7.2
 
 //Path to a file.
 OPENGL_EGL_INCLUDE_DIR:PATH=/usr/include
@@ -267,7 +267,7 @@ OPENGL_xmesa_INCLUDE_DIR:PATH=OPENGL_xmesa_INCLUDE_DIR-NOTFOUND
 PKG_CONFIG_EXECUTABLE:FILEPATH=/usr/bin/pkg-config
 
 //The directory containing a CMake configuration file for PTL.
-PTL_DIR:PATH=/home/ripires/bin/Geant4/geant4.10.07.p02-install/lib/Geant4-10.7.2/PTL
+PTL_DIR:PATH=/home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/lib/Geant4-10.7.2/PTL
 
 //The directory containing a CMake configuration file for Qt5Core.
 Qt5Core_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5Core

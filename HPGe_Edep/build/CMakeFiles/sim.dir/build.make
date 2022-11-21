@@ -122,18 +122,18 @@ CMakeFiles/sim.dir/event.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sim.dir/event.cc.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ripires/HPGe/HPGe_Edep/event.cc -o CMakeFiles/sim.dir/event.cc.s
 
-CMakeFiles/sim.dir/generator.cc.o: CMakeFiles/sim.dir/flags.make
-CMakeFiles/sim.dir/generator.cc.o: ../generator.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ripires/HPGe/HPGe_Edep/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/sim.dir/generator.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sim.dir/generator.cc.o -c /home/ripires/HPGe/HPGe_Edep/generator.cc
+CMakeFiles/sim.dir/genGammas.cc.o: CMakeFiles/sim.dir/flags.make
+CMakeFiles/sim.dir/genGammas.cc.o: ../genGammas.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ripires/HPGe/HPGe_Edep/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/sim.dir/genGammas.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sim.dir/genGammas.cc.o -c /home/ripires/HPGe/HPGe_Edep/genGammas.cc
 
-CMakeFiles/sim.dir/generator.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sim.dir/generator.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ripires/HPGe/HPGe_Edep/generator.cc > CMakeFiles/sim.dir/generator.cc.i
+CMakeFiles/sim.dir/genGammas.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sim.dir/genGammas.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ripires/HPGe/HPGe_Edep/genGammas.cc > CMakeFiles/sim.dir/genGammas.cc.i
 
-CMakeFiles/sim.dir/generator.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sim.dir/generator.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ripires/HPGe/HPGe_Edep/generator.cc -o CMakeFiles/sim.dir/generator.cc.s
+CMakeFiles/sim.dir/genGammas.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sim.dir/genGammas.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ripires/HPGe/HPGe_Edep/genGammas.cc -o CMakeFiles/sim.dir/genGammas.cc.s
 
 CMakeFiles/sim.dir/physics.cc.o: CMakeFiles/sim.dir/flags.make
 CMakeFiles/sim.dir/physics.cc.o: ../physics.cc
@@ -181,7 +181,7 @@ sim_OBJECTS = \
 "CMakeFiles/sim.dir/construction.cc.o" \
 "CMakeFiles/sim.dir/detector.cc.o" \
 "CMakeFiles/sim.dir/event.cc.o" \
-"CMakeFiles/sim.dir/generator.cc.o" \
+"CMakeFiles/sim.dir/genGammas.cc.o" \
 "CMakeFiles/sim.dir/physics.cc.o" \
 "CMakeFiles/sim.dir/run.cc.o" \
 "CMakeFiles/sim.dir/stepping.cc.o"
@@ -194,28 +194,28 @@ sim: CMakeFiles/sim.dir/action.cc.o
 sim: CMakeFiles/sim.dir/construction.cc.o
 sim: CMakeFiles/sim.dir/detector.cc.o
 sim: CMakeFiles/sim.dir/event.cc.o
-sim: CMakeFiles/sim.dir/generator.cc.o
+sim: CMakeFiles/sim.dir/genGammas.cc.o
 sim: CMakeFiles/sim.dir/physics.cc.o
 sim: CMakeFiles/sim.dir/run.cc.o
 sim: CMakeFiles/sim.dir/stepping.cc.o
 sim: CMakeFiles/sim.dir/build.make
-sim: /home/ripires/bin/Geant4/geant4.10.07.p02-install/lib/libG4Tree.so
-sim: /home/ripires/bin/Geant4/geant4.10.07.p02-install/lib/libG4FR.so
-sim: /home/ripires/bin/Geant4/geant4.10.07.p02-install/lib/libG4GMocren.so
-sim: /home/ripires/bin/Geant4/geant4.10.07.p02-install/lib/libG4visHepRep.so
-sim: /home/ripires/bin/Geant4/geant4.10.07.p02-install/lib/libG4RayTracer.so
-sim: /home/ripires/bin/Geant4/geant4.10.07.p02-install/lib/libG4VRML.so
-sim: /home/ripires/bin/Geant4/geant4.10.07.p02-install/lib/libG4OpenGL.so
-sim: /home/ripires/bin/Geant4/geant4.10.07.p02-install/lib/libG4gl2ps.so
-sim: /home/ripires/bin/Geant4/geant4.10.07.p02-install/lib/libG4vis_management.so
-sim: /home/ripires/bin/Geant4/geant4.10.07.p02-install/lib/libG4modeling.so
-sim: /home/ripires/bin/Geant4/geant4.10.07.p02-install/lib/libG4interfaces.so
-sim: /home/ripires/bin/Geant4/geant4.10.07.p02-install/lib/libG4persistency.so
-sim: /home/ripires/bin/Geant4/geant4.10.07.p02-install/lib/libG4error_propagation.so
-sim: /home/ripires/bin/Geant4/geant4.10.07.p02-install/lib/libG4readout.so
-sim: /home/ripires/bin/Geant4/geant4.10.07.p02-install/lib/libG4physicslists.so
-sim: /home/ripires/bin/Geant4/geant4.10.07.p02-install/lib/libG4tasking.so
-sim: /home/ripires/bin/Geant4/geant4.10.07.p02-install/lib/libG4parmodels.so
+sim: /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/lib/libG4Tree.so
+sim: /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/lib/libG4FR.so
+sim: /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/lib/libG4GMocren.so
+sim: /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/lib/libG4visHepRep.so
+sim: /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/lib/libG4RayTracer.so
+sim: /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/lib/libG4VRML.so
+sim: /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/lib/libG4OpenGL.so
+sim: /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/lib/libG4gl2ps.so
+sim: /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/lib/libG4vis_management.so
+sim: /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/lib/libG4modeling.so
+sim: /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/lib/libG4interfaces.so
+sim: /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/lib/libG4persistency.so
+sim: /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/lib/libG4error_propagation.so
+sim: /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/lib/libG4readout.so
+sim: /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/lib/libG4physicslists.so
+sim: /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/lib/libG4tasking.so
+sim: /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/lib/libG4parmodels.so
 sim: /usr/lib/x86_64-linux-gnu/libXmu.so
 sim: /usr/lib/x86_64-linux-gnu/libXext.so
 sim: /usr/lib/x86_64-linux-gnu/libXt.so
@@ -228,23 +228,23 @@ sim: /usr/lib/x86_64-linux-gnu/libQt5PrintSupport.so.5.12.8
 sim: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.12.8
 sim: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.12.8
 sim: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8
-sim: /home/ripires/bin/Geant4/geant4.10.07.p02-install/lib/libG4run.so
-sim: /home/ripires/bin/Geant4/geant4.10.07.p02-install/lib/libG4event.so
-sim: /home/ripires/bin/Geant4/geant4.10.07.p02-install/lib/libG4tracking.so
-sim: /home/ripires/bin/Geant4/geant4.10.07.p02-install/lib/libG4processes.so
-sim: /home/ripires/bin/Geant4/geant4.10.07.p02-install/lib/libG4analysis.so
+sim: /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/lib/libG4run.so
+sim: /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/lib/libG4event.so
+sim: /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/lib/libG4tracking.so
+sim: /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/lib/libG4processes.so
+sim: /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/lib/libG4analysis.so
 sim: /usr/lib/x86_64-linux-gnu/libexpat.so
-sim: /home/ripires/bin/Geant4/geant4.10.07.p02-install/lib/libG4digits_hits.so
-sim: /home/ripires/bin/Geant4/geant4.10.07.p02-install/lib/libG4track.so
-sim: /home/ripires/bin/Geant4/geant4.10.07.p02-install/lib/libG4particles.so
-sim: /home/ripires/bin/Geant4/geant4.10.07.p02-install/lib/libG4geometry.so
-sim: /home/ripires/bin/Geant4/geant4.10.07.p02-install/lib/libG4materials.so
-sim: /home/ripires/bin/Geant4/geant4.10.07.p02-install/lib/libG4zlib.so
-sim: /home/ripires/bin/Geant4/geant4.10.07.p02-install/lib/libG4graphics_reps.so
-sim: /home/ripires/bin/Geant4/geant4.10.07.p02-install/lib/libG4intercoms.so
-sim: /home/ripires/bin/Geant4/geant4.10.07.p02-install/lib/libG4global.so
-sim: /home/ripires/bin/Geant4/geant4.10.07.p02-install/lib/libG4clhep.so
-sim: /home/ripires/bin/Geant4/geant4.10.07.p02-install/lib/libG4ptl.so.0.0.2
+sim: /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/lib/libG4digits_hits.so
+sim: /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/lib/libG4track.so
+sim: /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/lib/libG4particles.so
+sim: /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/lib/libG4geometry.so
+sim: /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/lib/libG4materials.so
+sim: /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/lib/libG4zlib.so
+sim: /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/lib/libG4graphics_reps.so
+sim: /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/lib/libG4intercoms.so
+sim: /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/lib/libG4global.so
+sim: /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/lib/libG4clhep.so
+sim: /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/lib/libG4ptl.so.0.0.2
 sim: CMakeFiles/sim.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ripires/HPGe/HPGe_Edep/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable sim"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sim.dir/link.txt --verbose=$(VERBOSE)

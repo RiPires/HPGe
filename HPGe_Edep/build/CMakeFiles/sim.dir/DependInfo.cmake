@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/ripires/HPGe/HPGe_Edep/construction.cc" "/home/ripires/HPGe/HPGe_Edep/build/CMakeFiles/sim.dir/construction.cc.o"
   "/home/ripires/HPGe/HPGe_Edep/detector.cc" "/home/ripires/HPGe/HPGe_Edep/build/CMakeFiles/sim.dir/detector.cc.o"
   "/home/ripires/HPGe/HPGe_Edep/event.cc" "/home/ripires/HPGe/HPGe_Edep/build/CMakeFiles/sim.dir/event.cc.o"
-  "/home/ripires/HPGe/HPGe_Edep/generator.cc" "/home/ripires/HPGe/HPGe_Edep/build/CMakeFiles/sim.dir/generator.cc.o"
+  "/home/ripires/HPGe/HPGe_Edep/genGammas.cc" "/home/ripires/HPGe/HPGe_Edep/build/CMakeFiles/sim.dir/genGammas.cc.o"
   "/home/ripires/HPGe/HPGe_Edep/physics.cc" "/home/ripires/HPGe/HPGe_Edep/build/CMakeFiles/sim.dir/physics.cc.o"
   "/home/ripires/HPGe/HPGe_Edep/run.cc" "/home/ripires/HPGe/HPGe_Edep/build/CMakeFiles/sim.dir/run.cc.o"
   "/home/ripires/HPGe/HPGe_Edep/sim.cc" "/home/ripires/HPGe/HPGe_Edep/build/CMakeFiles/sim.dir/sim.cc.o"
@@ -36,7 +36,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/ripires/bin/Geant4/geant4.10.07.p02-install/include/Geant4"
+  "/home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4"
   "/usr/include/x86_64-linux-gnu/qt5"
   "/usr/include/x86_64-linux-gnu/qt5/QtCore"
   "/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"

@@ -1,4 +1,4 @@
-#include "generator.hh"
+#include "genGammas.hh"
 
 //   Primary particle generator constuctor and destructor   //
 MyPrimaryGenerator::MyPrimaryGenerator()

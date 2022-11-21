@@ -1,5 +1,5 @@
 #include "action.hh"
-#include "generator.hh"
+#include "genGammas.hh"
 
 MyActionInitialization::MyActionInitialization()
 {}
