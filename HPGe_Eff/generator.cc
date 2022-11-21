@@ -23,6 +23,9 @@ MyPrimaryGenerator::~MyPrimaryGenerator()
     delete fParticleGun;
 }
 
+
+
+/*
 //   Generate primary particle as a radioactive punctual source   //
 void MyPrimaryGenerator::GeneratePrimaries(G4Event *anEvent)
 {    
@@ -46,5 +49,22 @@ void MyPrimaryGenerator::GeneratePrimaries(G4Event *anEvent)
         fParticleGun->SetParticleDefinition(ion);
         fParticleGun->SetParticleCharge(charge);
     }
+
     fParticleGun->GeneratePrimaryVertex(anEvent);
 }
+*/
+
+///   *************   Generation of primary GAMMAS   ***********   ///
+void MyPrimaryGenerator::GeneratePrimaries(G4Event *anEvent)
+{   
+    G4ParticleDefinition *particle = fParticleGun->GetParticleDefinition();
+    if(particle == G4Geantino::Geantino())
+    {   
+        G4ParticleTable *particleTable = G4ParticleTable::GetParticleTable();
+        G4ParticleDefinition *gamma = particleTable->FindParticle("gamma");
+        fParticleGun->SetParticleMomentum(135.*MeV);
+        fParticleGun->SetParticleDefinition(gamma);
+    }
+
+    fParticleGun->GeneratePrimaryVertex(anEvent);
+}rm
