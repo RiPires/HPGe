@@ -26,7 +26,7 @@ MyPrimaryGenerator::~MyPrimaryGenerator()
 
 
 /*
-//   Generate primary particle as a radioactive punctual source   //
+///   Generate primary particle as a radioactive punctual source   ///
 void MyPrimaryGenerator::GeneratePrimaries(G4Event *anEvent)
 {    
     G4ParticleDefinition *particle = fParticleGun->GetParticleDefinition();
@@ -52,6 +52,8 @@ void MyPrimaryGenerator::GeneratePrimaries(G4Event *anEvent)
 
     fParticleGun->GeneratePrimaryVertex(anEvent);
 }
+///    ///   ///   ///   ///   ///   ///   ///   ///   ///   ///   ///
+
 */
 
 ///   *************   Generation of primary GAMMAS   ***********   ///
@@ -67,4 +69,5 @@ void MyPrimaryGenerator::GeneratePrimaries(G4Event *anEvent)
     }
 
     fParticleGun->GeneratePrimaryVertex(anEvent);
-}rm
+}
+///   *********************************************************   ///
