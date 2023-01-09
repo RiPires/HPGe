@@ -1,8 +1,0 @@
-/home/ripires/HPGe/xray_fluorescence/build/CMakeFiles/install/strip.dir
-/home/ripires/HPGe/xray_fluorescence/build/CMakeFiles/install/local.dir
-/home/ripires/HPGe/xray_fluorescence/build/CMakeFiles/install.dir
-/home/ripires/HPGe/xray_fluorescence/build/CMakeFiles/list_install_components.dir
-/home/ripires/HPGe/xray_fluorescence/build/CMakeFiles/rebuild_cache.dir
-/home/ripires/HPGe/xray_fluorescence/build/CMakeFiles/edit_cache.dir
-/home/ripires/HPGe/xray_fluorescence/build/CMakeFiles/xray_fluorescence.dir
-/home/ripires/HPGe/xray_fluorescence/build/CMakeFiles/XrayFluo.dir

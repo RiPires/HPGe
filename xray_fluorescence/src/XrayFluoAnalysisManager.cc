@@ -37,7 +37,9 @@
 // 28 Nov 2001 Elena Guardincerri     Created
 //
 // -------------------------------------------------------------------
-#include "g4root.hh"
+
+//#include "g4root.hh"
+#include "G4AnalysisManager.hh"
 
 #include "G4VProcess.hh"
 #include "XrayFluoAnalysisManager.hh"
