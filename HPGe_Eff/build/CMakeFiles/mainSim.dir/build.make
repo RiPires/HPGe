@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ripires/HPGe/HPGe_Eff
+CMAKE_SOURCE_DIR = "/mnt/c/Users/Lenovo/OneDrive - Universidade de Lisboa/HPGe/HPGe_Eff"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ripires/HPGe/HPGe_Eff/build
+CMAKE_BINARY_DIR = "/mnt/c/Users/Lenovo/OneDrive - Universidade de Lisboa/HPGe/HPGe_Eff/build"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/mainSim.dir/depend.make
@@ -59,120 +59,120 @@ include CMakeFiles/mainSim.dir/flags.make
 
 CMakeFiles/mainSim.dir/mainSim.cc.o: CMakeFiles/mainSim.dir/flags.make
 CMakeFiles/mainSim.dir/mainSim.cc.o: ../mainSim.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ripires/HPGe/HPGe_Eff/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/mainSim.dir/mainSim.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mainSim.dir/mainSim.cc.o -c /home/ripires/HPGe/HPGe_Eff/mainSim.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/Lenovo/OneDrive - Universidade de Lisboa/HPGe/HPGe_Eff/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/mainSim.dir/mainSim.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mainSim.dir/mainSim.cc.o -c "/mnt/c/Users/Lenovo/OneDrive - Universidade de Lisboa/HPGe/HPGe_Eff/mainSim.cc"
 
 CMakeFiles/mainSim.dir/mainSim.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mainSim.dir/mainSim.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ripires/HPGe/HPGe_Eff/mainSim.cc > CMakeFiles/mainSim.dir/mainSim.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/Lenovo/OneDrive - Universidade de Lisboa/HPGe/HPGe_Eff/mainSim.cc" > CMakeFiles/mainSim.dir/mainSim.cc.i
 
 CMakeFiles/mainSim.dir/mainSim.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mainSim.dir/mainSim.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ripires/HPGe/HPGe_Eff/mainSim.cc -o CMakeFiles/mainSim.dir/mainSim.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/Lenovo/OneDrive - Universidade de Lisboa/HPGe/HPGe_Eff/mainSim.cc" -o CMakeFiles/mainSim.dir/mainSim.cc.s
 
 CMakeFiles/mainSim.dir/action.cc.o: CMakeFiles/mainSim.dir/flags.make
 CMakeFiles/mainSim.dir/action.cc.o: ../action.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ripires/HPGe/HPGe_Eff/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/mainSim.dir/action.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mainSim.dir/action.cc.o -c /home/ripires/HPGe/HPGe_Eff/action.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/Lenovo/OneDrive - Universidade de Lisboa/HPGe/HPGe_Eff/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/mainSim.dir/action.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mainSim.dir/action.cc.o -c "/mnt/c/Users/Lenovo/OneDrive - Universidade de Lisboa/HPGe/HPGe_Eff/action.cc"
 
 CMakeFiles/mainSim.dir/action.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mainSim.dir/action.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ripires/HPGe/HPGe_Eff/action.cc > CMakeFiles/mainSim.dir/action.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/Lenovo/OneDrive - Universidade de Lisboa/HPGe/HPGe_Eff/action.cc" > CMakeFiles/mainSim.dir/action.cc.i
 
 CMakeFiles/mainSim.dir/action.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mainSim.dir/action.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ripires/HPGe/HPGe_Eff/action.cc -o CMakeFiles/mainSim.dir/action.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/Lenovo/OneDrive - Universidade de Lisboa/HPGe/HPGe_Eff/action.cc" -o CMakeFiles/mainSim.dir/action.cc.s
 
 CMakeFiles/mainSim.dir/construction.cc.o: CMakeFiles/mainSim.dir/flags.make
 CMakeFiles/mainSim.dir/construction.cc.o: ../construction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ripires/HPGe/HPGe_Eff/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/mainSim.dir/construction.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mainSim.dir/construction.cc.o -c /home/ripires/HPGe/HPGe_Eff/construction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/Lenovo/OneDrive - Universidade de Lisboa/HPGe/HPGe_Eff/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/mainSim.dir/construction.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mainSim.dir/construction.cc.o -c "/mnt/c/Users/Lenovo/OneDrive - Universidade de Lisboa/HPGe/HPGe_Eff/construction.cc"
 
 CMakeFiles/mainSim.dir/construction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mainSim.dir/construction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ripires/HPGe/HPGe_Eff/construction.cc > CMakeFiles/mainSim.dir/construction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/Lenovo/OneDrive - Universidade de Lisboa/HPGe/HPGe_Eff/construction.cc" > CMakeFiles/mainSim.dir/construction.cc.i
 
 CMakeFiles/mainSim.dir/construction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mainSim.dir/construction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ripires/HPGe/HPGe_Eff/construction.cc -o CMakeFiles/mainSim.dir/construction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/Lenovo/OneDrive - Universidade de Lisboa/HPGe/HPGe_Eff/construction.cc" -o CMakeFiles/mainSim.dir/construction.cc.s
 
 CMakeFiles/mainSim.dir/detector.cc.o: CMakeFiles/mainSim.dir/flags.make
 CMakeFiles/mainSim.dir/detector.cc.o: ../detector.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ripires/HPGe/HPGe_Eff/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/mainSim.dir/detector.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mainSim.dir/detector.cc.o -c /home/ripires/HPGe/HPGe_Eff/detector.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/Lenovo/OneDrive - Universidade de Lisboa/HPGe/HPGe_Eff/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/mainSim.dir/detector.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mainSim.dir/detector.cc.o -c "/mnt/c/Users/Lenovo/OneDrive - Universidade de Lisboa/HPGe/HPGe_Eff/detector.cc"
 
 CMakeFiles/mainSim.dir/detector.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mainSim.dir/detector.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ripires/HPGe/HPGe_Eff/detector.cc > CMakeFiles/mainSim.dir/detector.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/Lenovo/OneDrive - Universidade de Lisboa/HPGe/HPGe_Eff/detector.cc" > CMakeFiles/mainSim.dir/detector.cc.i
 
 CMakeFiles/mainSim.dir/detector.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mainSim.dir/detector.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ripires/HPGe/HPGe_Eff/detector.cc -o CMakeFiles/mainSim.dir/detector.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/Lenovo/OneDrive - Universidade de Lisboa/HPGe/HPGe_Eff/detector.cc" -o CMakeFiles/mainSim.dir/detector.cc.s
 
 CMakeFiles/mainSim.dir/event.cc.o: CMakeFiles/mainSim.dir/flags.make
 CMakeFiles/mainSim.dir/event.cc.o: ../event.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ripires/HPGe/HPGe_Eff/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/mainSim.dir/event.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mainSim.dir/event.cc.o -c /home/ripires/HPGe/HPGe_Eff/event.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/Lenovo/OneDrive - Universidade de Lisboa/HPGe/HPGe_Eff/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/mainSim.dir/event.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mainSim.dir/event.cc.o -c "/mnt/c/Users/Lenovo/OneDrive - Universidade de Lisboa/HPGe/HPGe_Eff/event.cc"
 
 CMakeFiles/mainSim.dir/event.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mainSim.dir/event.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ripires/HPGe/HPGe_Eff/event.cc > CMakeFiles/mainSim.dir/event.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/Lenovo/OneDrive - Universidade de Lisboa/HPGe/HPGe_Eff/event.cc" > CMakeFiles/mainSim.dir/event.cc.i
 
 CMakeFiles/mainSim.dir/event.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mainSim.dir/event.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ripires/HPGe/HPGe_Eff/event.cc -o CMakeFiles/mainSim.dir/event.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/Lenovo/OneDrive - Universidade de Lisboa/HPGe/HPGe_Eff/event.cc" -o CMakeFiles/mainSim.dir/event.cc.s
 
 CMakeFiles/mainSim.dir/generator.cc.o: CMakeFiles/mainSim.dir/flags.make
 CMakeFiles/mainSim.dir/generator.cc.o: ../generator.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ripires/HPGe/HPGe_Eff/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/mainSim.dir/generator.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mainSim.dir/generator.cc.o -c /home/ripires/HPGe/HPGe_Eff/generator.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/Lenovo/OneDrive - Universidade de Lisboa/HPGe/HPGe_Eff/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/mainSim.dir/generator.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mainSim.dir/generator.cc.o -c "/mnt/c/Users/Lenovo/OneDrive - Universidade de Lisboa/HPGe/HPGe_Eff/generator.cc"
 
 CMakeFiles/mainSim.dir/generator.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mainSim.dir/generator.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ripires/HPGe/HPGe_Eff/generator.cc > CMakeFiles/mainSim.dir/generator.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/Lenovo/OneDrive - Universidade de Lisboa/HPGe/HPGe_Eff/generator.cc" > CMakeFiles/mainSim.dir/generator.cc.i
 
 CMakeFiles/mainSim.dir/generator.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mainSim.dir/generator.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ripires/HPGe/HPGe_Eff/generator.cc -o CMakeFiles/mainSim.dir/generator.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/Lenovo/OneDrive - Universidade de Lisboa/HPGe/HPGe_Eff/generator.cc" -o CMakeFiles/mainSim.dir/generator.cc.s
 
 CMakeFiles/mainSim.dir/physics.cc.o: CMakeFiles/mainSim.dir/flags.make
 CMakeFiles/mainSim.dir/physics.cc.o: ../physics.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ripires/HPGe/HPGe_Eff/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/mainSim.dir/physics.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mainSim.dir/physics.cc.o -c /home/ripires/HPGe/HPGe_Eff/physics.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/Lenovo/OneDrive - Universidade de Lisboa/HPGe/HPGe_Eff/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/mainSim.dir/physics.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mainSim.dir/physics.cc.o -c "/mnt/c/Users/Lenovo/OneDrive - Universidade de Lisboa/HPGe/HPGe_Eff/physics.cc"
 
 CMakeFiles/mainSim.dir/physics.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mainSim.dir/physics.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ripires/HPGe/HPGe_Eff/physics.cc > CMakeFiles/mainSim.dir/physics.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/Lenovo/OneDrive - Universidade de Lisboa/HPGe/HPGe_Eff/physics.cc" > CMakeFiles/mainSim.dir/physics.cc.i
 
 CMakeFiles/mainSim.dir/physics.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mainSim.dir/physics.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ripires/HPGe/HPGe_Eff/physics.cc -o CMakeFiles/mainSim.dir/physics.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/Lenovo/OneDrive - Universidade de Lisboa/HPGe/HPGe_Eff/physics.cc" -o CMakeFiles/mainSim.dir/physics.cc.s
 
 CMakeFiles/mainSim.dir/run.cc.o: CMakeFiles/mainSim.dir/flags.make
 CMakeFiles/mainSim.dir/run.cc.o: ../run.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ripires/HPGe/HPGe_Eff/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/mainSim.dir/run.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mainSim.dir/run.cc.o -c /home/ripires/HPGe/HPGe_Eff/run.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/Lenovo/OneDrive - Universidade de Lisboa/HPGe/HPGe_Eff/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/mainSim.dir/run.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mainSim.dir/run.cc.o -c "/mnt/c/Users/Lenovo/OneDrive - Universidade de Lisboa/HPGe/HPGe_Eff/run.cc"
 
 CMakeFiles/mainSim.dir/run.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mainSim.dir/run.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ripires/HPGe/HPGe_Eff/run.cc > CMakeFiles/mainSim.dir/run.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/Lenovo/OneDrive - Universidade de Lisboa/HPGe/HPGe_Eff/run.cc" > CMakeFiles/mainSim.dir/run.cc.i
 
 CMakeFiles/mainSim.dir/run.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mainSim.dir/run.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ripires/HPGe/HPGe_Eff/run.cc -o CMakeFiles/mainSim.dir/run.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/Lenovo/OneDrive - Universidade de Lisboa/HPGe/HPGe_Eff/run.cc" -o CMakeFiles/mainSim.dir/run.cc.s
 
 CMakeFiles/mainSim.dir/stepping.cc.o: CMakeFiles/mainSim.dir/flags.make
 CMakeFiles/mainSim.dir/stepping.cc.o: ../stepping.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ripires/HPGe/HPGe_Eff/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/mainSim.dir/stepping.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mainSim.dir/stepping.cc.o -c /home/ripires/HPGe/HPGe_Eff/stepping.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/Lenovo/OneDrive - Universidade de Lisboa/HPGe/HPGe_Eff/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/mainSim.dir/stepping.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mainSim.dir/stepping.cc.o -c "/mnt/c/Users/Lenovo/OneDrive - Universidade de Lisboa/HPGe/HPGe_Eff/stepping.cc"
 
 CMakeFiles/mainSim.dir/stepping.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mainSim.dir/stepping.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ripires/HPGe/HPGe_Eff/stepping.cc > CMakeFiles/mainSim.dir/stepping.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/Lenovo/OneDrive - Universidade de Lisboa/HPGe/HPGe_Eff/stepping.cc" > CMakeFiles/mainSim.dir/stepping.cc.i
 
 CMakeFiles/mainSim.dir/stepping.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mainSim.dir/stepping.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ripires/HPGe/HPGe_Eff/stepping.cc -o CMakeFiles/mainSim.dir/stepping.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/Lenovo/OneDrive - Universidade de Lisboa/HPGe/HPGe_Eff/stepping.cc" -o CMakeFiles/mainSim.dir/stepping.cc.s
 
 # Object files for target mainSim
 mainSim_OBJECTS = \
@@ -199,54 +199,49 @@ mainSim: CMakeFiles/mainSim.dir/physics.cc.o
 mainSim: CMakeFiles/mainSim.dir/run.cc.o
 mainSim: CMakeFiles/mainSim.dir/stepping.cc.o
 mainSim: CMakeFiles/mainSim.dir/build.make
-mainSim: /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/lib/libG4Tree.so
-mainSim: /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/lib/libG4FR.so
-mainSim: /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/lib/libG4GMocren.so
-mainSim: /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/lib/libG4visHepRep.so
-mainSim: /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/lib/libG4RayTracer.so
-mainSim: /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/lib/libG4VRML.so
-mainSim: /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/lib/libG4OpenGL.so
-mainSim: /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/lib/libG4gl2ps.so
-mainSim: /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/lib/libG4vis_management.so
-mainSim: /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/lib/libG4modeling.so
-mainSim: /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/lib/libG4interfaces.so
-mainSim: /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/lib/libG4persistency.so
-mainSim: /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/lib/libG4error_propagation.so
-mainSim: /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/lib/libG4readout.so
-mainSim: /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/lib/libG4physicslists.so
-mainSim: /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/lib/libG4tasking.so
-mainSim: /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/lib/libG4parmodels.so
-mainSim: /usr/lib/x86_64-linux-gnu/libXmu.so
-mainSim: /usr/lib/x86_64-linux-gnu/libXext.so
-mainSim: /usr/lib/x86_64-linux-gnu/libXt.so
-mainSim: /usr/lib/x86_64-linux-gnu/libICE.so
-mainSim: /usr/lib/x86_64-linux-gnu/libSM.so
-mainSim: /usr/lib/x86_64-linux-gnu/libX11.so
+mainSim: /home/ripires/GEANT4/geant4-install/lib/libG4Tree.so
+mainSim: /home/ripires/GEANT4/geant4-install/lib/libG4FR.so
+mainSim: /home/ripires/GEANT4/geant4-install/lib/libG4GMocren.so
+mainSim: /home/ripires/GEANT4/geant4-install/lib/libG4visHepRep.so
+mainSim: /home/ripires/GEANT4/geant4-install/lib/libG4RayTracer.so
+mainSim: /home/ripires/GEANT4/geant4-install/lib/libG4VRML.so
+mainSim: /home/ripires/GEANT4/geant4-install/lib/libG4OpenGL.so
+mainSim: /home/ripires/GEANT4/geant4-install/lib/libG4gl2ps.so
+mainSim: /home/ripires/GEANT4/geant4-install/lib/libG4vis_management.so
+mainSim: /home/ripires/GEANT4/geant4-install/lib/libG4modeling.so
+mainSim: /home/ripires/GEANT4/geant4-install/lib/libG4interfaces.so
+mainSim: /home/ripires/GEANT4/geant4-install/lib/libG4persistency.so
+mainSim: /home/ripires/GEANT4/geant4-install/lib/libG4error_propagation.so
+mainSim: /home/ripires/GEANT4/geant4-install/lib/libG4readout.so
+mainSim: /home/ripires/GEANT4/geant4-install/lib/libG4physicslists.so
+mainSim: /home/ripires/GEANT4/geant4-install/lib/libG4tasking.so
+mainSim: /home/ripires/GEANT4/geant4-install/lib/libG4parmodels.so
 mainSim: /usr/lib/x86_64-linux-gnu/libGL.so
 mainSim: /usr/lib/x86_64-linux-gnu/libQt5OpenGL.so.5.12.8
 mainSim: /usr/lib/x86_64-linux-gnu/libQt5PrintSupport.so.5.12.8
 mainSim: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.12.8
 mainSim: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.12.8
 mainSim: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8
-mainSim: /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/lib/libG4run.so
-mainSim: /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/lib/libG4event.so
-mainSim: /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/lib/libG4tracking.so
-mainSim: /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/lib/libG4processes.so
-mainSim: /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/lib/libG4analysis.so
+mainSim: /home/ripires/GEANT4/geant4-install/lib/libG4run.so
+mainSim: /home/ripires/GEANT4/geant4-install/lib/libG4event.so
+mainSim: /home/ripires/GEANT4/geant4-install/lib/libG4tracking.so
+mainSim: /home/ripires/GEANT4/geant4-install/lib/libG4processes.so
+mainSim: /home/ripires/GEANT4/geant4-install/lib/libG4analysis.so
+mainSim: /home/ripires/GEANT4/geant4-install/lib/libG4tools.so
 mainSim: /usr/lib/x86_64-linux-gnu/libexpat.so
-mainSim: /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/lib/libG4digits_hits.so
-mainSim: /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/lib/libG4track.so
-mainSim: /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/lib/libG4particles.so
-mainSim: /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/lib/libG4geometry.so
-mainSim: /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/lib/libG4materials.so
-mainSim: /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/lib/libG4zlib.so
-mainSim: /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/lib/libG4graphics_reps.so
-mainSim: /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/lib/libG4intercoms.so
-mainSim: /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/lib/libG4global.so
-mainSim: /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/lib/libG4clhep.so
-mainSim: /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/lib/libG4ptl.so.0.0.2
+mainSim: /home/ripires/GEANT4/geant4-install/lib/libG4digits_hits.so
+mainSim: /home/ripires/GEANT4/geant4-install/lib/libG4track.so
+mainSim: /home/ripires/GEANT4/geant4-install/lib/libG4particles.so
+mainSim: /home/ripires/GEANT4/geant4-install/lib/libG4geometry.so
+mainSim: /home/ripires/GEANT4/geant4-install/lib/libG4materials.so
+mainSim: /home/ripires/GEANT4/geant4-install/lib/libG4zlib.so
+mainSim: /home/ripires/GEANT4/geant4-install/lib/libG4graphics_reps.so
+mainSim: /home/ripires/GEANT4/geant4-install/lib/libG4intercoms.so
+mainSim: /home/ripires/GEANT4/geant4-install/lib/libG4global.so
+mainSim: /home/ripires/GEANT4/geant4-install/lib/libG4clhep.so
+mainSim: /home/ripires/GEANT4/geant4-install/lib/libG4ptl.so.0.0.2
 mainSim: CMakeFiles/mainSim.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ripires/HPGe/HPGe_Eff/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable mainSim"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/mnt/c/Users/Lenovo/OneDrive - Universidade de Lisboa/HPGe/HPGe_Eff/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable mainSim"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mainSim.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -259,6 +254,6 @@ CMakeFiles/mainSim.dir/clean:
 .PHONY : CMakeFiles/mainSim.dir/clean
 
 CMakeFiles/mainSim.dir/depend:
-	cd /home/ripires/HPGe/HPGe_Eff/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ripires/HPGe/HPGe_Eff /home/ripires/HPGe/HPGe_Eff /home/ripires/HPGe/HPGe_Eff/build /home/ripires/HPGe/HPGe_Eff/build /home/ripires/HPGe/HPGe_Eff/build/CMakeFiles/mainSim.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/mnt/c/Users/Lenovo/OneDrive - Universidade de Lisboa/HPGe/HPGe_Eff/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/mnt/c/Users/Lenovo/OneDrive - Universidade de Lisboa/HPGe/HPGe_Eff" "/mnt/c/Users/Lenovo/OneDrive - Universidade de Lisboa/HPGe/HPGe_Eff" "/mnt/c/Users/Lenovo/OneDrive - Universidade de Lisboa/HPGe/HPGe_Eff/build" "/mnt/c/Users/Lenovo/OneDrive - Universidade de Lisboa/HPGe/HPGe_Eff/build" "/mnt/c/Users/Lenovo/OneDrive - Universidade de Lisboa/HPGe/HPGe_Eff/build/CMakeFiles/mainSim.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/mainSim.dir/depend
 
