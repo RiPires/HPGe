@@ -20,3 +20,10 @@ private:
 };
 
 #endif
+
+
+///31 //  G4UserSteppingAction.hh
+///32 //
+///33 // class description:
+///34 //    This class represents actions taken place by the user at each
+///35 //    end of stepping. 
