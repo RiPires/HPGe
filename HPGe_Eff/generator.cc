@@ -6,7 +6,7 @@ MyPrimaryGenerator::MyPrimaryGenerator()
     fParticleGun = new G4ParticleGun(1);
     
     G4ParticleTable *particleTable = G4ParticleTable::GetParticleTable();
-    G4String particleName="geantino";
+    G4String particleName="geantino"; // What we call to this geantino particle
     G4ParticleDefinition *particle = particleTable->FindParticle("geantino"); // Sets prim .particle as GEANTINO  ///
     
     G4ThreeVector pos(0.,0.,-5.*cm); //  Position for particle gun
