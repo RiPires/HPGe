@@ -29,8 +29,7 @@ public:
     
 private:
     
-    ///G4double *xWorld, *yWorld, *zWorld;
-        
+    ///G4double *xWorld, *yWorld, *zWorld; 
     G4Box *solidWorld, *solidFrame;
     G4Tubs *solidHole, *solidHolder, *solidTarget, *solidWindow, *solidDetector, *solidCase;
     G4LogicalVolume  *logicTarget, *logicSubtraction, *logicWorld, *logicWindow, *logicDetector, *logicCase;
@@ -48,3 +47,6 @@ private:
 };
 
 #endif
+
+
+
