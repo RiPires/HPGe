@@ -31,9 +31,7 @@ int main(int argc, char** argv)
     
     // Setting User's Interface on
     if(argc == 1)
-    {
-        ui = new G4UIExecutive(argc, argv);
-    }
+    {   ui = new G4UIExecutive(argc, argv);   }
     
     // Initializes Visual Manager
     G4VisManager *visManager = new G4VisExecutive();
@@ -45,17 +43,13 @@ int main(int argc, char** argv)
     // Checks for user's interface
     // applies visual commands in "vis.mac" and starts session, if set on
     if(ui)
-    {
-        UImanager->ApplyCommand("/control/execute vis.mac");        
-        ui->SessionStart();
-    }
+    {   UImanager->ApplyCommand("/control/execute vis.mac");        
+        ui->SessionStart();    }
     // runs commands writen in a file "fileName", or runs command "fileName" from console, if set off
     else
-    {
-        G4String command = "/control/execute ";
+    {   G4String command = "/control/execute ";
         G4String fileName = argv[1];
-        UImanager->ApplyCommand(command+fileName);
-    }
+        UImanager->ApplyCommand(command+fileName);    }
     
-    return 0;
+    return 0; 
 }
