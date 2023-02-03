@@ -23,23 +23,22 @@ private:
 };
 #endif
 
-    // $Id: G4VUserPrimaryGeneratorAction.hh 66892 2013-01-17 10:57:59Z gunter $
-    // class description:
-    //
-    //  This is the abstract base class of the user's mandatory action class
-    // for primary vertex/particle generation. This class has only one pure
-    // virtual method GeneratePrimaries() which is invoked from G4RunManager
-    // during the event loop.
-    //  Note that this class is NOT intended for generating primary vertex/particle
-    // by itself. This class should 
-    //  - have one or more G4VPrimaryGenerator concrete classes such as G4ParticleGun 
-    //  - set/change properties of generator(s)
-    //  - pass G4Event object so that the generator(s) can generate primaries.
-    //
+// $Id: G4VUserPrimaryGeneratorAction.hh 66892 2013-01-17 10:57:59Z gunter $
+// class description:
+//
+//  This is the abstract base class of the user's mandatory action class
+// for primary vertex/particle generation. This class has only one pure
+// virtual method GeneratePrimaries() which is invoked from G4RunManager
+// during the event loop.
+//  Note that this class is NOT intended for generating primary vertex/particle
+// by itself. This class should 
+//  - have one or more G4VPrimaryGenerator concrete classes such as G4ParticleGun 
+//  - set/change properties of generator(s)
+//  - pass G4Event object so that the generator(s) can generate primaries.
 
 
-      // G4ParticleGun.hh class definition
-      //  This is a concrete class of G4VPrimaryGenerator. It shoots a particle of given type
+// G4ParticleGun.hh class definition
+//  This is a concrete class of G4VPrimaryGenerator. It shoots a particle of given type
 ///47 // into a given direction with either a given kinetic energy or momentum.
 ///48 //  The position and time of the primary particle must be set by the corresponding
 ///49 // set methods of G4VPrimaryGenerator base class, otherwise zero will be set.

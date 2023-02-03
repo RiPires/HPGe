@@ -27,6 +27,11 @@ MyRunAction::MyRunAction()
     man->CreateNtuple("Scoring", "Scoring");
     man->CreateNtupleDColumn("Edep");
     man->FinishNtuple(2);
+
+    // Tuples for stepp info.
+    man->CreateNtuple("Steps", "Steps");
+    man->CreateNtupleDColumn("edep");
+    man->FinishNtuple(3);
 }
 
 MyRunAction::~MyRunAction()
