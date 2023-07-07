@@ -1,4 +1,0 @@
-/mnt/c/Users/Lenovo/OneDrive - Universidade de Lisboa/HPGe/HPGe_Eff/build/CMakeFiles/rebuild_cache.dir
-/mnt/c/Users/Lenovo/OneDrive - Universidade de Lisboa/HPGe/HPGe_Eff/build/CMakeFiles/edit_cache.dir
-/mnt/c/Users/Lenovo/OneDrive - Universidade de Lisboa/HPGe/HPGe_Eff/build/CMakeFiles/SimulationTest.dir
-/mnt/c/Users/Lenovo/OneDrive - Universidade de Lisboa/HPGe/HPGe_Eff/build/CMakeFiles/mainSim.dir

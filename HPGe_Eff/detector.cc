@@ -6,11 +6,10 @@ MySensitiveDetector::MySensitiveDetector(G4String name) : G4VSensitiveDetector(n
     quantEff = new G4PhysicsOrderedFreeVector();
     
     std::ifstream datafile;
-    datafile.open("hpge_effTest.dat");
+    datafile.open("hpge_eff.dat");
     
     while(1)
-    {
-        G4double photonEnergy, qEff;
+    {   G4double photonEnergy, qEff;
         datafile >> photonEnergy >> qEff;
         
         if(datafile.eof())
@@ -32,10 +31,8 @@ MySensitiveDetector::~MySensitiveDetector()
 //   Creates a Hit when a step takes place in a definded sensitive logical detector
 // in a user sensitive detector function called ProcessHits(...)
 G4bool MySensitiveDetector::ProcessHits(G4Step *aStep, G4TouchableHistory *ROhist)
-{
-
-    G4Track *track = aStep->GetTrack();// Gets particle info. in a step   ////////////////////
-    track->SetTrackStatus(fStopAndKill);// ?????? fStopAndKill: O que é que isto FAZ ??????
+{   G4Track *track = aStep->GetTrack();// Gets particle info. in a step   ////////////////////
+    ///track->SetTrackStatus(fStopAndKill);// ?????? fStopAndKill: O que é que isto FAZ ??????
     
     G4StepPoint *preStepPoint = aStep->GetPreStepPoint();   // Info. no início do passo
     G4StepPoint *postStepPoint = aStep->GetPostStepPoint(); // Info. no fim do passo
@@ -48,7 +45,6 @@ G4bool MySensitiveDetector::ProcessHits(G4Step *aStep, G4TouchableHistory *ROhis
                                                     //???? Porque é que é a energia????? 
     ///G4cout << "Photon position: " << posPhoton << G4endl;//Prints photon position//////////
     
-
     const G4VTouchable *touchable = aStep->GetPreStepPoint()->GetTouchable(); //Gets detector info. in a step   ///
     
     G4int copynr = touchable->GetCopyNumber();

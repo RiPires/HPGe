@@ -29,6 +29,7 @@ void MyDetectorConstruction::DefineMaterial()
     C = nist->FindOrBuildElement("C");
     Ge = nist->FindOrBuildElement("Ge");
     Sn = nist->FindOrBuildElement("Sn");
+    Si = nist->FindOrBuildElement("Si");
 
     
     //   Defines world material as Air  - as it's own properties  //
@@ -45,6 +46,9 @@ void MyDetectorConstruction::DefineMaterial()
     // Defines detector material as Ge  //
     detMat =  new G4Material("Germanium", 5.323*g/cm3, 1);
     detMat->AddElement(Ge, 1.);
+
+    silicon = new G4Material("Silicon", 2.329*g/cm3, 1);
+    silicon->AddElement(Si, 1.);
     
     //   WHICH ENERGY???   //
     G4double energy[2] = {1.239841939*eV/0.2, 1.239841939*eV/0.9};
@@ -93,12 +97,12 @@ G4VPhysicalVolume *MyDetectorConstruction::Construct()
     //   Defines detector WINDOW volume   //
     solidWindow = new G4Tubs("SolidWindow", 0.*m, 60.*mm, 0.3*mm, 0., 2*pi);
     logicWindow = new G4LogicalVolume(solidWindow, Epoxy, "LogicWindow");
-    physWindow = new G4PVPlacement(0, G4ThreeVector(0., 0., 0.005*m), logicWindow, "PhysWindow", logicWorld, false, 0., true);
+    physWindow = new G4PVPlacement(0, G4ThreeVector(0., 0., 5.*mm), logicWindow, "PhysWindow", logicWorld, false, 0., true);
     
     //   Defines Ge DETECTOR volume  //
     solidDetector = new G4Tubs("SolidDetector", 0.*m, 0.060*m, 0.013*m, 0., 2*pi);
     logicDetector = new G4LogicalVolume(solidDetector, detMat, "LogicDetector");
-    physDetector = new G4PVPlacement(0, G4ThreeVector(0., 0., 0.023*m), logicDetector, "PhysDetector", logicWorld, false, 0., true);
+    physDetector = new G4PVPlacement(0, G4ThreeVector(0., 0., 20.*mm), logicDetector, "PhysDetector", logicWorld, false, 0., true);
     
     ScoringVolume = logicDetector;
         

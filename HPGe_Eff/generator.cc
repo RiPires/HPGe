@@ -9,7 +9,7 @@ MyPrimaryGenerator::MyPrimaryGenerator()
     G4String particleName="geantino"; // What we call to this geantino particle
     G4ParticleDefinition *particle = particleTable->FindParticle("geantino"); // Sets prim .particle as GEANTINO  ///
     
-    G4ThreeVector pos(0.,0.,-5.*cm); //  Position for particle gun
+    G4ThreeVector pos(0.,0.,-5.*mm); //  Position for particle gun
     G4ThreeVector mom(0.,0.,1.);     //  Momentum direction vector for prim. particle
     
     fParticleGun->SetParticlePosition(pos);          // Particle Position
@@ -24,8 +24,6 @@ MyPrimaryGenerator::~MyPrimaryGenerator()
 }
 
 
-
-/*
 ///   Generate primary particle as a radioactive punctual source   ///
 void MyPrimaryGenerator::GeneratePrimaries(G4Event *anEvent)
 {    
@@ -34,12 +32,12 @@ void MyPrimaryGenerator::GeneratePrimaries(G4Event *anEvent)
     if(particle == G4Geantino::Geantino())
     {
         // Cobalt-60 source //
-        G4int Z = 27;
-        G4int A = 60;
+        //G4int Z = 27;
+        //G4int A = 60;
         
         // Sb-117 source //
-        //G4int Z = 51;
-        //G4int A = 117;
+        G4int Z = 51;
+        G4int A = 117;
         
         G4double charge = 0.;
         G4double energy = 0.;
@@ -54,8 +52,8 @@ void MyPrimaryGenerator::GeneratePrimaries(G4Event *anEvent)
 }
 ///    ///   ///   ///   ///   ///   ///   ///   ///   ///   ///   ///
 
-*/
 
+/*
 ///   *************   Generation of primary GAMMAS   ***********   ///
 void MyPrimaryGenerator::GeneratePrimaries(G4Event *anEvent)
 {   
@@ -71,3 +69,4 @@ void MyPrimaryGenerator::GeneratePrimaries(G4Event *anEvent)
     fParticleGun->GeneratePrimaryVertex(anEvent);
 }
 ///   *********************************************************   ///
+*/
