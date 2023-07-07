@@ -14,7 +14,7 @@ MyDetectorConstruction::~MyDetectorConstruction()
 
 void MyDetectorConstruction::DefineMaterial()
 {
-        //  Materials  //
+    //  Materials  //
     G4NistManager *nist = G4NistManager::Instance();
 
     // Carbon Epoxy: C21H25ClO5  //

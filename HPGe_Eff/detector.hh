@@ -20,5 +20,4 @@ private:
     
     G4PhysicsOrderedFreeVector *quantEff;
 };
-
 #endif
