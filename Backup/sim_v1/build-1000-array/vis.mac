@@ -1,0 +1,19 @@
+/run/initialize
+
+/vis/open OGL
+
+/vis/viewer/set/viewpointVector 0 1 0
+/vis/drawVolume
+/vis/viewer/set/autoRefresh true
+
+/vis/geometry/set/colour logicWorld 0 1 1 1 .1
+/vis/geometry/set/colour logicRadiator 0 0 1 1 .3
+/vis/geometry/set/colour logicDetector 0 1 1 1 .3
+
+/vis/viewer/set/style surface
+
+/vis/scene/add/trajectories smooth
+#/vis/scene/add/scale 10 cm
+/vis/scene/add/axes -50. -50. -50. 50 cm violet
+/vis/scene/add/eventID
+/vis/scene/endOfEventAction accumulate

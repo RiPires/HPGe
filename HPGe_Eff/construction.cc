@@ -74,7 +74,7 @@ G4VPhysicalVolume *MyDetectorConstruction::Construct()
     physWorld = new G4PVPlacement(0, G4ThreeVector(0., 0., 0.), logicWorld, "PhysWorld", 0, false, 0, true);
     
     //   Defines Case volume for detector active volume   ///
-    solidCase = new G4Tubs("SolidCase", 61.*mm, 62*mm, 40*mm, 0., 2*pi);
+    solidCase = new G4Tubs("SolidCase", 41.*mm, 42*mm, 40*mm, 0., 2*pi);
     logicCase = new G4LogicalVolume(solidCase, holderMat, "LogicCase");
     physCase = new G4PVPlacement(0, G4ThreeVector(0., 0., 40.*mm), logicCase, "PhysCase", logicWorld, false, 0., true);
 
@@ -95,14 +95,14 @@ G4VPhysicalVolume *MyDetectorConstruction::Construct()
     physTarget = new G4PVPlacement(0, G4ThreeVector(0., 0., -49.5*mm), logicTarget, "PhysTarget", logicWorld, false, 0., true);
     
     //   Defines detector WINDOW volume   //
-    solidWindow = new G4Tubs("SolidWindow", 0.*m, 60.*mm, 0.3*mm, 0., 2*pi);
+    solidWindow = new G4Tubs("SolidWindow", 0.*m, 41.*mm, 0.3*mm, 0., 2*pi);
     logicWindow = new G4LogicalVolume(solidWindow, Epoxy, "LogicWindow");
     physWindow = new G4PVPlacement(0, G4ThreeVector(0., 0., 5.*mm), logicWindow, "PhysWindow", logicWorld, false, 0., true);
     
-    //   Defines Ge DETECTOR volume  //
-    solidDetector = new G4Tubs("SolidDetector", 0.*m, 0.060*m, 0.013*m, 0., 2*pi);
+    //   Defines Ge DETECTOR active volume  //
+    solidDetector = new G4Tubs("SolidDetector", 0.*m, 2.985*cm, 25.*mm, 0., 2*pi); // radius of 2.985 cm lead to ~ 28 cm² of active area
     logicDetector = new G4LogicalVolume(solidDetector, detMat, "LogicDetector");
-    physDetector = new G4PVPlacement(0, G4ThreeVector(0., 0., 20.*mm), logicDetector, "PhysDetector", logicWorld, false, 0., true);
+    physDetector = new G4PVPlacement(0, G4ThreeVector(0., 0., 35.*mm), logicDetector, "PhysDetector", logicWorld, false, 0., true);
     
     ScoringVolume = logicDetector;
         

@@ -1,0 +1,4 @@
+/home/ripires/sim/buildmt/CMakeFiles/rebuild_cache.dir
+/home/ripires/sim/buildmt/CMakeFiles/SimulationTest.dir
+/home/ripires/sim/buildmt/CMakeFiles/edit_cache.dir
+/home/ripires/sim/buildmt/CMakeFiles/sim.dir

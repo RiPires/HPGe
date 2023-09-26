@@ -1,0 +1,4 @@
+/home/ripires/Documents/HPGe/HPGe_Eff/build/CMakeFiles/rebuild_cache.dir
+/home/ripires/Documents/HPGe/HPGe_Eff/build/CMakeFiles/edit_cache.dir
+/home/ripires/Documents/HPGe/HPGe_Eff/build/CMakeFiles/SimulationTest.dir
+/home/ripires/Documents/HPGe/HPGe_Eff/build/CMakeFiles/mainSim.dir
