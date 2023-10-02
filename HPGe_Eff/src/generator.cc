@@ -19,7 +19,7 @@ MyPrimaryGenerator::MyPrimaryGenerator()
 }
 
 MyPrimaryGenerator::~MyPrimaryGenerator()
-{
+{ 
     delete fParticleGun;
 }
 
