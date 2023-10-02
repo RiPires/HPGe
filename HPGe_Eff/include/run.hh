@@ -13,6 +13,12 @@ public:
     
     virtual void BeginOfRunAction(const G4Run*);
     virtual void EndOfRunAction(const G4Run*);
+
+    void AddHits(G4int hits) {nHits += hits;}
+
+private:
+    G4double nHits; // to store number of primary hits in the detector
+
 };
 #endif
 
