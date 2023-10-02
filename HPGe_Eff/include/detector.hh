@@ -5,7 +5,7 @@
 #include "G4RunManager.hh"
 #include "G4SystemOfUnits.hh"
 
-//#include "g4root.hh"
+#include "g4root.hh"
 
 // Declares the user's MySensitiveDetector derived from the public class G4VSensitiveDetector
 class MySensitiveDetector : public G4VSensitiveDetector

@@ -1,13 +1,13 @@
 #include "event.hh"
 
 MyEventAction::MyEventAction(MyRunAction*)
-{   Edep = 0.;}
+{   Edep = 0.; nHits = 0;}
 
 MyEventAction::~MyEventAction()
 {}
 
 void MyEventAction::BeginOfEventAction(const G4Event*) 
-{   Edep = 0.;}
+{   Edep = 0.; AddHits()}
 
 void MyEventAction::EndOfEventAction(const G4Event*)
 {
@@ -19,7 +19,7 @@ void MyEventAction::EndOfEventAction(const G4Event*)
     // Fills tuple for energy deposition in the event
     // and starts new row
     man->FillNtupleDColumn(1, 0, Edep);
-    man->FillNtupleIColumn(1, 1, hits);
+    man->FillNtupleIColumn(1, 1, nHits);
     man->AddNtupleRow(1); 
 }
 
