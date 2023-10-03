@@ -84,15 +84,13 @@ G4VPhysicalVolume *MyDetectorConstruction::Construct()
     solidFrame = new G4Box("SolidFrame", 6.*mm, 15.*mm, 0.5*mm);
     //   Subtracts target holder solid hole from the entire target frame   //
     G4SubtractionSolid *subtraction = new G4SubtractionSolid("RealTargetFrame", solidFrame, solidHole);
-    //   Defines subtraction logical volume   //
     logicSubtraction = new G4LogicalVolume(subtraction, holderMat, "LogicSubtraction");
-    //   Defines subtraction physical volume   //
     physSubtraction = new G4PVPlacement(0, G4ThreeVector(0., 0., -50.*mm), logicSubtraction, "PhysSubtraction", logicWorld, false, 0, true);
     
     //   Defines TARGET volume   //
     solidTarget = new G4Tubs("SolidTarget", 0.*m, 5.5*mm, 100*nm, 0., 2*pi);
     logicTarget = new G4LogicalVolume(solidTarget, targetMat, "LogicTarget");
-    physTarget = new G4PVPlacement(0, G4ThreeVector(0., 0., -49.5*mm), logicTarget, "PhysTarget", logicWorld, false, 0., true);
+    physTarget = new G4PVPlacement(0, G4ThreeVector(0., 0., -49.4*mm), logicTarget, "PhysTarget", logicWorld, false, 0., true);
     
     //   Defines detector WINDOW volume   //
     solidWindow = new G4Tubs("SolidWindow", 0.*m, 41.*mm, 0.3*mm, 0., 2*pi);

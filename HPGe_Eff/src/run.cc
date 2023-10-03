@@ -3,7 +3,7 @@
 MyRunAction::MyRunAction()
 {
     // Initializes total nr of hits in the run as zero
-    nHits = 0;
+    //nHits = 0;
     
     // Inicializes an instance of the AnalysisManager
     G4AnalysisManager *man = G4AnalysisManager::Instance();

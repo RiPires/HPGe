@@ -21,7 +21,7 @@ class MyEventAction : public G4UserEventAction
     
     private:
         G4double Edep;
-        G4double nHits; // to store number of primary hits in the detector
+        G4int nHits; // to store number of primary hits in the detector
     
 };
 #endif
