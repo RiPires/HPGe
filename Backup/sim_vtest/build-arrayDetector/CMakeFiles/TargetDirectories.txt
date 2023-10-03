@@ -1,4 +1,0 @@
-/home/ripires/sim/sim_vtest/build-arrayDetector/CMakeFiles/rebuild_cache.dir
-/home/ripires/sim/sim_vtest/build-arrayDetector/CMakeFiles/edit_cache.dir
-/home/ripires/sim/sim_vtest/build-arrayDetector/CMakeFiles/SimulationTest.dir
-/home/ripires/sim/sim_vtest/build-arrayDetector/CMakeFiles/mainSim.dir

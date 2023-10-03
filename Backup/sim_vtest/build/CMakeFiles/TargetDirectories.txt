@@ -1,4 +1,0 @@
-/home/ripires/sim/sim_vtest/build/CMakeFiles/rebuild_cache.dir
-/home/ripires/sim/sim_vtest/build/CMakeFiles/edit_cache.dir
-/home/ripires/sim/sim_vtest/build/CMakeFiles/SimulationTest.dir
-/home/ripires/sim/sim_vtest/build/CMakeFiles/mainSim.dir
