@@ -118,9 +118,6 @@ CMakeFiles/mainSim.dir/mainSim.cc.o
  /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4DCofThisEvent.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4DataVector.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4DataVector.icc
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4Decay.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4DecayPhysics.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4DecayProcessType.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4DigiFilterFactories.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4DisplacedSolid.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4DynamicParticle.hh
@@ -216,7 +213,6 @@ CMakeFiles/mainSim.dir/mainSim.cc.o
  /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4ParameterisedNavigation.icc
  /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4ParticleChange.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4ParticleChange.icc
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4ParticleChangeForDecay.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4ParticleDefinition.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4ParticleDefinition.icc
  /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4ParticleMomentum.hh
@@ -251,7 +247,6 @@ CMakeFiles/mainSim.dir/mainSim.cc.o
  /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4Profiler.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4Profiler.icc
  /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4RNGHelper.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4RadioactiveDecayPhysics.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4RayTracer.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4RayTracerX.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4ReferenceCountedHandle.hh
@@ -394,7 +389,6 @@ CMakeFiles/mainSim.dir/mainSim.cc.o
  /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4VRML2File.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4VRNtupleManager.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4VReadOutGeometry.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4VRestDiscreteProcess.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4VSDFilter.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4VSceneHandler.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4VSceneHandler.icc
@@ -2172,190 +2166,54 @@ CMakeFiles/mainSim.dir/src/generator.cc.o
 CMakeFiles/mainSim.dir/src/physics.cc.o
  ../include/physics.hh
  /home/ripires/Documents/HPGe/HPGe_Eff/src/physics.cc
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/CLHEP/Random/DualRand.h
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/CLHEP/Random/JamesRandom.h
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/CLHEP/Random/MTwistEngine.h
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/CLHEP/Random/MixMaxRng.h
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/CLHEP/Random/RandBinomial.h
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/CLHEP/Random/RandBinomial.icc
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/CLHEP/Random/RandBit.h
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/CLHEP/Random/RandBit.icc
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/CLHEP/Random/RandBreitWigner.h
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/CLHEP/Random/RandBreitWigner.icc
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/CLHEP/Random/RandChiSquare.h
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/CLHEP/Random/RandChiSquare.icc
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/CLHEP/Random/RandExpZiggurat.h
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/CLHEP/Random/RandExponential.h
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/CLHEP/Random/RandExponential.icc
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/CLHEP/Random/RandFlat.h
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/CLHEP/Random/RandFlat.icc
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/CLHEP/Random/RandGamma.h
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/CLHEP/Random/RandGamma.icc
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/CLHEP/Random/RandGauss.h
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/CLHEP/Random/RandGauss.icc
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/CLHEP/Random/RandGaussQ.h
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/CLHEP/Random/RandGaussQ.icc
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/CLHEP/Random/RandGaussZiggurat.h
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/CLHEP/Random/RandGeneral.h
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/CLHEP/Random/RandGeneral.icc
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/CLHEP/Random/RandLandau.h
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/CLHEP/Random/RandLandau.icc
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/CLHEP/Random/RandPoisson.h
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/CLHEP/Random/RandPoisson.icc
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/CLHEP/Random/RandPoissonQ.h
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/CLHEP/Random/RandPoissonQ.icc
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/CLHEP/Random/RandStudentT.h
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/CLHEP/Random/RandStudentT.icc
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/CLHEP/Random/Random.h
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/CLHEP/Random/Random.icc
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/CLHEP/Random/RandomEngine.h
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/CLHEP/Random/RandomEngine.icc
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/CLHEP/Random/Randomize.h
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/CLHEP/Random/RanecuEngine.h
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/CLHEP/Random/Ranlux64Engine.h
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/CLHEP/Random/RanluxEngine.h
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/CLHEP/Random/RanshiEngine.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/CLHEP/Units/PhysicalConstants.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/CLHEP/Units/SystemOfUnits.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/CLHEP/Utility/defs.h
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/CLHEP/Utility/memory.h
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/CLHEP/Utility/thread_local.h
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/CLHEP/Vector/AxisAngle.h
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/CLHEP/Vector/AxisAngle.icc
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/CLHEP/Vector/LorentzVector.h
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/CLHEP/Vector/LorentzVector.icc
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/CLHEP/Vector/Rotation.h
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/CLHEP/Vector/Rotation.icc
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/CLHEP/Vector/RotationInterfaces.h
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/CLHEP/Vector/RotationInterfaces.icc
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/CLHEP/Vector/RotationX.h
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/CLHEP/Vector/RotationX.icc
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/CLHEP/Vector/RotationY.h
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/CLHEP/Vector/RotationY.icc
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/CLHEP/Vector/RotationZ.h
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/CLHEP/Vector/RotationZ.icc
  /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/CLHEP/Vector/ThreeVector.h
  /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/CLHEP/Vector/ThreeVector.icc
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4Allocator.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4AllocatorPool.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4AutoLock.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4Cache.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4CacheDetails.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4DataVector.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4DataVector.icc
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4Decay.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4DecayPhysics.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4DecayProcessType.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4DynamicParticle.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4DynamicParticle.icc
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4ElectronOccupancy.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4Element.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4ElementTable.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4ElementVector.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4EmStandardPhysics.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4EnvironmentUtils.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4Exception.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4ExceptionSeverity.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4Exp.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4FastVector.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4ForceCondition.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4GPILSelection.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4GeomSplitter.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4GlobalConfig.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4IonisParamElm.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4IonisParamMat.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4Isotope.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4IsotopeVector.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4Log.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4LogicalVolume.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4LogicalVolume.icc
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4LorentzVector.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4MCCIndexConversionTable.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4Material.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4MaterialCutsCouple.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4MaterialPropertiesIndex.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4MaterialPropertiesTable.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4MaterialPropertiesTable.icc
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4MaterialPropertyVector.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4MaterialTable.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4OpticalParameters.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4OpticalPhysics.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4OrderedTable.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4PDefManager.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4ParticleChange.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4ParticleChange.icc
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4ParticleChangeForDecay.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4ParticleDefinition.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4ParticleDefinition.icc
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4ParticleMomentum.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4ParticleTable.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4ParticleTable.icc
  /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4ParticleTableIterator.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4PhysicsListHelper.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4PhysicsListOrderingParameter.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4PhysicsModelCatalog.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4PhysicsOrderedFreeVector.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4PhysicsTable.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4PhysicsTable.icc
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4PhysicsVector.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4PhysicsVector.icc
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4PhysicsVectorType.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4ProcessType.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4ProductionCuts.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4ProductionCutsTable.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4Profiler.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4Profiler.icc
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4RadioactiveDecayPhysics.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4ReferenceCountedHandle.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4Region.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4Region.icc
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4RotationMatrix.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4SandiaTable.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4Step.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4Step.icc
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4StepPoint.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4StepPoint.icc
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4StepStatus.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4SteppingControl.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4String.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4String.icc
  /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4ThreadLocalSingleton.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4Threading.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4ThreeVector.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4TouchableHandle.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4Track.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4Track.icc
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4TrackFastVector.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4TrackStatus.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4TrackVector.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4Types.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4VExceptionHandler.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4VModularPhysicsList.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4VParticleChange.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4VParticleChange.icc
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4VPhysicalVolume.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4VPhysicalVolume.icc
  /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4VPhysicsConstructor.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4VProcess.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4VRestDiscreteProcess.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4VTouchable.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4VTouchable.icc
  /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4VUPLSplitter.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4VUserPhysicsList.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4VUserTrackInformation.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/G4ios.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/PTL/Globals.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/PTL/Types.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/PTL/Utility.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/Randomize.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/geomdefs.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/geomwdefs.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/globals.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/pwdefs.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/rundefs.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/templates.hh
  /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/tls.hh
- /home/ripires/bin/Geant4/geant4.10.07.p02-MTinstall/include/Geant4/trkdefs.hh
 CMakeFiles/mainSim.dir/src/run.cc.o
  ../include/run.hh
  /home/ripires/Documents/HPGe/HPGe_Eff/src/run.cc
