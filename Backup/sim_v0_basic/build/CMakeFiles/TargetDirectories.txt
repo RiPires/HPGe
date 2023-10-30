@@ -1,4 +1,0 @@
-/home/ripires/Geant4/sim_v0_basic/build/CMakeFiles/mainSim.dir
-/home/ripires/Geant4/sim_v0_basic/build/CMakeFiles/SimulationTest.dir
-/home/ripires/Geant4/sim_v0_basic/build/CMakeFiles/edit_cache.dir
-/home/ripires/Geant4/sim_v0_basic/build/CMakeFiles/rebuild_cache.dir
