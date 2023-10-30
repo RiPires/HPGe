@@ -16,9 +16,12 @@ class MyEventAction : public G4UserEventAction
         virtual void EndOfEventAction(const G4Event*);
 
         void AddEdep(G4double edep) {Edep += edep;}
+        void AddHits() {nHits += 1;}
+        
     
     private:
         G4double Edep;
+        G4int nHits; // to store number of primary hits in the detector
     
 };
 #endif

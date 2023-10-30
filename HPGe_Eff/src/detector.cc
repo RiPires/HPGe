@@ -67,16 +67,7 @@ G4bool MySensitiveDetector::ProcessHits(G4Step *aStep, G4TouchableHistory *ROhis
     man->FillNtupleDColumn(0, 4, cdo);
     man->FillNtupleDColumn(0, 5, photonEnergy);
     man->AddNtupleRow(0);
-    
-    if(G4UniformRand() < quantEff->Value(photonEnergy))  /// verificar isto !!!!!!
-    {
-    man->FillNtupleIColumn(1, 0, evt);
-    man->FillNtupleDColumn(1, 1, posDetector[0]);
-    man->FillNtupleDColumn(1, 2, posDetector[1]);
-    man->FillNtupleDColumn(1, 3, posDetector[2]);
-    man->AddNtupleRow(1);
-    }    
-
+       
     return true; //Because it's a Boolean, ProcessHits function expects a return
                 // better to be True
 }
