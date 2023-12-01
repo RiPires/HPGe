@@ -23,9 +23,35 @@ MyPrimaryGenerator::~MyPrimaryGenerator()
     delete fParticleGun;
 }
 
+///   Generate primary particle as a radioactive punctual source   ///
+void MyPrimaryGenerator::GeneratePrimaries(G4Event *anEvent)
+{    
+    G4ParticleDefinition *particle = fParticleGun->GetParticleDefinition();
+    
+    if(particle == G4Geantino::Geantino())
+    {
+        // Cobalt-60 source //
+        //G4int Z = 27;
+        //G4int A = 60;
+        
+        // Sb-117 source //
+        G4int Z = 51;
+        G4int A = 117;
+        
+        G4double charge = 0.;
+        G4double energy = 0.;
+        
+        G4ParticleDefinition *ion = G4IonTable::GetIonTable()->GetIon(Z, A, energy);
+        
+        fParticleGun->SetParticleDefinition(ion);
+        fParticleGun->SetParticleCharge(charge);
+    }
+
+    fParticleGun->GeneratePrimaryVertex(anEvent);
+}
 
 ///   *************   Generation of primary GAMMAS   ***********   ///
-void MyPrimaryGenerator::GeneratePrimaries(G4Event *anEvent)
+/*void MyPrimaryGenerator::GeneratePrimaries(G4Event *anEvent)
 {   
     G4ParticleDefinition *particle = fParticleGun->GetParticleDefinition();
     if(particle == G4Geantino::Geantino())
@@ -37,5 +63,6 @@ void MyPrimaryGenerator::GeneratePrimaries(G4Event *anEvent)
     }
 
     fParticleGun->GeneratePrimaryVertex(anEvent);
-}
+}*/
 ///   *********************************************************   ///
+

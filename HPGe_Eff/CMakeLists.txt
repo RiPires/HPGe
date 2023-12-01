@@ -34,6 +34,11 @@ file(GLOB DATA_FILES
 )
 file(COPY ${DATA_FILES} DESTINATION ${PROJECT_BINARY_DIR})
 
+file(GLOB ROOT_FILES 
+    "*.C"
+)
+file(COPY ${ROOT_FILES} DESTINATION ${PROJECT_BINARY_DIR})
+
 #----------------------------------------------------------------------------
 # Add the executable, and link it to the Geant4 libraries
 #

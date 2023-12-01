@@ -1,5 +1,8 @@
 {
     "files.associations": {
-        "Plot.C": "cpp"
+
+        "*.mac": "cmake",
+        "Plot.C": "cpp",
+        "iostream": "cp
     }
 }
