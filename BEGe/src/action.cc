@@ -1,18 +1,40 @@
 #include "action.hh"
 #include "generator.hh"
+#include "messenger.hh"
 
 MyActionInitialization::MyActionInitialization()
-{}
+{
+    // Create the messenger class and pass the current instance of MyActionInitialization
+    new MyDetectorMessenger(this);
+    // Set up user initialization classes
+    G4RunManager::GetRunManager()->SetUserInitialization(new MyDetectorConstruction());
+    G4RunManager::GetRunManager()->SetUserInitialization(this);
+}
 
 MyActionInitialization::~MyActionInitialization()
-{}
+{
+
+}
 
 void MyActionInitialization::BuildForMaster() const
 {   MyRunAction *runAction = new MyRunAction();
     SetUserAction(runAction);}    
 
+
+void MyActionInitialization::SetUserPosition(G4ThreeVector pos)
+{
+    userPosition = pos;
+    }
+
+G4ThreeVector MyActionInitialization::GetUserPosition() const
+{
+    return userPosition;
+}
+
+
 void MyActionInitialization::Build() const
-{   MyPrimaryGenerator *generator = new MyPrimaryGenerator();
+{   
+    MyPrimaryGenerator *generator = new MyPrimaryGenerator(userPosition);
     SetUserAction(generator);
     
     MyRunAction *runAction = new MyRunAction();

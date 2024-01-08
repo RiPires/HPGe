@@ -6,7 +6,7 @@ MySensitiveDetector::MySensitiveDetector(G4String name) : G4VSensitiveDetector(n
     quantEff = new G4PhysicsOrderedFreeVector();
     
     std::ifstream datafile;
-    datafile.open("hpge_eff.dat");
+    datafile.open("hpge_effTest.dat");
     
     while(1)
     {   G4double photonEnergy, qEff;

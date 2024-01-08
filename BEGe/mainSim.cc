@@ -11,23 +11,35 @@
 #include "physics.hh"
 #include "action.hh"
 //#include "detector.hh"
+#include "messenger.hh"
 
 int main(int argc, char** argv)
 {
     // Program starts with no user's interface
     G4UIExecutive *ui = 0;
 
-    // Checks for MultiThreading mode
-    #ifdef G4MULTITHREADED
-        G4MTRunManager * runManager = new G4MTRunManager();
-    #else
-        G4RunManager *runManager = new G4RunManager();
-    #endif
-    
-    // Initializes geometry Construction, Physics' lists and User Actions
+// Create an instance of MyActionInitialization
+MyActionInitialization *actionInitialization = new MyActionInitialization();
+// Create an instance of MyDetectorMessenger, passing the MyActionInitialization instance
+MyDetectorMessenger *detectorMessenger = new MyDetectorMessenger(actionInitialization);
+
+#ifdef G4MULTITHREADED
+    G4MTRunManager * runManager = new G4MTRunManager();
+    // Set user initialization for multi-threaded mode
     runManager->SetUserInitialization(new MyDetectorConstruction());
-    runManager->SetUserInitialization(new MyPhysicsList());
-    runManager->SetUserInitialization(new MyActionInitialization());
+#else
+    G4RunManager *runManager = new G4RunManager();
+#endif
+
+// Set user initialization for both run managers
+runManager->SetUserInitialization(new MyPhysicsList());
+runManager->SetUserInitialization(actionInitialization);
+
+// Set user initialization for regular run manager
+#ifndef G4MULTITHREADED
+runManager->SetUserInitialization(detectorMessenger);
+#endif
+
     
     // Setting User's Interface on
     if(argc == 1)
@@ -39,6 +51,8 @@ int main(int argc, char** argv)
     
     // Pointer to Users' Interface manager ??
     G4UImanager *UImanager = G4UImanager::GetUIpointer();
+    UImanager->ApplyCommand("/tracking/verbose 1");
+    UImanager->ApplyCommand("/control/execute/ det.mac");
     
     // Checks for user's interface
     // applies visual commands in "vis.mac" and starts session, if set on

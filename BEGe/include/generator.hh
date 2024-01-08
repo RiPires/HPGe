@@ -13,7 +13,7 @@ class MyPrimaryGenerator : public G4VUserPrimaryGeneratorAction
 {
 // Primary particle generator constuctor and destructor   //
 public:
-    MyPrimaryGenerator();
+    MyPrimaryGenerator(G4ThreeVector position);
     ~MyPrimaryGenerator();
     
     virtual void GeneratePrimaries(G4Event*);
