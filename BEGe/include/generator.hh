@@ -36,7 +36,6 @@ private:
 //  - set/change properties of generator(s)
 //  - pass G4Event object so that the generator(s) can generate primaries.
 
-
 // G4ParticleGun.hh class definition
 //  This is a concrete class of G4VPrimaryGenerator. It shoots a particle of given type
 ///47 // into a given direction with either a given kinetic energy or momentum.
@@ -52,10 +51,7 @@ private:
 ///57 // GeneratePrimaryVertex() method, all particles have the same physical quantities. If the
 ///58 // user wants to shoot two particles with different momentum, position, etc., invoke
 ///59 // GeneratePrimaryVertex() method twice and set quantities on demand to the particle gun.
-
-
-
-        
+     
 ///66  //  G4ParticleTable Class Description
        //
 ///67  //   G4ParticleTable is the table of pointer to G4ParticleDefinition

@@ -7,7 +7,6 @@ using namespace std;
 
 void Plot(){
 
-
      // Open the ROOT file
      TFile *InputTFile = new TFile("add.root", "READ");
      // Check if the file is open successfully

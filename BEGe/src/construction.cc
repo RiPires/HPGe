@@ -29,10 +29,8 @@ void MyDetectorConstruction::DefineMaterial()
     C = nist->FindOrBuildElement("C");
     Ge = nist->FindOrBuildElement("Ge");
     Sn = nist->FindOrBuildElement("Sn");
-    Si = nist->FindOrBuildElement("Si");
 
-    
-    //   Defines world material as Air  - has it's own properties  //
+    //   Defines world material as Air  //
     worldMat = nist->FindOrBuildMaterial("G4_AIR");
     
     //   Defines target Holder material as Al   //
@@ -46,9 +44,6 @@ void MyDetectorConstruction::DefineMaterial()
     // Defines detector material as Ge  //
     detMat =  new G4Material("Germanium", 5.323*g/cm3, 1);
     detMat->AddElement(Ge, 1.);
-
-    silicon = new G4Material("Silicon", 2.329*g/cm3, 1);
-    silicon->AddElement(Si, 1.);
     
     //   WHICH ENERGY???   //
     G4double energy[2] = {1.239841939*eV/0.2, 1.239841939*eV/0.9};
@@ -64,7 +59,6 @@ void MyDetectorConstruction::DefineMaterial()
 ///OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO///
 G4VPhysicalVolume *MyDetectorConstruction::Construct()
 {
-    
     //   Defines WORLD volume   //
     G4double xWorld = 100*mm;//World half lenght
     G4double yWorld = 100*mm;//World half height
@@ -89,7 +83,7 @@ G4VPhysicalVolume *MyDetectorConstruction::Construct()
     //   Subtracts target holder solid hole from the entire target frame   //
     G4SubtractionSolid *subtraction = new G4SubtractionSolid("RealTargetFrame", solidFrame, solidHole);
     logicSubtraction = new G4LogicalVolume(subtraction, holderMat, "LogicSubtraction");
-    physSubtraction = new G4PVPlacement(0, G4ThreeVector(0., 0., -90.*mm), logicSubtraction, "PhysSubtraction", logicWorld, false, 0, true);
+    physSubtraction = new G4PVPlacement(0, G4ThreeVector(0., 0., -50.*mm), logicSubtraction, "PhysSubtraction", logicWorld, false, 0, true);
     
     //   Defines TARGET volume   //
     G4double Rin_Target = 0.*mm;
@@ -97,7 +91,7 @@ G4VPhysicalVolume *MyDetectorConstruction::Construct()
     G4double Thick_Target = 100.*nm;
     solidTarget = new G4Tubs("SolidTarget", Rin_Target, Rout_Target, Thick_Target, 0., 2*pi);
     logicTarget = new G4LogicalVolume(solidTarget, targetMat, "LogicTarget");
-    physTarget = new G4PVPlacement(0, G4ThreeVector(0., 0., -89.5*mm+100*nm), logicTarget, "PhysTarget", logicWorld, false, 0., true);
+    physTarget = new G4PVPlacement(0, G4ThreeVector(0., 0., -49.5*mm+100*nm), logicTarget, "PhysTarget", logicWorld, false, 0., true);
     
     //   Defines Case volume for detector active volume   ///
     G4double Rin_Case = 41.*mm;
@@ -106,7 +100,7 @@ G4VPhysicalVolume *MyDetectorConstruction::Construct()
     //
     solidCase = new G4Tubs("SolidCase", Rin_Case, Rout_Case, depth_Case, 0., 2*pi);
     logicCase = new G4LogicalVolume(solidCase, holderMat, "LogicCase");
-    physCase = new G4PVPlacement(0, G4ThreeVector(0., 0., 50.*mm), logicCase, "PhysCase", logicWorld, false, 0., true);
+    physCase = new G4PVPlacement(0, G4ThreeVector(0., 0., 40.*mm), logicCase, "PhysCase", logicWorld, false, 0., true);
 
     //   Defines detector WINDOW volume   //
     G4double Rin_Win = 0.*mm;
@@ -114,12 +108,12 @@ G4VPhysicalVolume *MyDetectorConstruction::Construct()
     G4double Thick_Win = 0.3*mm;
     solidWindow = new G4Tubs("SolidWindow", Rin_Win, Rout_Win, Thick_Win, 0., 2*pi);
     logicWindow = new G4LogicalVolume(solidWindow, Epoxy, "LogicWindow");
-    physWindow = new G4PVPlacement(0, G4ThreeVector(0., 0., 15.*mm), logicWindow, "PhysWindow", logicWorld, false, 0., true);
+    physWindow = new G4PVPlacement(0, G4ThreeVector(0., 0., 5.*mm), logicWindow, "PhysWindow", logicWorld, false, 0., true);
     
     //   Defines Ge DETECTOR active volume  //
     solidDetector = new G4Tubs("SolidDetector", 0.*m, 2.985*cm, 25.*mm, 0., 2*pi); // radius of 2.985 cm lead to ~ 28 cm² of active area
     logicDetector = new G4LogicalVolume(solidDetector, detMat, "LogicDetector");
-    physDetector = new G4PVPlacement(0, G4ThreeVector(0., 0., 45.*mm), logicDetector, "PhysDetector", logicWorld, false, 0., true);
+    physDetector = new G4PVPlacement(0, G4ThreeVector(0., 0., 35.*mm), logicDetector, "PhysDetector", logicWorld, false, 0., true);
     
     ScoringVolume = logicDetector;
         

@@ -37,7 +37,7 @@ private:
     
     G4GenericMessenger *fMessenger;
     
-    G4Material *SiO2, *H2O, *Epoxy, *Aerogel, *holderMat, *targetMat, *worldMat, *detMat, *silicon;
+    G4Material *SiO2, *H2O, *Epoxy, *holderMat, *targetMat, *worldMat, *detMat, *silicon;
     G4Element *Al, *C, *Ge, *Sn, *Si;
     
     void DefineMaterial();

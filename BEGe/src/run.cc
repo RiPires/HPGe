@@ -37,7 +37,6 @@ MyRunAction::MyRunAction()
 MyRunAction::~MyRunAction()
 {}
 
-
 void MyRunAction::BeginOfRunAction(const G4Run* run)
 {
     // Inicializes an instance of the AnalysisManager
