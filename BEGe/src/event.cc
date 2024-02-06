@@ -18,8 +18,8 @@ void MyEventAction::EndOfEventAction(const G4Event*)
     
     // Fills tuple for energy deposition in the event
     // and starts new row
-    man->FillNtupleDColumn(2, 0, Edep);
-    man->AddNtupleRow(2); 
+    man->FillNtupleDColumn(0, 0, Edep);
+    man->AddNtupleRow(0); 
 }
 
 

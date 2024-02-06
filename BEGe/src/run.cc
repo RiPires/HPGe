@@ -5,33 +5,15 @@ MyRunAction::MyRunAction()
     // Inicializes an instance of the AnalysisManager
     G4AnalysisManager *man = G4AnalysisManager::Instance();
     
-    // Creates Tuple for Photons' info.
-    man->CreateNtuple("Photons", "Photons");
-    man->CreateNtupleIColumn("EventNr");
-    man->CreateNtupleDColumn("EventX");
-    man->CreateNtupleDColumn("EventY");
-    man->CreateNtupleDColumn("EventZ");
-    man->CreateNtupleDColumn("Photon_cdo");
-    man->CreateNtupleDColumn("Photon_Energy");
-    man->FinishNtuple(0);
-    
-    // Creates Tuple for Detector's info.
-    man->CreateNtuple("DetInfo", "DetInfo");
-    man->CreateNtupleIColumn("EventNr");
-    man->CreateNtupleDColumn("DetX");
-    man->CreateNtupleDColumn("DetY");
-    man->CreateNtupleDColumn("DetZ");
-    man->FinishNtuple(1); 
-    
     // Creates Tuple for Energy Scoring info.
     man->CreateNtuple("Scoring", "Scoring");
     man->CreateNtupleDColumn("Edep");
-    man->FinishNtuple(2);
+    man->FinishNtuple(0);
 
     // Tuples for stepp info.
     man->CreateNtuple("Steps", "Steps");
     man->CreateNtupleDColumn("edep");
-    man->FinishNtuple(3);
+    man->FinishNtuple(1);
 }
 
 MyRunAction::~MyRunAction()
